@@ -195,7 +195,8 @@ build/hearing_aid.o: hearing_aid.cpp \
  ../../DaisySP//Source/Utility/maytrig.h \
  ../../DaisySP//Source/Utility/metro.h \
  ../../DaisySP//Source/Utility/samplehold.h \
- ../../DaisySP//Source/Utility/smooth_random.h
+ ../../DaisySP//Source/Utility/smooth_random.h \
+ ../../libDaisy/Drivers/CMSIS/DSP/Include/arm_math.h
 ../../libDaisy/Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h:
 ../../libDaisy/Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h750xx.h:
 ../../libDaisy/Drivers/CMSIS/Include/core_cm7.h:
@@ -431,3 +432,4 @@ build/hearing_aid.o: hearing_aid.cpp \
 ../../DaisySP//Source/Utility/metro.h:
 ../../DaisySP//Source/Utility/samplehold.h:
 ../../DaisySP//Source/Utility/smooth_random.h:
+../../libDaisy/Drivers/CMSIS/DSP/Include/arm_math.h:
