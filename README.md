@@ -29,7 +29,8 @@ Noise Handling: The reason I need the VAD feature extraction and noise estimatio
 
 Windowing: Going with a Hamming window as it is better suited for reducing spectral leakage and maintaining more of the speech features because it has a wider main lobe and lower side lobes. 
 
-VAD Breakdown: 
+
+Playground.py: This is a python script I created to visualize the audio signals and what happens to them when I apply the different steps of the process detailed above to them. Once I get this working I will transition it to C++ to go on the daisy seed. 
 
 
 

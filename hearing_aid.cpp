@@ -12,6 +12,12 @@ constexpr int SAMPLE_BUFFER_SIZE = 256;
 constexpr int NUM_BANDS = 6;
 constexpr int FIR_TAP_COUNT = 127; // Number of taps in the FIR filter
 
+// Normalization factor for Hamming window with 50% overlap
+constexpr float WINDOW_COMPENSATION = 1.85f;
+
+// Band gain adjustments - may need to be fine-tuned
+float band_gains[NUM_BANDS] = {0.8f, 0.9f, 1.0f, 1.0f, 0.9f, 0.8f};
+
 DaisySeed hw;
 
 //bool led_state = true;
@@ -57,11 +63,19 @@ void AudioCallback(AudioHandle::InputBuffer in, AudioHandle::OutputBuffer out, s
 		
 	}
 
-	//split signal into subbands
-	for(int band = 0; band < NUM_BANDS; band++)
-    {
-        arm_fir_f32(&fir_filters[band], windowed_data, band_outputs[band], size);
-    }
+	float norm_sum = 0.0f;
+	for(size_t i = 0; i < size; i++) {
+    	norm_sum += windowed_data[i];
+	}
+	for(size_t i = 0; i < size; i++) {
+   		windowed_data[i] /= norm_sum;
+	}
+
+	// //split signal into subbands
+	// for(int band = 0; band < NUM_BANDS; band++)
+    // {
+    //     arm_fir_f32(&fir_filters[band], windowed_data, band_outputs[band], size);
+    // }
 
 
 	//perform VAD on each subband to determine which has speech and noise and which has only noise
@@ -72,17 +86,25 @@ void AudioCallback(AudioHandle::InputBuffer in, AudioHandle::OutputBuffer out, s
 
 
 	//reconstruct the signal
-	for(size_t i = 0; i < size; i++){
-		float sum = 0.0f;
-		for(int band = 0; band < NUM_BANDS; band++)
-		{
-			sum += band_outputs[band][i];
-		}
+	// for(size_t i = 0; i < size; i++){
+	// 	float sum = 0.0f;
+	// 	for(int band = 0; band < NUM_BANDS; band++)
+	// 	{
+	// 		sum += band_outputs[band][i];
+	// 	}
 
-		out[0][i] = sum;
-		out[1][i] = sum;
+	// 	out[0][i] = sum;
+	// 	out[1][i] = sum;
+	// }
+
+	for(size_t i = 0; i < size; i++){
+		float val = windowed_data[i];
+		out[0][i] = val;
+		out[1][i] = val;
 	}
 
+
+	
 
 	// out[0][i] = in[0][i];
 	// out[1][i] = in[1][i];
@@ -104,7 +126,7 @@ int main(void)
 
 	hw.SetAudioBlockSize(SAMPLE_BUFFER_SIZE); // number of samples handled per callback
 	hw.SetAudioSampleRate(SaiHandle::Config::SampleRate::SAI_48KHZ);
-	InitCMSISFilters();
+	//InitCMSISFilters();
 	create_hamming_window(window, SAMPLE_BUFFER_SIZE);
 
 

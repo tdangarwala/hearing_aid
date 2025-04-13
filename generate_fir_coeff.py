@@ -2,7 +2,7 @@ from scipy.signal import firwin
 import numpy as np
 
 sample_rate = 48000
-num_taps = 127
+num_taps = 6
 
 bands = [
     (100, 250),

@@ -1,4 +1,4 @@
-ARM GAS  /var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cc7wX6mR.s 			page 1
+ARM GAS  /var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cca9poyW.s 			page 1
 
 
    1              		.cpu cortex-m7
@@ -58,7 +58,7 @@ ARM GAS  /var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cc7wX6mR.s 			page 1
   34              		@ frame_needed = 0, uses_anonymous_args = 0
   35              		@ link register save eliminated.
   36              	.LBB52:
-ARM GAS  /var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cc7wX6mR.s 			page 2
+ARM GAS  /var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cca9poyW.s 			page 2
 
 
   37              	.LBB53:
@@ -118,7 +118,7 @@ ARM GAS  /var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cc7wX6mR.s 			page 1
   52:../../libDaisy/src/sys/system.h ****             skip_clocks = false;
   53:../../libDaisy/src/sys/system.h ****         }
   54:../../libDaisy/src/sys/system.h **** 
-ARM GAS  /var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cc7wX6mR.s 			page 3
+ARM GAS  /var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cca9poyW.s 			page 3
 
 
   55:../../libDaisy/src/sys/system.h ****         SysClkFreq cpu_freq;
@@ -178,7 +178,7 @@ ARM GAS  /var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cc7wX6mR.s 			page 1
    6:../../libDaisy/src/hid/usb.h **** 
    7:../../libDaisy/src/hid/usb.h **** namespace daisy
    8:../../libDaisy/src/hid/usb.h **** /** @addtogroup human_interface
-ARM GAS  /var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cc7wX6mR.s 			page 4
+ARM GAS  /var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cca9poyW.s 			page 4
 
 
    9:../../libDaisy/src/hid/usb.h ****     @{
@@ -238,7 +238,7 @@ ARM GAS  /var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cc7wX6mR.s 			page 1
   15:../../libDaisy/src/per/adc.h **** */
   16:../../libDaisy/src/per/adc.h **** 
   17:../../libDaisy/src/per/adc.h **** /* While there may not be many configuration options here,
-ARM GAS  /var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cc7wX6mR.s 			page 5
+ARM GAS  /var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cca9poyW.s 			page 5
 
 
   18:../../libDaisy/src/per/adc.h **** using a struct like this allows us to add more configuration
@@ -298,7 +298,7 @@ ARM GAS  /var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cc7wX6mR.s 			page 1
   72:../../libDaisy/src/per/adc.h ****     \param speed conversion speed for this pin defaults to 8.5 cycles
   73:../../libDaisy/src/per/adc.h ****     */
   74:../../libDaisy/src/per/adc.h ****     void InitMux(dsy_gpio_pin    adc_pin,
-ARM GAS  /var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cc7wX6mR.s 			page 6
+ARM GAS  /var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cca9poyW.s 			page 6
 
 
   75:../../libDaisy/src/per/adc.h ****                  size_t          mux_channels,
@@ -358,7 +358,7 @@ ARM GAS  /var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cc7wX6mR.s 			page 1
   13:../../libDaisy/src/hid/audio.h ****  *            is already taken  care of.
   14:../../libDaisy/src/hid/audio.h ****  *           If you're setting up your own custom hardware, or need to make changes
   15:../../libDaisy/src/hid/audio.h ****  *           you will have to take the following steps:
-ARM GAS  /var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cc7wX6mR.s 			page 7
+ARM GAS  /var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cca9poyW.s 			page 7
 
 
   16:../../libDaisy/src/hid/audio.h ****  *             1. Create and Initialize an SaiHandle or two depending on your requirements
@@ -418,7 +418,7 @@ ARM GAS  /var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cc7wX6mR.s 			page 1
   70:../../libDaisy/src/hid/audio.h ****     /** Type for a Non-Interleaving audio callback 
   71:../../libDaisy/src/hid/audio.h ****      * Non-Interleaving audio callbacks in daisy will be of this type
   72:../../libDaisy/src/hid/audio.h ****      */
-ARM GAS  /var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cc7wX6mR.s 			page 8
+ARM GAS  /var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cca9poyW.s 			page 8
 
 
   73:../../libDaisy/src/hid/audio.h ****     typedef void (*AudioCallback)(InputBuffer  in,
@@ -478,611 +478,589 @@ ARM GAS  /var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cc7wX6mR.s 			page 1
   11:hearing_aid.cpp **** //buffer size is a good mix between memory and freq resolution
   12:hearing_aid.cpp **** constexpr int NUM_BANDS = 6;
   13:hearing_aid.cpp **** constexpr int FIR_TAP_COUNT = 127; // Number of taps in the FIR filter
-ARM GAS  /var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cc7wX6mR.s 			page 9
+ARM GAS  /var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cca9poyW.s 			page 9
 
 
   14:hearing_aid.cpp **** 
-  15:hearing_aid.cpp **** DaisySeed hw;
-  16:hearing_aid.cpp **** 
-  17:hearing_aid.cpp **** //bool led_state = true;
-  18:hearing_aid.cpp **** 
-  19:hearing_aid.cpp **** float window[SAMPLE_BUFFER_SIZE];
-  20:hearing_aid.cpp **** float windowed_data[SAMPLE_BUFFER_SIZE];
-  21:hearing_aid.cpp **** 
-  22:hearing_aid.cpp **** arm_fir_instance_f32 fir_filters[NUM_BANDS];
-  23:hearing_aid.cpp **** float fir_states[NUM_BANDS][SAMPLE_BUFFER_SIZE + FIR_TAP_COUNT - 1] = {0.0f};
-  24:hearing_aid.cpp **** float band_outputs[NUM_BANDS][SAMPLE_BUFFER_SIZE] = {0.0f}; // Separate buffers for each band
-  25:hearing_aid.cpp **** 
-  26:hearing_aid.cpp **** float fir_coeffs[NUM_BANDS][FIR_TAP_COUNT] = {
-  27:hearing_aid.cpp **** 	{0.00018932,0.00022512,0.00026510,0.00031069,0.00036330,0.00042431,0.00049503,0.00057678,0.0006707
-  28:hearing_aid.cpp **** 	{-0.00198384,-0.00200280,-0.00204509,-0.00211020,-0.00219714,-0.00230441,-0.00243006,-0.00257163,-
-  29:hearing_aid.cpp **** 	{0.00111728,0.00114598,0.00117873,0.00121418,0.00124988,0.00128227,0.00130668,0.00131736,0.0013076
-  30:hearing_aid.cpp **** 	{-0.00069445,-0.00063877,-0.00056550,-0.00047578,-0.00037106,-0.00025380,-0.00012807,0.00000000,0.
-  31:hearing_aid.cpp **** 	{0.00068908,0.00056430,0.00032538,-0.00000000,-0.00036435,-0.00070543,-0.00095617,-0.00105928,-0.0
-  32:hearing_aid.cpp **** 	{-0.00040349,0.00000000,0.00015689,-0.00000000,-0.00017568,0.00000000,0.00055989,0.00105887,0.0009
-  33:hearing_aid.cpp **** };
-  34:hearing_aid.cpp **** 
-  35:hearing_aid.cpp **** void InitCMSISFilters()
-  36:hearing_aid.cpp **** {
-  37:hearing_aid.cpp ****     for(int i = 0; i < NUM_BANDS; ++i)
-  38:hearing_aid.cpp ****     {
-  39:hearing_aid.cpp ****         arm_fir_init_f32(&fir_filters[i], FIR_TAP_COUNT, fir_coeffs[i], fir_states[i], SAMPLE_BUFFE
-  40:hearing_aid.cpp ****     }
-  41:hearing_aid.cpp **** }
-  42:hearing_aid.cpp **** 
-  43:hearing_aid.cpp **** 
-  44:hearing_aid.cpp **** void create_hamming_window(float* window, int size) {
-  45:hearing_aid.cpp ****     for(int i = 0; i < size; i++){
-  46:hearing_aid.cpp ****         window[i] = 0.54f - 0.46f * cosf((2.0f * M_PI * i)/(size-1));
-  47:hearing_aid.cpp ****     }
-  48:hearing_aid.cpp **** }
+  15:hearing_aid.cpp **** // Normalization factor for Hamming window with 50% overlap
+  16:hearing_aid.cpp **** constexpr float WINDOW_COMPENSATION = 1.85f;
+  17:hearing_aid.cpp **** 
+  18:hearing_aid.cpp **** // Band gain adjustments - may need to be fine-tuned
+  19:hearing_aid.cpp **** float band_gains[NUM_BANDS] = {0.8f, 0.9f, 1.0f, 1.0f, 0.9f, 0.8f};
+  20:hearing_aid.cpp **** 
+  21:hearing_aid.cpp **** DaisySeed hw;
+  22:hearing_aid.cpp **** 
+  23:hearing_aid.cpp **** //bool led_state = true;
+  24:hearing_aid.cpp **** 
+  25:hearing_aid.cpp **** float window[SAMPLE_BUFFER_SIZE];
+  26:hearing_aid.cpp **** float windowed_data[SAMPLE_BUFFER_SIZE];
+  27:hearing_aid.cpp **** 
+  28:hearing_aid.cpp **** arm_fir_instance_f32 fir_filters[NUM_BANDS];
+  29:hearing_aid.cpp **** float fir_states[NUM_BANDS][SAMPLE_BUFFER_SIZE + FIR_TAP_COUNT - 1] = {0.0f};
+  30:hearing_aid.cpp **** float band_outputs[NUM_BANDS][SAMPLE_BUFFER_SIZE] = {0.0f}; // Separate buffers for each band
+  31:hearing_aid.cpp **** 
+  32:hearing_aid.cpp **** float fir_coeffs[NUM_BANDS][FIR_TAP_COUNT] = {
+  33:hearing_aid.cpp **** 	{0.00018932,0.00022512,0.00026510,0.00031069,0.00036330,0.00042431,0.00049503,0.00057678,0.0006707
+  34:hearing_aid.cpp **** 	{-0.00198384,-0.00200280,-0.00204509,-0.00211020,-0.00219714,-0.00230441,-0.00243006,-0.00257163,-
+  35:hearing_aid.cpp **** 	{0.00111728,0.00114598,0.00117873,0.00121418,0.00124988,0.00128227,0.00130668,0.00131736,0.0013076
+  36:hearing_aid.cpp **** 	{-0.00069445,-0.00063877,-0.00056550,-0.00047578,-0.00037106,-0.00025380,-0.00012807,0.00000000,0.
+  37:hearing_aid.cpp **** 	{0.00068908,0.00056430,0.00032538,-0.00000000,-0.00036435,-0.00070543,-0.00095617,-0.00105928,-0.0
+  38:hearing_aid.cpp **** 	{-0.00040349,0.00000000,0.00015689,-0.00000000,-0.00017568,0.00000000,0.00055989,0.00105887,0.0009
+  39:hearing_aid.cpp **** };
+  40:hearing_aid.cpp **** 
+  41:hearing_aid.cpp **** void InitCMSISFilters()
+  42:hearing_aid.cpp **** {
+  43:hearing_aid.cpp ****     for(int i = 0; i < NUM_BANDS; ++i)
+  44:hearing_aid.cpp ****     {
+  45:hearing_aid.cpp ****         arm_fir_init_f32(&fir_filters[i], FIR_TAP_COUNT, fir_coeffs[i], fir_states[i], SAMPLE_BUFFE
+  46:hearing_aid.cpp ****     }
+  47:hearing_aid.cpp **** }
+  48:hearing_aid.cpp **** 
   49:hearing_aid.cpp **** 
-  50:hearing_aid.cpp **** 
-  51:hearing_aid.cpp **** 
-  52:hearing_aid.cpp **** void AudioCallback(AudioHandle::InputBuffer in, AudioHandle::OutputBuffer out, size_t size)
-  53:hearing_aid.cpp **** {
-  80              		.loc 1 53 1 is_stmt 1 view -0
+  50:hearing_aid.cpp **** void create_hamming_window(float* window, int size) {
+  51:hearing_aid.cpp ****     for(int i = 0; i < size; i++){
+  52:hearing_aid.cpp ****         window[i] = 0.54f - 0.46f * cosf((2.0f * M_PI * i)/(size-1));
+  53:hearing_aid.cpp ****     }
+  54:hearing_aid.cpp **** }
+  55:hearing_aid.cpp **** 
+  56:hearing_aid.cpp **** 
+  57:hearing_aid.cpp **** 
+  58:hearing_aid.cpp **** void AudioCallback(AudioHandle::InputBuffer in, AudioHandle::OutputBuffer out, size_t size)
+  59:hearing_aid.cpp **** {
+  80              		.loc 1 59 1 is_stmt 1 view -0
   81              		.cfi_startproc
   82              		@ args = 0, pretend = 0, frame = 0
   83              		@ frame_needed = 0, uses_anonymous_args = 0
-  54:hearing_aid.cpp **** 	//window function 
-  55:hearing_aid.cpp **** 	for(size_t i = 0; i < size; i++){
-  84              		.loc 1 55 2 view .LVU11
+  60:hearing_aid.cpp **** 	//window function 
+  61:hearing_aid.cpp **** 	for(size_t i = 0; i < size; i++){
+  84              		.loc 1 61 2 view .LVU11
   85              	.LBB57:
-  86              		.loc 1 55 22 discriminator 1 view .LVU12
-  87              	.LBE57:
-  53:hearing_aid.cpp **** 	//window function 
-  88              		.loc 1 53 1 is_stmt 0 view .LVU13
-  89 0000 2DE9F041 		push	{r4, r5, r6, r7, r8, lr}
-  90              		.cfi_def_cfa_offset 24
-  91              		.cfi_offset 4, -24
-  92              		.cfi_offset 5, -20
-  93              		.cfi_offset 6, -16
-ARM GAS  /var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cc7wX6mR.s 			page 10
+  86              		.loc 1 61 22 discriminator 1 view .LVU12
+  87 0000 9AB3     		cbz	r2, .L18
+  88 0002 0368     		ldr	r3, [r0]
+ARM GAS  /var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cca9poyW.s 			page 10
 
 
-  94              		.cfi_offset 7, -12
-  95              		.cfi_offset 8, -8
-  96              		.cfi_offset 14, -4
-  53:hearing_aid.cpp **** 	//window function 
-  97              		.loc 1 53 1 view .LVU14
-  98 0004 0F46     		mov	r7, r1
-  99              	.LBB58:
- 100              		.loc 1 55 22 discriminator 1 view .LVU15
- 101 0006 1546     		mov	r5, r2
- 102 0008 72B1     		cbz	r2, .L7
- 103 000a 0068     		ldr	r0, [r0]
- 104              	.LVL2:
- 105              		.loc 1 55 22 discriminator 1 view .LVU16
- 106 000c 1C4A     		ldr	r2, .L18
- 107              	.LVL3:
- 108              		.loc 1 55 22 discriminator 1 view .LVU17
- 109 000e 1D4B     		ldr	r3, .L18+4
- 110 0010 00EB8501 		add	r1, r0, r5, lsl #2
- 111              	.LVL4:
- 112              	.L6:
-  56:hearing_aid.cpp **** 		windowed_data[i] = in[0][i] * window[i];
- 113              		.loc 1 56 3 is_stmt 1 view .LVU18
- 114              		.loc 1 56 29 is_stmt 0 view .LVU19
- 115 0014 F0EC017A 		vldmia.32	r0!, {s15}
- 116              		.loc 1 56 41 view .LVU20
- 117 0018 B2EC017A 		vldmia.32	r2!, {s14}
-  55:hearing_aid.cpp **** 		windowed_data[i] = in[0][i] * window[i];
- 118              		.loc 1 55 22 discriminator 1 view .LVU21
- 119 001c 8842     		cmp	r0, r1
- 120              		.loc 1 56 31 view .LVU22
- 121 001e 67EE877A 		vmul.f32	s15, s15, s14
- 122              		.loc 1 56 20 view .LVU23
- 123 0022 E3EC017A 		vstmia.32	r3!, {s15}
-  55:hearing_aid.cpp **** 		windowed_data[i] = in[0][i] * window[i];
- 124              		.loc 1 55 2 is_stmt 1 discriminator 3 view .LVU24
-  55:hearing_aid.cpp **** 		windowed_data[i] = in[0][i] * window[i];
- 125              		.loc 1 55 22 discriminator 1 view .LVU25
- 126 0026 F5D1     		bne	.L6
- 127              	.L7:
- 128              	.LVL5:
-  55:hearing_aid.cpp **** 		windowed_data[i] = in[0][i] * window[i];
- 129              		.loc 1 55 22 is_stmt 0 discriminator 1 view .LVU26
- 130              	.LBE58:
- 131              	.LBB59:
-  57:hearing_aid.cpp **** 		
-  58:hearing_aid.cpp **** 	}
-  59:hearing_aid.cpp **** 
-  60:hearing_aid.cpp **** 	//split signal into subbands
-  61:hearing_aid.cpp **** 	for(int band = 0; band < NUM_BANDS; band++)
- 132              		.loc 1 61 25 is_stmt 1 discriminator 1 view .LVU27
- 133 0028 174C     		ldr	r4, .L18+8
- 134              	.LBE59:
-  53:hearing_aid.cpp **** 	//window function 
- 135              		.loc 1 53 1 is_stmt 0 view .LVU28
- 136 002a 184E     		ldr	r6, .L18+12
- 137 002c 04F14808 		add	r8, r4, #72
- 138              	.LVL6:
-ARM GAS  /var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cc7wX6mR.s 			page 11
-
-
- 139              	.L5:
- 140              	.LBB60:
-  62:hearing_aid.cpp ****     {
-  63:hearing_aid.cpp ****         arm_fir_f32(&fir_filters[band], windowed_data, band_outputs[band], size);
- 141              		.loc 1 63 9 is_stmt 1 view .LVU29
- 142              		.loc 1 63 20 is_stmt 0 view .LVU30
- 143 0030 2046     		mov	r0, r4
-  61:hearing_aid.cpp ****     {
- 144              		.loc 1 61 25 discriminator 1 view .LVU31
- 145 0032 0C34     		adds	r4, r4, #12
- 146              		.loc 1 63 20 view .LVU32
- 147 0034 3246     		mov	r2, r6
- 148 0036 2B46     		mov	r3, r5
- 149 0038 1249     		ldr	r1, .L18+4
-  61:hearing_aid.cpp ****     {
- 150              		.loc 1 61 25 discriminator 1 view .LVU33
- 151 003a 06F58066 		add	r6, r6, #1024
- 152              		.loc 1 63 20 view .LVU34
- 153 003e FFF7FEFF 		bl	arm_fir_f32
- 154              	.LVL7:
-  61:hearing_aid.cpp ****     {
- 155              		.loc 1 61 2 is_stmt 1 discriminator 3 view .LVU35
-  61:hearing_aid.cpp ****     {
- 156              		.loc 1 61 25 discriminator 1 view .LVU36
- 157 0042 4445     		cmp	r4, r8
- 158 0044 F4D1     		bne	.L5
- 159              	.LVL8:
-  61:hearing_aid.cpp ****     {
- 160              		.loc 1 61 25 is_stmt 0 discriminator 1 view .LVU37
- 161              	.LBE60:
- 162              	.LBB61:
-  64:hearing_aid.cpp ****     }
+  89 0004 1948     		ldr	r0, .L21
+  90              	.LVL2:
+  91              		.loc 1 61 22 is_stmt 0 discriminator 1 view .LVU13
+  92              	.LBE57:
+  59:hearing_aid.cpp **** 	//window function 
+  93              		.loc 1 59 1 view .LVU14
+  94 0006 10B5     		push	{r4, lr}
+  95              		.cfi_def_cfa_offset 8
+  96              		.cfi_offset 4, -8
+  97              		.cfi_offset 14, -4
+  98              	.LBB58:
+  62:hearing_aid.cpp **** 		windowed_data[i] = in[0][i] * window[i];
+  99              		.loc 1 62 26 view .LVU15
+ 100 0008 8446     		mov	ip, r0
+ 101 000a 4FEA820E 		lsl	lr, r2, #2
+ 102 000e 184C     		ldr	r4, .L21+4
+ 103 0010 03EB8202 		add	r2, r3, r2, lsl #2
+ 104              	.LVL3:
+ 105              	.L5:
+ 106              		.loc 1 62 3 is_stmt 1 view .LVU16
+ 107              		.loc 1 62 29 is_stmt 0 view .LVU17
+ 108 0014 F3EC017A 		vldmia.32	r3!, {s15}
+ 109              		.loc 1 62 41 view .LVU18
+ 110 0018 B4EC017A 		vldmia.32	r4!, {s14}
+  61:hearing_aid.cpp **** 		windowed_data[i] = in[0][i] * window[i];
+ 111              		.loc 1 61 22 discriminator 1 view .LVU19
+ 112 001c 9342     		cmp	r3, r2
+ 113              		.loc 1 62 31 view .LVU20
+ 114 001e 67EE877A 		vmul.f32	s15, s15, s14
+ 115              		.loc 1 62 20 view .LVU21
+ 116 0022 ECEC017A 		vstmia.32	ip!, {s15}
+  61:hearing_aid.cpp **** 		windowed_data[i] = in[0][i] * window[i];
+ 117              		.loc 1 61 2 is_stmt 1 discriminator 3 view .LVU22
+  61:hearing_aid.cpp **** 		windowed_data[i] = in[0][i] * window[i];
+ 118              		.loc 1 61 22 discriminator 1 view .LVU23
+ 119 0026 F5D1     		bne	.L5
+ 120 0028 00EB0E02 		add	r2, r0, lr
+ 121 002c 0F4B     		ldr	r3, .L21
+ 122              	.LBE58:
+  63:hearing_aid.cpp **** 		
+  64:hearing_aid.cpp **** 	}
   65:hearing_aid.cpp **** 
-  66:hearing_aid.cpp **** 
-  67:hearing_aid.cpp **** 	//perform VAD on each subband to determine which has speech and noise and which has only noise
-  68:hearing_aid.cpp **** 	//feature extraction
-  69:hearing_aid.cpp **** 
-  70:hearing_aid.cpp **** 
-  71:hearing_aid.cpp **** 	//if speech NLMS
-  72:hearing_aid.cpp **** 
+  66:hearing_aid.cpp **** 	float norm_sum = 0.0f;
+ 123              		.loc 1 66 8 is_stmt 0 view .LVU24
+ 124 002e DFED117A 		vldr.32	s15, .L21+8
+ 125              	.L6:
+ 126              	.LVL4:
+ 127              	.LBB59:
+  67:hearing_aid.cpp **** 	for(size_t i = 0; i < size; i++) {
+  68:hearing_aid.cpp ****     	norm_sum += windowed_data[i];
+ 128              		.loc 1 68 6 is_stmt 1 view .LVU25
+ 129              		.loc 1 68 33 is_stmt 0 view .LVU26
+ 130 0032 B3EC017A 		vldmia.32	r3!, {s14}
+  67:hearing_aid.cpp **** 	for(size_t i = 0; i < size; i++) {
+ 131              		.loc 1 67 22 discriminator 1 view .LVU27
+ 132 0036 9342     		cmp	r3, r2
+ 133              		.loc 1 68 15 view .LVU28
+ARM GAS  /var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cca9poyW.s 			page 11
+
+
+ 134 0038 77EE877A 		vadd.f32	s15, s15, s14
+ 135              	.LVL5:
+  67:hearing_aid.cpp **** 	for(size_t i = 0; i < size; i++) {
+ 136              		.loc 1 67 2 is_stmt 1 discriminator 3 view .LVU29
+  67:hearing_aid.cpp **** 	for(size_t i = 0; i < size; i++) {
+ 137              		.loc 1 67 22 discriminator 1 view .LVU30
+ 138 003c F9D1     		bne	.L6
+ 139 003e 0B4B     		ldr	r3, .L21
+ 140              	.L7:
+ 141              	.LBE59:
+ 142              	.LBB60:
+  69:hearing_aid.cpp **** 	}
+  70:hearing_aid.cpp **** 	for(size_t i = 0; i < size; i++) {
+  71:hearing_aid.cpp ****    		windowed_data[i] /= norm_sum;
+ 143              		.loc 1 71 6 view .LVU31
+ 144              		.loc 1 71 21 is_stmt 0 view .LVU32
+ 145 0040 D3ED006A 		vldr.32	s13, [r3]
+ 146              		.loc 1 71 23 view .LVU33
+ 147 0044 86EEA77A 		vdiv.f32	s14, s13, s15
+ 148 0048 A3EC017A 		vstmia.32	r3!, {s14}
+  70:hearing_aid.cpp ****    		windowed_data[i] /= norm_sum;
+ 149              		.loc 1 70 2 is_stmt 1 discriminator 3 view .LVU34
+  70:hearing_aid.cpp ****    		windowed_data[i] /= norm_sum;
+ 150              		.loc 1 70 22 discriminator 1 view .LVU35
+ 151 004c 9342     		cmp	r3, r2
+ 152 004e F7D1     		bne	.L7
+ 153 0050 D1E90031 		ldrd	r3, r1, [r1]
+ 154              	.LVL6:
+  70:hearing_aid.cpp ****    		windowed_data[i] /= norm_sum;
+ 155              		.loc 1 70 22 is_stmt 0 discriminator 1 view .LVU36
+ 156 0054 03EB0E04 		add	r4, r3, lr
+ 157              	.L9:
+ 158              	.LBE60:
+ 159              	.LBB61:
+ 160              	.LBB62:
+  72:hearing_aid.cpp **** 	}
   73:hearing_aid.cpp **** 
-  74:hearing_aid.cpp **** 	//reconstruct the signal
-  75:hearing_aid.cpp **** 	for(size_t i = 0; i < size; i++){
- 163              		.loc 1 75 22 is_stmt 1 discriminator 1 view .LVU38
- 164 0046 C5B1     		cbz	r5, .L3
- 165 0048 1149     		ldr	r1, .L18+16
- 166 004a D7E90002 		ldrd	r0, r2, [r7]
- 167 004e 00EB8505 		add	r5, r0, r5, lsl #2
- 168              	.LVL9:
- 169              	.L9:
- 170              	.LBB62:
- 171              	.LBB63:
-  76:hearing_aid.cpp **** 		float sum = 0.0f;
-  77:hearing_aid.cpp **** 		for(int band = 0; band < NUM_BANDS; band++)
- 172              		.loc 1 77 26 discriminator 1 view .LVU39
- 173 0052 A1F5C053 		sub	r3, r1, #6144
- 174              	.LBE63:
-ARM GAS  /var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cc7wX6mR.s 			page 12
-
-
-  76:hearing_aid.cpp **** 		float sum = 0.0f;
- 175              		.loc 1 76 9 is_stmt 0 view .LVU40
- 176 0056 DFED0F7A 		vldr.32	s15, .L18+20
- 177              	.LVL10:
- 178              	.L10:
- 179              	.LBB64:
-  78:hearing_aid.cpp **** 		{
-  79:hearing_aid.cpp **** 			sum += band_outputs[band][i];
- 180              		.loc 1 79 4 is_stmt 1 view .LVU41
- 181              		.loc 1 79 8 is_stmt 0 view .LVU42
- 182 005a 93ED007A 		vldr.32	s14, [r3]
-  77:hearing_aid.cpp **** 		{
- 183              		.loc 1 77 26 discriminator 1 view .LVU43
- 184 005e 03F58063 		add	r3, r3, #1024
- 185 0062 8B42     		cmp	r3, r1
- 186              		.loc 1 79 8 view .LVU44
- 187 0064 77EE877A 		vadd.f32	s15, s15, s14
- 188              	.LVL11:
-  77:hearing_aid.cpp **** 		{
- 189              		.loc 1 77 3 is_stmt 1 discriminator 3 view .LVU45
-  77:hearing_aid.cpp **** 		{
- 190              		.loc 1 77 26 discriminator 1 view .LVU46
- 191 0068 F7D1     		bne	.L10
- 192              	.LBE64:
-  80:hearing_aid.cpp **** 		}
-  81:hearing_aid.cpp **** 
-  82:hearing_aid.cpp **** 		out[0][i] = sum;
- 193              		.loc 1 82 3 view .LVU47
- 194              		.loc 1 82 13 is_stmt 0 view .LVU48
- 195 006a E0EC017A 		vstmia.32	r0!, {s15}
-  83:hearing_aid.cpp **** 		out[1][i] = sum;
- 196              		.loc 1 83 3 is_stmt 1 view .LVU49
- 197              	.LBE62:
-  75:hearing_aid.cpp **** 		float sum = 0.0f;
- 198              		.loc 1 75 22 is_stmt 0 discriminator 1 view .LVU50
- 199 006e A842     		cmp	r0, r5
- 200 0070 01F10401 		add	r1, r1, #4
- 201              	.LBB65:
- 202              		.loc 1 83 13 view .LVU51
- 203 0074 E2EC017A 		vstmia.32	r2!, {s15}
- 204              	.LBE65:
-  75:hearing_aid.cpp **** 		float sum = 0.0f;
- 205              		.loc 1 75 2 is_stmt 1 discriminator 2 view .LVU52
-  75:hearing_aid.cpp **** 		float sum = 0.0f;
- 206              		.loc 1 75 22 discriminator 1 view .LVU53
- 207 0078 EBD1     		bne	.L9
- 208              	.LVL12:
- 209              	.L3:
-  75:hearing_aid.cpp **** 		float sum = 0.0f;
- 210              		.loc 1 75 22 is_stmt 0 discriminator 1 view .LVU54
- 211              	.LBE61:
-  84:hearing_aid.cpp **** 	}
-  85:hearing_aid.cpp **** 
+  74:hearing_aid.cpp **** 	// //split signal into subbands
+  75:hearing_aid.cpp **** 	// for(int band = 0; band < NUM_BANDS; band++)
+  76:hearing_aid.cpp ****     // {
+  77:hearing_aid.cpp ****     //     arm_fir_f32(&fir_filters[band], windowed_data, band_outputs[band], size);
+  78:hearing_aid.cpp ****     // }
+  79:hearing_aid.cpp **** 
+  80:hearing_aid.cpp **** 
+  81:hearing_aid.cpp **** 	//perform VAD on each subband to determine which has speech and noise and which has only noise
+  82:hearing_aid.cpp **** 	//feature extraction
+  83:hearing_aid.cpp **** 
+  84:hearing_aid.cpp **** 
+  85:hearing_aid.cpp **** 	//if speech NLMS
   86:hearing_aid.cpp **** 
-  87:hearing_aid.cpp **** 	// out[0][i] = in[0][i];
-  88:hearing_aid.cpp **** 	// out[1][i] = in[1][i];
-  89:hearing_aid.cpp **** 	
-ARM GAS  /var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cc7wX6mR.s 			page 13
+  87:hearing_aid.cpp **** 
+  88:hearing_aid.cpp **** 	//reconstruct the signal
+  89:hearing_aid.cpp **** 	// for(size_t i = 0; i < size; i++){
+  90:hearing_aid.cpp **** 	// 	float sum = 0.0f;
+  91:hearing_aid.cpp **** 	// 	for(int band = 0; band < NUM_BANDS; band++)
+  92:hearing_aid.cpp **** 	// 	{
+  93:hearing_aid.cpp **** 	// 		sum += band_outputs[band][i];
+ARM GAS  /var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cca9poyW.s 			page 12
 
 
-  90:hearing_aid.cpp **** }
- 212              		.loc 1 90 1 view .LVU55
- 213 007a BDE8F081 		pop	{r4, r5, r6, r7, r8, pc}
- 214              	.LVL13:
- 215              	.L19:
- 216              		.loc 1 90 1 view .LVU56
- 217 007e 00BF     		.align	2
- 218              	.L18:
- 219 0080 00000000 		.word	window
- 220 0084 00000000 		.word	windowed_data
- 221 0088 00000000 		.word	fir_filters
- 222 008c 00000000 		.word	band_outputs
- 223 0090 00180000 		.word	band_outputs+6144
- 224 0094 00000000 		.word	0
- 225              		.cfi_endproc
- 226              	.LFE4763:
- 228              		.section	.text._Z16InitCMSISFiltersv,"ax",%progbits
- 229              		.align	1
- 230              		.p2align 2,,3
- 231              		.global	_Z16InitCMSISFiltersv
- 232              		.syntax unified
- 233              		.thumb
- 234              		.thumb_func
- 236              	_Z16InitCMSISFiltersv:
- 237              	.LFB4761:
-  36:hearing_aid.cpp ****     for(int i = 0; i < NUM_BANDS; ++i)
- 238              		.loc 1 36 1 is_stmt 1 view -0
- 239              		.cfi_startproc
- 240              		@ args = 0, pretend = 0, frame = 0
- 241              		@ frame_needed = 0, uses_anonymous_args = 0
-  37:hearing_aid.cpp ****     {
- 242              		.loc 1 37 5 view .LVU58
- 243              	.LVL14:
- 244              	.LBB66:
-  37:hearing_aid.cpp ****     {
- 245              		.loc 1 37 22 discriminator 1 view .LVU59
- 246              	.LBE66:
-  36:hearing_aid.cpp ****     for(int i = 0; i < NUM_BANDS; ++i)
- 247              		.loc 1 36 1 is_stmt 0 view .LVU60
- 248 0000 2DE9F041 		push	{r4, r5, r6, r7, r8, lr}
- 249              		.cfi_def_cfa_offset 24
- 250              		.cfi_offset 4, -24
- 251              		.cfi_offset 5, -20
- 252              		.cfi_offset 6, -16
- 253              		.cfi_offset 7, -12
- 254              		.cfi_offset 8, -8
- 255              		.cfi_offset 14, -4
- 256 0004 0C4C     		ldr	r4, .L24
- 257 0006 82B0     		sub	sp, sp, #8
- 258              		.cfi_def_cfa_offset 32
- 259 0008 0C4E     		ldr	r6, .L24+4
- 260 000a 0D4D     		ldr	r5, .L24+8
- 261 000c 04F14808 		add	r8, r4, #72
- 262              	.LVL15:
- 263              	.L21:
- 264              	.LBB67:
-  39:hearing_aid.cpp ****     }
-ARM GAS  /var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cc7wX6mR.s 			page 14
+  94:hearing_aid.cpp **** 	// 	}
+  95:hearing_aid.cpp **** 
+  96:hearing_aid.cpp **** 	// 	out[0][i] = sum;
+  97:hearing_aid.cpp **** 	// 	out[1][i] = sum;
+  98:hearing_aid.cpp **** 	// }
+  99:hearing_aid.cpp **** 
+ 100:hearing_aid.cpp **** 	for(size_t i = 0; i < size; i++){
+ 101:hearing_aid.cpp **** 		float val = windowed_data[i];
+ 161              		.loc 1 101 3 is_stmt 1 view .LVU37
+ 162              		.loc 1 101 9 is_stmt 0 view .LVU38
+ 163 0058 50F8042B 		ldr	r2, [r0], #4	@ float
+ 164              	.LVL7:
+ 102:hearing_aid.cpp **** 		out[0][i] = val;
+ 165              		.loc 1 102 3 is_stmt 1 view .LVU39
+ 166              		.loc 1 102 13 is_stmt 0 view .LVU40
+ 167 005c 43F8042B 		str	r2, [r3], #4	@ float
+ 103:hearing_aid.cpp **** 		out[1][i] = val;
+ 168              		.loc 1 103 3 is_stmt 1 view .LVU41
+ 169              	.LBE62:
+ 100:hearing_aid.cpp **** 		float val = windowed_data[i];
+ 170              		.loc 1 100 22 is_stmt 0 discriminator 1 view .LVU42
+ 171 0060 A342     		cmp	r3, r4
+ 172              	.LBB63:
+ 173              		.loc 1 103 13 view .LVU43
+ 174 0062 41F8042B 		str	r2, [r1], #4	@ float
+ 175              	.LBE63:
+ 100:hearing_aid.cpp **** 		float val = windowed_data[i];
+ 176              		.loc 1 100 2 is_stmt 1 discriminator 3 view .LVU44
+ 100:hearing_aid.cpp **** 		float val = windowed_data[i];
+ 177              		.loc 1 100 22 discriminator 1 view .LVU45
+ 178 0066 F7D1     		bne	.L9
+ 179              	.LBE61:
+ 104:hearing_aid.cpp **** 	}
+ 105:hearing_aid.cpp **** 
+ 106:hearing_aid.cpp **** 
+ 107:hearing_aid.cpp **** 	
+ 108:hearing_aid.cpp **** 
+ 109:hearing_aid.cpp **** 	// out[0][i] = in[0][i];
+ 110:hearing_aid.cpp **** 	// out[1][i] = in[1][i];
+ 111:hearing_aid.cpp **** 	
+ 112:hearing_aid.cpp **** }
+ 180              		.loc 1 112 1 is_stmt 0 view .LVU46
+ 181 0068 10BD     		pop	{r4, pc}
+ 182              	.LVL8:
+ 183              	.L18:
+ 184              		.cfi_def_cfa_offset 0
+ 185              		.cfi_restore 4
+ 186              		.cfi_restore 14
+ 187              		.loc 1 112 1 view .LVU47
+ 188 006a 7047     		bx	lr
+ 189              	.L22:
+ 190              		.align	2
+ 191              	.L21:
+ 192 006c 00000000 		.word	windowed_data
+ 193 0070 00000000 		.word	window
+ 194 0074 00000000 		.word	0
+ 195              		.cfi_endproc
+ARM GAS  /var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cca9poyW.s 			page 13
 
 
- 265              		.loc 1 39 9 is_stmt 1 view .LVU61
-  39:hearing_aid.cpp ****     }
- 266              		.loc 1 39 25 is_stmt 0 view .LVU62
- 267 0010 4FF48077 		mov	r7, #256
- 268 0014 2046     		mov	r0, r4
-  37:hearing_aid.cpp ****     {
- 269              		.loc 1 37 22 discriminator 1 view .LVU63
- 270 0016 0C34     		adds	r4, r4, #12
-  39:hearing_aid.cpp ****     }
- 271              		.loc 1 39 25 view .LVU64
- 272 0018 2B46     		mov	r3, r5
- 273 001a 3246     		mov	r2, r6
- 274 001c 7F21     		movs	r1, #127
- 275 001e 0097     		str	r7, [sp]
-  37:hearing_aid.cpp ****     {
- 276              		.loc 1 37 22 discriminator 1 view .LVU65
- 277 0020 06F5FE76 		add	r6, r6, #508
-  39:hearing_aid.cpp ****     }
- 278              		.loc 1 39 25 view .LVU66
- 279 0024 FFF7FEFF 		bl	arm_fir_init_f32
- 280              	.LVL16:
-  37:hearing_aid.cpp ****     {
- 281              		.loc 1 37 5 is_stmt 1 discriminator 3 view .LVU67
-  37:hearing_aid.cpp ****     {
- 282              		.loc 1 37 22 discriminator 1 view .LVU68
- 283 0028 4445     		cmp	r4, r8
- 284 002a 05F5BF65 		add	r5, r5, #1528
- 285 002e EFD1     		bne	.L21
- 286              	.LBE67:
-  41:hearing_aid.cpp **** 
- 287              		.loc 1 41 1 is_stmt 0 view .LVU69
- 288 0030 02B0     		add	sp, sp, #8
- 289              		.cfi_def_cfa_offset 24
- 290              		@ sp needed
- 291 0032 BDE8F081 		pop	{r4, r5, r6, r7, r8, pc}
- 292              	.L25:
- 293 0036 00BF     		.align	2
- 294              	.L24:
- 295 0038 00000000 		.word	fir_filters
- 296 003c 00000000 		.word	fir_coeffs
- 297 0040 00000000 		.word	fir_states
- 298              		.cfi_endproc
- 299              	.LFE4761:
- 301              		.section	.text._Z21create_hamming_windowPfi,"ax",%progbits
- 302              		.align	1
- 303              		.p2align 2,,3
- 304              		.global	_Z21create_hamming_windowPfi
- 305              		.syntax unified
- 306              		.thumb
- 307              		.thumb_func
- 309              	_Z21create_hamming_windowPfi:
- 310              	.LVL17:
- 311              	.LFB4762:
-  44:hearing_aid.cpp ****     for(int i = 0; i < size; i++){
- 312              		.loc 1 44 53 is_stmt 1 view -0
- 313              		.cfi_startproc
- 314              		@ args = 0, pretend = 0, frame = 0
-ARM GAS  /var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cc7wX6mR.s 			page 15
+ 196              	.LFE4763:
+ 198              		.section	.text._Z16InitCMSISFiltersv,"ax",%progbits
+ 199              		.align	1
+ 200              		.p2align 2,,3
+ 201              		.global	_Z16InitCMSISFiltersv
+ 202              		.syntax unified
+ 203              		.thumb
+ 204              		.thumb_func
+ 206              	_Z16InitCMSISFiltersv:
+ 207              	.LFB4761:
+  42:hearing_aid.cpp ****     for(int i = 0; i < NUM_BANDS; ++i)
+ 208              		.loc 1 42 1 is_stmt 1 view -0
+ 209              		.cfi_startproc
+ 210              		@ args = 0, pretend = 0, frame = 0
+ 211              		@ frame_needed = 0, uses_anonymous_args = 0
+  43:hearing_aid.cpp ****     {
+ 212              		.loc 1 43 5 view .LVU49
+ 213              	.LVL9:
+ 214              	.LBB64:
+  43:hearing_aid.cpp ****     {
+ 215              		.loc 1 43 22 discriminator 1 view .LVU50
+ 216              	.LBE64:
+  42:hearing_aid.cpp ****     for(int i = 0; i < NUM_BANDS; ++i)
+ 217              		.loc 1 42 1 is_stmt 0 view .LVU51
+ 218 0000 2DE9F041 		push	{r4, r5, r6, r7, r8, lr}
+ 219              		.cfi_def_cfa_offset 24
+ 220              		.cfi_offset 4, -24
+ 221              		.cfi_offset 5, -20
+ 222              		.cfi_offset 6, -16
+ 223              		.cfi_offset 7, -12
+ 224              		.cfi_offset 8, -8
+ 225              		.cfi_offset 14, -4
+ 226 0004 0C4C     		ldr	r4, .L27
+ 227 0006 82B0     		sub	sp, sp, #8
+ 228              		.cfi_def_cfa_offset 32
+ 229 0008 0C4E     		ldr	r6, .L27+4
+ 230 000a 0D4D     		ldr	r5, .L27+8
+ 231 000c 04F14808 		add	r8, r4, #72
+ 232              	.LVL10:
+ 233              	.L24:
+ 234              	.LBB65:
+  45:hearing_aid.cpp ****     }
+ 235              		.loc 1 45 9 is_stmt 1 view .LVU52
+  45:hearing_aid.cpp ****     }
+ 236              		.loc 1 45 25 is_stmt 0 view .LVU53
+ 237 0010 4FF48077 		mov	r7, #256
+ 238 0014 2046     		mov	r0, r4
+  43:hearing_aid.cpp ****     {
+ 239              		.loc 1 43 22 discriminator 1 view .LVU54
+ 240 0016 0C34     		adds	r4, r4, #12
+  45:hearing_aid.cpp ****     }
+ 241              		.loc 1 45 25 view .LVU55
+ 242 0018 2B46     		mov	r3, r5
+ 243 001a 3246     		mov	r2, r6
+ 244 001c 7F21     		movs	r1, #127
+ 245 001e 0097     		str	r7, [sp]
+  43:hearing_aid.cpp ****     {
+ARM GAS  /var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cca9poyW.s 			page 14
 
 
- 315              		@ frame_needed = 0, uses_anonymous_args = 0
-  45:hearing_aid.cpp ****         window[i] = 0.54f - 0.46f * cosf((2.0f * M_PI * i)/(size-1));
- 316              		.loc 1 45 5 view .LVU71
- 317              	.LBB68:
-  45:hearing_aid.cpp ****         window[i] = 0.54f - 0.46f * cosf((2.0f * M_PI * i)/(size-1));
- 318              		.loc 1 45 22 discriminator 1 view .LVU72
- 319              	.LBE68:
-  44:hearing_aid.cpp ****     for(int i = 0; i < size; i++){
- 320              		.loc 1 44 53 is_stmt 0 view .LVU73
- 321 0000 70B5     		push	{r4, r5, r6, lr}
- 322              		.cfi_def_cfa_offset 16
- 323              		.cfi_offset 4, -16
- 324              		.cfi_offset 5, -12
- 325              		.cfi_offset 6, -8
- 326              		.cfi_offset 14, -4
- 327              	.LBB69:
-  45:hearing_aid.cpp ****         window[i] = 0.54f - 0.46f * cosf((2.0f * M_PI * i)/(size-1));
- 328              		.loc 1 45 22 discriminator 1 view .LVU74
- 329 0002 0E1E     		subs	r6, r1, #0
- 330              	.LBE69:
-  44:hearing_aid.cpp ****     for(int i = 0; i < size; i++){
- 331              		.loc 1 44 53 view .LVU75
- 332 0004 2DED028B 		vpush.64	{d8}
- 333              		.cfi_def_cfa_offset 24
- 334              		.cfi_offset 80, -24
- 335              		.cfi_offset 81, -20
- 336              	.LBB70:
-  45:hearing_aid.cpp ****         window[i] = 0.54f - 0.46f * cosf((2.0f * M_PI * i)/(size-1));
- 337              		.loc 1 45 22 discriminator 1 view .LVU76
- 338 0008 1FDD     		ble	.L26
-  46:hearing_aid.cpp ****     }
- 339              		.loc 1 46 65 view .LVU77
- 340 000a 731E     		subs	r3, r6, #1
- 341 000c 0546     		mov	r5, r0
-  45:hearing_aid.cpp ****         window[i] = 0.54f - 0.46f * cosf((2.0f * M_PI * i)/(size-1));
- 342              		.loc 1 45 13 view .LVU78
- 343 000e 0024     		movs	r4, #0
-  46:hearing_aid.cpp ****     }
- 344              		.loc 1 46 59 view .LVU79
- 345 0010 07EE903A 		vmov	s15, r3	@ int
- 346 0014 B8EEE78B 		vcvt.f64.s32	d8, s15
- 347              	.LVL18:
- 348              	.L28:
-  46:hearing_aid.cpp ****     }
- 349              		.loc 1 46 9 is_stmt 1 view .LVU80
-  46:hearing_aid.cpp ****     }
- 350              		.loc 1 46 55 is_stmt 0 view .LVU81
- 351 0018 07EE904A 		vmov	s15, r4	@ int
-  45:hearing_aid.cpp ****         window[i] = 0.54f - 0.46f * cosf((2.0f * M_PI * i)/(size-1));
- 352              		.loc 1 45 5 discriminator 3 view .LVU82
- 353 001c 0134     		adds	r4, r4, #1
- 354              	.LVL19:
-  46:hearing_aid.cpp ****     }
- 355              		.loc 1 46 55 view .LVU83
- 356 001e 9FED0C6B 		vldr.64	d6, .L32
- 357 0022 B8EEE77B 		vcvt.f64.s32	d7, s15
- 358 0026 27EE067B 		vmul.f64	d7, d7, d6
-ARM GAS  /var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cc7wX6mR.s 			page 16
+ 246              		.loc 1 43 22 discriminator 1 view .LVU56
+ 247 0020 06F5FE76 		add	r6, r6, #508
+  45:hearing_aid.cpp ****     }
+ 248              		.loc 1 45 25 view .LVU57
+ 249 0024 FFF7FEFF 		bl	arm_fir_init_f32
+ 250              	.LVL11:
+  43:hearing_aid.cpp ****     {
+ 251              		.loc 1 43 5 is_stmt 1 discriminator 3 view .LVU58
+  43:hearing_aid.cpp ****     {
+ 252              		.loc 1 43 22 discriminator 1 view .LVU59
+ 253 0028 4445     		cmp	r4, r8
+ 254 002a 05F5BF65 		add	r5, r5, #1528
+ 255 002e EFD1     		bne	.L24
+ 256              	.LBE65:
+  47:hearing_aid.cpp **** 
+ 257              		.loc 1 47 1 is_stmt 0 view .LVU60
+ 258 0030 02B0     		add	sp, sp, #8
+ 259              		.cfi_def_cfa_offset 24
+ 260              		@ sp needed
+ 261 0032 BDE8F081 		pop	{r4, r5, r6, r7, r8, pc}
+ 262              	.L28:
+ 263 0036 00BF     		.align	2
+ 264              	.L27:
+ 265 0038 00000000 		.word	fir_filters
+ 266 003c 00000000 		.word	fir_coeffs
+ 267 0040 00000000 		.word	fir_states
+ 268              		.cfi_endproc
+ 269              	.LFE4761:
+ 271              		.section	.text._Z21create_hamming_windowPfi,"ax",%progbits
+ 272              		.align	1
+ 273              		.p2align 2,,3
+ 274              		.global	_Z21create_hamming_windowPfi
+ 275              		.syntax unified
+ 276              		.thumb
+ 277              		.thumb_func
+ 279              	_Z21create_hamming_windowPfi:
+ 280              	.LVL12:
+ 281              	.LFB4762:
+  50:hearing_aid.cpp ****     for(int i = 0; i < size; i++){
+ 282              		.loc 1 50 53 is_stmt 1 view -0
+ 283              		.cfi_startproc
+ 284              		@ args = 0, pretend = 0, frame = 0
+ 285              		@ frame_needed = 0, uses_anonymous_args = 0
+  51:hearing_aid.cpp ****         window[i] = 0.54f - 0.46f * cosf((2.0f * M_PI * i)/(size-1));
+ 286              		.loc 1 51 5 view .LVU62
+ 287              	.LBB66:
+  51:hearing_aid.cpp ****         window[i] = 0.54f - 0.46f * cosf((2.0f * M_PI * i)/(size-1));
+ 288              		.loc 1 51 22 discriminator 1 view .LVU63
+ 289              	.LBE66:
+  50:hearing_aid.cpp ****     for(int i = 0; i < size; i++){
+ 290              		.loc 1 50 53 is_stmt 0 view .LVU64
+ 291 0000 70B5     		push	{r4, r5, r6, lr}
+ 292              		.cfi_def_cfa_offset 16
+ 293              		.cfi_offset 4, -16
+ 294              		.cfi_offset 5, -12
+ 295              		.cfi_offset 6, -8
+ 296              		.cfi_offset 14, -4
+ARM GAS  /var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cca9poyW.s 			page 15
 
 
-  46:hearing_aid.cpp ****     }
- 359              		.loc 1 46 59 view .LVU84
- 360 002a 87EE080B 		vdiv.f64	d0, d7, d8
-  46:hearing_aid.cpp ****     }
- 361              		.loc 1 46 41 view .LVU85
- 362 002e B7EEC00B 		vcvt.f32.f64	s0, d0
- 363 0032 FFF7FEFF 		bl	cosf
- 364              	.LVL20:
-  46:hearing_aid.cpp ****     }
- 365              		.loc 1 46 27 discriminator 1 view .LVU86
- 366 0036 9FED087A 		vldr.32	s14, .L32+8
- 367 003a DFED087A 		vldr.32	s15, .L32+12
-  45:hearing_aid.cpp ****         window[i] = 0.54f - 0.46f * cosf((2.0f * M_PI * i)/(size-1));
- 368              		.loc 1 45 22 discriminator 1 view .LVU87
- 369 003e A642     		cmp	r6, r4
-  46:hearing_aid.cpp ****     }
- 370              		.loc 1 46 27 discriminator 1 view .LVU88
- 371 0040 E0EE477A 		vfms.f32	s15, s0, s14
-  46:hearing_aid.cpp ****     }
- 372              		.loc 1 46 19 discriminator 1 view .LVU89
- 373 0044 E5EC017A 		vstmia.32	r5!, {s15}
-  45:hearing_aid.cpp ****         window[i] = 0.54f - 0.46f * cosf((2.0f * M_PI * i)/(size-1));
- 374              		.loc 1 45 5 is_stmt 1 discriminator 3 view .LVU90
- 375              	.LVL21:
-  45:hearing_aid.cpp ****         window[i] = 0.54f - 0.46f * cosf((2.0f * M_PI * i)/(size-1));
- 376              		.loc 1 45 22 discriminator 1 view .LVU91
- 377 0048 E6D1     		bne	.L28
- 378              	.LVL22:
- 379              	.L26:
-  45:hearing_aid.cpp ****         window[i] = 0.54f - 0.46f * cosf((2.0f * M_PI * i)/(size-1));
- 380              		.loc 1 45 22 is_stmt 0 discriminator 1 view .LVU92
- 381              	.LBE70:
-  48:hearing_aid.cpp **** 
- 382              		.loc 1 48 1 view .LVU93
- 383 004a BDEC028B 		vldm	sp!, {d8}
- 384              		.cfi_restore 80
- 385              		.cfi_restore 81
- 386              		.cfi_def_cfa_offset 16
- 387 004e 70BD     		pop	{r4, r5, r6, pc}
- 388              	.LVL23:
- 389              	.L33:
-  48:hearing_aid.cpp **** 
- 390              		.loc 1 48 1 view .LVU94
- 391              		.align	3
- 392              	.L32:
- 393 0050 182D4454 		.word	1413754136
- 394 0054 FB211940 		.word	1075388923
- 395 0058 1F85EB3E 		.word	1055622431
- 396 005c 713D0A3F 		.word	1057635697
- 397              		.cfi_endproc
- 398              	.LFE4762:
- 400              		.section	.text.startup.main,"ax",%progbits
- 401              		.align	1
- 402              		.p2align 2,,3
- 403              		.global	main
- 404              		.syntax unified
- 405              		.thumb
-ARM GAS  /var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cc7wX6mR.s 			page 17
+ 297              	.LBB67:
+  51:hearing_aid.cpp ****         window[i] = 0.54f - 0.46f * cosf((2.0f * M_PI * i)/(size-1));
+ 298              		.loc 1 51 22 discriminator 1 view .LVU65
+ 299 0002 0E1E     		subs	r6, r1, #0
+ 300              	.LBE67:
+  50:hearing_aid.cpp ****     for(int i = 0; i < size; i++){
+ 301              		.loc 1 50 53 view .LVU66
+ 302 0004 2DED028B 		vpush.64	{d8}
+ 303              		.cfi_def_cfa_offset 24
+ 304              		.cfi_offset 80, -24
+ 305              		.cfi_offset 81, -20
+ 306              	.LBB68:
+  51:hearing_aid.cpp ****         window[i] = 0.54f - 0.46f * cosf((2.0f * M_PI * i)/(size-1));
+ 307              		.loc 1 51 22 discriminator 1 view .LVU67
+ 308 0008 1FDD     		ble	.L29
+  52:hearing_aid.cpp ****     }
+ 309              		.loc 1 52 65 view .LVU68
+ 310 000a 731E     		subs	r3, r6, #1
+ 311 000c 0546     		mov	r5, r0
+  51:hearing_aid.cpp ****         window[i] = 0.54f - 0.46f * cosf((2.0f * M_PI * i)/(size-1));
+ 312              		.loc 1 51 13 view .LVU69
+ 313 000e 0024     		movs	r4, #0
+  52:hearing_aid.cpp ****     }
+ 314              		.loc 1 52 59 view .LVU70
+ 315 0010 07EE903A 		vmov	s15, r3	@ int
+ 316 0014 B8EEE78B 		vcvt.f64.s32	d8, s15
+ 317              	.LVL13:
+ 318              	.L31:
+  52:hearing_aid.cpp ****     }
+ 319              		.loc 1 52 9 is_stmt 1 view .LVU71
+  52:hearing_aid.cpp ****     }
+ 320              		.loc 1 52 55 is_stmt 0 view .LVU72
+ 321 0018 07EE904A 		vmov	s15, r4	@ int
+  51:hearing_aid.cpp ****         window[i] = 0.54f - 0.46f * cosf((2.0f * M_PI * i)/(size-1));
+ 322              		.loc 1 51 5 discriminator 3 view .LVU73
+ 323 001c 0134     		adds	r4, r4, #1
+ 324              	.LVL14:
+  52:hearing_aid.cpp ****     }
+ 325              		.loc 1 52 55 view .LVU74
+ 326 001e 9FED0C6B 		vldr.64	d6, .L35
+ 327 0022 B8EEE77B 		vcvt.f64.s32	d7, s15
+ 328 0026 27EE067B 		vmul.f64	d7, d7, d6
+  52:hearing_aid.cpp ****     }
+ 329              		.loc 1 52 59 view .LVU75
+ 330 002a 87EE080B 		vdiv.f64	d0, d7, d8
+  52:hearing_aid.cpp ****     }
+ 331              		.loc 1 52 41 view .LVU76
+ 332 002e B7EEC00B 		vcvt.f32.f64	s0, d0
+ 333 0032 FFF7FEFF 		bl	cosf
+ 334              	.LVL15:
+  52:hearing_aid.cpp ****     }
+ 335              		.loc 1 52 27 discriminator 1 view .LVU77
+ 336 0036 9FED087A 		vldr.32	s14, .L35+8
+ 337 003a DFED087A 		vldr.32	s15, .L35+12
+  51:hearing_aid.cpp ****         window[i] = 0.54f - 0.46f * cosf((2.0f * M_PI * i)/(size-1));
+ 338              		.loc 1 51 22 discriminator 1 view .LVU78
+ 339 003e A642     		cmp	r6, r4
+ARM GAS  /var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cca9poyW.s 			page 16
 
 
- 406              		.thumb_func
- 408              	main:
- 409              	.LFB4764:
-  91:hearing_aid.cpp **** 
-  92:hearing_aid.cpp **** 
-  93:hearing_aid.cpp **** 
-  94:hearing_aid.cpp **** 
-  95:hearing_aid.cpp **** int main(void)
-  96:hearing_aid.cpp **** {
- 410              		.loc 1 96 1 is_stmt 1 view -0
- 411              		.cfi_startproc
- 412              		@ Volatile: function does not return.
- 413              		@ args = 0, pretend = 0, frame = 0
- 414              		@ frame_needed = 0, uses_anonymous_args = 0
-  97:hearing_aid.cpp **** 
-  98:hearing_aid.cpp **** 
-  99:hearing_aid.cpp **** 	hw.Init();
- 415              		.loc 1 99 2 view .LVU96
-  96:hearing_aid.cpp **** 
- 416              		.loc 1 96 1 is_stmt 0 view .LVU97
- 417 0000 08B5     		push	{r3, lr}
- 418              		.cfi_def_cfa_offset 8
- 419              		.cfi_offset 3, -8
- 420              		.cfi_offset 14, -4
- 421              		.loc 1 99 9 view .LVU98
- 422 0002 0021     		movs	r1, #0
- 423 0004 0B48     		ldr	r0, .L37
- 424 0006 FFF7FEFF 		bl	_ZN5daisy9DaisySeed4InitEb
- 425              	.LVL24:
- 100:hearing_aid.cpp **** 
- 101:hearing_aid.cpp **** 	//hw.StartLog(true);
- 102:hearing_aid.cpp **** 
- 103:hearing_aid.cpp **** 	//hw.PrintLine("Hello World!");
- 104:hearing_aid.cpp **** 
- 105:hearing_aid.cpp **** 	hw.SetAudioBlockSize(SAMPLE_BUFFER_SIZE); // number of samples handled per callback
- 426              		.loc 1 105 2 is_stmt 1 view .LVU99
- 427              		.loc 1 105 22 is_stmt 0 view .LVU100
- 428 000a 4FF48071 		mov	r1, #256
- 429 000e 0948     		ldr	r0, .L37
- 430 0010 FFF7FEFF 		bl	_ZN5daisy9DaisySeed17SetAudioBlockSizeEj
- 431              	.LVL25:
- 106:hearing_aid.cpp **** 	hw.SetAudioSampleRate(SaiHandle::Config::SampleRate::SAI_48KHZ);
- 432              		.loc 1 106 2 is_stmt 1 view .LVU101
- 433              		.loc 1 106 23 is_stmt 0 view .LVU102
- 434 0014 0321     		movs	r1, #3
- 435 0016 0748     		ldr	r0, .L37
- 436 0018 FFF7FEFF 		bl	_ZN5daisy9DaisySeed18SetAudioSampleRateENS_9SaiHandle6Config10SampleRateE
- 437              	.LVL26:
- 107:hearing_aid.cpp **** 	InitCMSISFilters();
- 438              		.loc 1 107 2 is_stmt 1 view .LVU103
- 439              		.loc 1 107 18 is_stmt 0 view .LVU104
- 440 001c FFF7FEFF 		bl	_Z16InitCMSISFiltersv
- 441              	.LVL27:
- 108:hearing_aid.cpp **** 	create_hamming_window(window, SAMPLE_BUFFER_SIZE);
- 442              		.loc 1 108 2 is_stmt 1 view .LVU105
- 443              		.loc 1 108 23 is_stmt 0 view .LVU106
- 444 0020 4FF48071 		mov	r1, #256
-ARM GAS  /var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cc7wX6mR.s 			page 18
-
-
- 445 0024 0448     		ldr	r0, .L37+4
- 446 0026 FFF7FEFF 		bl	_Z21create_hamming_windowPfi
- 447              	.LVL28:
- 109:hearing_aid.cpp **** 
- 110:hearing_aid.cpp **** 
- 111:hearing_aid.cpp **** 	hw.StartAudio(AudioCallback);
- 448              		.loc 1 111 2 is_stmt 1 view .LVU107
- 449              		.loc 1 111 15 is_stmt 0 view .LVU108
- 450 002a 0449     		ldr	r1, .L37+8
- 451 002c 0148     		ldr	r0, .L37
- 452 002e FFF7FEFF 		bl	_ZN5daisy9DaisySeed10StartAudioEPFvPKPKfPPfjE
- 453              	.LVL29:
- 454              	.L35:
- 112:hearing_aid.cpp **** 
- 113:hearing_aid.cpp **** 	
+  52:hearing_aid.cpp ****     }
+ 340              		.loc 1 52 27 discriminator 1 view .LVU79
+ 341 0040 E0EE477A 		vfms.f32	s15, s0, s14
+  52:hearing_aid.cpp ****     }
+ 342              		.loc 1 52 19 discriminator 1 view .LVU80
+ 343 0044 E5EC017A 		vstmia.32	r5!, {s15}
+  51:hearing_aid.cpp ****         window[i] = 0.54f - 0.46f * cosf((2.0f * M_PI * i)/(size-1));
+ 344              		.loc 1 51 5 is_stmt 1 discriminator 3 view .LVU81
+ 345              	.LVL16:
+  51:hearing_aid.cpp ****         window[i] = 0.54f - 0.46f * cosf((2.0f * M_PI * i)/(size-1));
+ 346              		.loc 1 51 22 discriminator 1 view .LVU82
+ 347 0048 E6D1     		bne	.L31
+ 348              	.LVL17:
+ 349              	.L29:
+  51:hearing_aid.cpp ****         window[i] = 0.54f - 0.46f * cosf((2.0f * M_PI * i)/(size-1));
+ 350              		.loc 1 51 22 is_stmt 0 discriminator 1 view .LVU83
+ 351              	.LBE68:
+  54:hearing_aid.cpp **** 
+ 352              		.loc 1 54 1 view .LVU84
+ 353 004a BDEC028B 		vldm	sp!, {d8}
+ 354              		.cfi_restore 80
+ 355              		.cfi_restore 81
+ 356              		.cfi_def_cfa_offset 16
+ 357 004e 70BD     		pop	{r4, r5, r6, pc}
+ 358              	.LVL18:
+ 359              	.L36:
+  54:hearing_aid.cpp **** 
+ 360              		.loc 1 54 1 view .LVU85
+ 361              		.align	3
+ 362              	.L35:
+ 363 0050 182D4454 		.word	1413754136
+ 364 0054 FB211940 		.word	1075388923
+ 365 0058 1F85EB3E 		.word	1055622431
+ 366 005c 713D0A3F 		.word	1057635697
+ 367              		.cfi_endproc
+ 368              	.LFE4762:
+ 370              		.section	.text.startup.main,"ax",%progbits
+ 371              		.align	1
+ 372              		.p2align 2,,3
+ 373              		.global	main
+ 374              		.syntax unified
+ 375              		.thumb
+ 376              		.thumb_func
+ 378              	main:
+ 379              	.LFB4764:
+ 113:hearing_aid.cpp **** 
  114:hearing_aid.cpp **** 
- 115:hearing_aid.cpp **** 	while(1) {
- 455              		.loc 1 115 2 is_stmt 1 view .LVU109
- 456              		.loc 1 115 2 view .LVU110
- 457              		.loc 1 115 2 view .LVU111
- 458              		.loc 1 115 2 view .LVU112
- 459 0032 FEE7     		b	.L35
- 460              	.L38:
- 461              		.align	2
- 462              	.L37:
- 463 0034 00000000 		.word	hw
- 464 0038 00000000 		.word	window
- 465 003c 00000000 		.word	_Z13AudioCallbackPKPKfPPfj
- 466              		.cfi_endproc
- 467              	.LFE4764:
- 469              		.section	.text.startup._GLOBAL__sub_I_hw,"ax",%progbits
- 470              		.align	1
- 471              		.p2align 2,,3
- 472              		.syntax unified
- 473              		.thumb
- 474              		.thumb_func
- 476              	_GLOBAL__sub_I_hw:
- 477              	.LFB5368:
+ 115:hearing_aid.cpp **** 
  116:hearing_aid.cpp **** 
- 117:hearing_aid.cpp **** 	}
- 118:hearing_aid.cpp **** }
- 478              		.loc 1 118 1 view -0
- 479              		.cfi_startproc
- 480              		@ args = 0, pretend = 0, frame = 0
- 481              		@ frame_needed = 0, uses_anonymous_args = 0
- 482              		@ link register save eliminated.
- 483              	.LBB92:
- 484              	.LBI92:
- 485              		.loc 1 118 1 view .LVU114
- 486              	.LVL30:
- 487              	.LBB93:
- 488              	.LBB94:
- 489              	.LBI94:
+ 117:hearing_aid.cpp **** int main(void)
+ 118:hearing_aid.cpp **** {
+ 380              		.loc 1 118 1 is_stmt 1 view -0
+ 381              		.cfi_startproc
+ 382              		@ Volatile: function does not return.
+ 383              		@ args = 0, pretend = 0, frame = 0
+ 384              		@ frame_needed = 0, uses_anonymous_args = 0
+ 119:hearing_aid.cpp **** 
+ARM GAS  /var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cca9poyW.s 			page 17
+
+
+ 120:hearing_aid.cpp **** 
+ 121:hearing_aid.cpp **** 	hw.Init();
+ 385              		.loc 1 121 2 view .LVU87
+ 118:hearing_aid.cpp **** 
+ 386              		.loc 1 118 1 is_stmt 0 view .LVU88
+ 387 0000 08B5     		push	{r3, lr}
+ 388              		.cfi_def_cfa_offset 8
+ 389              		.cfi_offset 3, -8
+ 390              		.cfi_offset 14, -4
+ 391              		.loc 1 121 9 view .LVU89
+ 392 0002 0021     		movs	r1, #0
+ 393 0004 0A48     		ldr	r0, .L40
+ 394 0006 FFF7FEFF 		bl	_ZN5daisy9DaisySeed4InitEb
+ 395              	.LVL19:
+ 122:hearing_aid.cpp **** 
+ 123:hearing_aid.cpp **** 	//hw.StartLog(true);
+ 124:hearing_aid.cpp **** 
+ 125:hearing_aid.cpp **** 	//hw.PrintLine("Hello World!");
+ 126:hearing_aid.cpp **** 
+ 127:hearing_aid.cpp **** 	hw.SetAudioBlockSize(SAMPLE_BUFFER_SIZE); // number of samples handled per callback
+ 396              		.loc 1 127 2 is_stmt 1 view .LVU90
+ 397              		.loc 1 127 22 is_stmt 0 view .LVU91
+ 398 000a 4FF48071 		mov	r1, #256
+ 399 000e 0848     		ldr	r0, .L40
+ 400 0010 FFF7FEFF 		bl	_ZN5daisy9DaisySeed17SetAudioBlockSizeEj
+ 401              	.LVL20:
+ 128:hearing_aid.cpp **** 	hw.SetAudioSampleRate(SaiHandle::Config::SampleRate::SAI_48KHZ);
+ 402              		.loc 1 128 2 is_stmt 1 view .LVU92
+ 403              		.loc 1 128 23 is_stmt 0 view .LVU93
+ 404 0014 0321     		movs	r1, #3
+ 405 0016 0648     		ldr	r0, .L40
+ 406 0018 FFF7FEFF 		bl	_ZN5daisy9DaisySeed18SetAudioSampleRateENS_9SaiHandle6Config10SampleRateE
+ 407              	.LVL21:
+ 129:hearing_aid.cpp **** 	//InitCMSISFilters();
+ 130:hearing_aid.cpp **** 	create_hamming_window(window, SAMPLE_BUFFER_SIZE);
+ 408              		.loc 1 130 2 is_stmt 1 view .LVU94
+ 409              		.loc 1 130 23 is_stmt 0 view .LVU95
+ 410 001c 4FF48071 		mov	r1, #256
+ 411 0020 0448     		ldr	r0, .L40+4
+ 412 0022 FFF7FEFF 		bl	_Z21create_hamming_windowPfi
+ 413              	.LVL22:
+ 131:hearing_aid.cpp **** 
+ 132:hearing_aid.cpp **** 
+ 133:hearing_aid.cpp **** 	hw.StartAudio(AudioCallback);
+ 414              		.loc 1 133 2 is_stmt 1 view .LVU96
+ 415              		.loc 1 133 15 is_stmt 0 view .LVU97
+ 416 0026 0449     		ldr	r1, .L40+8
+ 417 0028 0148     		ldr	r0, .L40
+ 418 002a FFF7FEFF 		bl	_ZN5daisy9DaisySeed10StartAudioEPFvPKPKfPPfjE
+ 419              	.LVL23:
+ 420              	.L38:
+ 134:hearing_aid.cpp **** 
+ 135:hearing_aid.cpp **** 	
+ 136:hearing_aid.cpp **** 
+ 137:hearing_aid.cpp **** 	while(1) {
+ 421              		.loc 1 137 2 is_stmt 1 view .LVU98
+ 422              		.loc 1 137 2 view .LVU99
+ARM GAS  /var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cca9poyW.s 			page 18
+
+
+ 423              		.loc 1 137 2 view .LVU100
+ 424              		.loc 1 137 2 view .LVU101
+ 425 002e FEE7     		b	.L38
+ 426              	.L41:
+ 427              		.align	2
+ 428              	.L40:
+ 429 0030 00000000 		.word	hw
+ 430 0034 00000000 		.word	window
+ 431 0038 00000000 		.word	_Z13AudioCallbackPKPKfPPfj
+ 432              		.cfi_endproc
+ 433              	.LFE4764:
+ 435              		.section	.text.startup._GLOBAL__sub_I_band_gains,"ax",%progbits
+ 436              		.align	1
+ 437              		.p2align 2,,3
+ 438              		.syntax unified
+ 439              		.thumb
+ 440              		.thumb_func
+ 442              	_GLOBAL__sub_I_band_gains:
+ 443              	.LFB5368:
+ 138:hearing_aid.cpp **** 
+ 139:hearing_aid.cpp **** 	}
+ 140:hearing_aid.cpp **** }
+ 444              		.loc 1 140 1 view -0
+ 445              		.cfi_startproc
+ 446              		@ args = 0, pretend = 0, frame = 0
+ 447              		@ frame_needed = 0, uses_anonymous_args = 0
+ 448              		@ link register save eliminated.
+ 449              	.LBB90:
+ 450              	.LBI90:
+ 451              		.loc 1 140 1 view .LVU103
+ 452              	.LVL24:
+ 453              	.LBB91:
+ 454              	.LBB92:
+ 455              	.LBI92:
   21:../../libDaisy/src/daisy_seed.h ****     ~DaisySeed() {}
- 490              		.loc 2 21 5 view .LVU115
- 491              	.LBB95:
- 492              	.LBB96:
-ARM GAS  /var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cc7wX6mR.s 			page 19
-
-
- 493              	.LBI96:
- 494              		.file 7 "../../libDaisy/src/per/qspi.h"
+ 456              		.loc 2 21 5 view .LVU104
+ 457              	.LBB93:
+ 458              	.LBB94:
+ 459              	.LBI94:
+ 460              		.file 7 "../../libDaisy/src/per/qspi.h"
    1:../../libDaisy/src/per/qspi.h **** #ifndef DSY_QSPI
    2:../../libDaisy/src/per/qspi.h **** #define DSY_QSPI /**< Macro */
    3:../../libDaisy/src/per/qspi.h **** 
@@ -1100,6 +1078,9 @@ ARM GAS  /var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cc7wX6mR.s 			page 1
   15:../../libDaisy/src/per/qspi.h **** #define DSY_QSPI_BSS        \
   16:../../libDaisy/src/per/qspi.h ****     __attribute__((section( \
   17:../../libDaisy/src/per/qspi.h ****         ".qspiflash_bss"))) /**< used for reading memory in memory_mapped mode. */
+ARM GAS  /var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cca9poyW.s 			page 19
+
+
   18:../../libDaisy/src/per/qspi.h **** 
   19:../../libDaisy/src/per/qspi.h **** namespace daisy
   20:../../libDaisy/src/per/qspi.h **** {
@@ -1138,9 +1119,6 @@ ARM GAS  /var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cc7wX6mR.s 			page 1
   53:../../libDaisy/src/per/qspi.h ****         E_INVALID_MODE,
   54:../../libDaisy/src/per/qspi.h ****     };
   55:../../libDaisy/src/per/qspi.h **** 
-ARM GAS  /var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cc7wX6mR.s 			page 20
-
-
   56:../../libDaisy/src/per/qspi.h ****     /** Configuration structure for interfacing with QSPI Driver */
   57:../../libDaisy/src/per/qspi.h ****     struct Config
   58:../../libDaisy/src/per/qspi.h ****     {
@@ -1160,6 +1138,9 @@ ARM GAS  /var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cc7wX6mR.s 			page 1
   72:../../libDaisy/src/per/qspi.h ****         Indirect Polling mode: Device driver enabled. 
   73:../../libDaisy/src/per/qspi.h ****         */
   74:../../libDaisy/src/per/qspi.h ****         enum Mode
+ARM GAS  /var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cca9poyW.s 			page 20
+
+
   75:../../libDaisy/src/per/qspi.h ****         {
   76:../../libDaisy/src/per/qspi.h ****             MEMORY_MAPPED,    /**< & */
   77:../../libDaisy/src/per/qspi.h ****             INDIRECT_POLLING, /**< & */
@@ -1198,9 +1179,6 @@ ARM GAS  /var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cc7wX6mR.s 			page 1
  110:../../libDaisy/src/per/qspi.h ****         This should be called before reinitializing QSPI in a different mode.
  111:../../libDaisy/src/per/qspi.h ****         \return Result::OK or Result::ERR
  112:../../libDaisy/src/per/qspi.h ****         */
-ARM GAS  /var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cc7wX6mR.s 			page 21
-
-
  113:../../libDaisy/src/per/qspi.h ****     Result DeInit();
  114:../../libDaisy/src/per/qspi.h **** 
  115:../../libDaisy/src/per/qspi.h ****     /** 
@@ -1220,6 +1198,9 @@ ARM GAS  /var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cc7wX6mR.s 			page 1
  129:../../libDaisy/src/per/qspi.h ****         \param buffer Buffer to write
  130:../../libDaisy/src/per/qspi.h ****         \return Result::OK or Result::ERR
  131:../../libDaisy/src/per/qspi.h ****         */
+ARM GAS  /var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cca9poyW.s 			page 21
+
+
  132:../../libDaisy/src/per/qspi.h ****     Result Write(uint32_t address, uint32_t size, uint8_t* buffer);
  133:../../libDaisy/src/per/qspi.h **** 
  134:../../libDaisy/src/per/qspi.h ****     /** 
@@ -1255,91 +1236,91 @@ ARM GAS  /var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cc7wX6mR.s 			page 1
  164:../../libDaisy/src/per/qspi.h ****     void* GetData(uint32_t offset = 0);
  165:../../libDaisy/src/per/qspi.h **** 
  166:../../libDaisy/src/per/qspi.h ****     QSPIHandle() : pimpl_(nullptr) {}
- 495              		.loc 7 166 5 view .LVU116
- 496              	.LBE96:
- 497              	.LBE95:
-ARM GAS  /var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cc7wX6mR.s 			page 22
+ 461              		.loc 7 166 5 view .LVU105
+ 462              	.LBE94:
+ 463              	.LBE93:
+ 464              	.LBE92:
+ 465              	.LBE91:
+ 466              	.LBE90:
+ 467              		.loc 1 140 1 is_stmt 0 view .LVU106
+ 468 0000 10B4     		push	{r4}
+ 469              		.cfi_def_cfa_offset 4
+ 470              		.cfi_offset 4, -4
+ 471              	.LBB119:
+ 472              	.LBB117:
+ 473              	.LBB115:
+ 474              	.LBB113:
+ 475              	.LBB99:
+ 476              	.LBB95:
+ 477              	.LBB96:
+ 478              		.loc 7 166 20 view .LVU107
+ 479 0002 0023     		movs	r3, #0
+ 480              	.LBE96:
+ 481              	.LBE95:
+ 482              	.LBE99:
+ARM GAS  /var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cca9poyW.s 			page 22
 
 
- 498              	.LBE94:
- 499              	.LBE93:
- 500              	.LBE92:
- 501              		.loc 1 118 1 is_stmt 0 view .LVU117
- 502 0000 10B4     		push	{r4}
- 503              		.cfi_def_cfa_offset 4
- 504              		.cfi_offset 4, -4
- 505              	.LBB121:
- 506              	.LBB119:
- 507              	.LBB117:
- 508              	.LBB115:
+ 483              	.LBE113:
+ 484              	.LBE115:
+  21:hearing_aid.cpp **** 
+ 485              		.loc 1 21 11 discriminator 1 view .LVU108
+ 486 0004 0548     		ldr	r0, .L44
+ 487 0006 064A     		ldr	r2, .L44+4
+ 488 0008 0649     		ldr	r1, .L44+8
+ 489              	.LBE117:
+ 490              	.LBE119:
+ 491              		.loc 1 140 1 view .LVU109
+ 492 000a 5DF8044B 		ldr	r4, [sp], #4
+ 493              		.cfi_restore 4
+ 494              		.cfi_def_cfa_offset 0
+ 495              	.LBB120:
+ 496              	.LBB118:
+ 497              	.LBB116:
+ 498              	.LBB114:
+ 499              	.LBB100:
+ 500              	.LBB98:
+ 501              	.LBB97:
+ 502              		.loc 7 166 20 view .LVU110
+ 503 000e 0360     		str	r3, [r0]
+ 504              	.LVL25:
+ 505              		.loc 7 166 20 view .LVU111
+ 506              	.LBE97:
+ 507              	.LBE98:
+ 508              	.LBE100:
  509              	.LBB101:
- 510              	.LBB97:
- 511              	.LBB98:
- 512              		.loc 7 166 20 view .LVU118
- 513 0002 0023     		movs	r3, #0
- 514              	.LBE98:
- 515              	.LBE97:
- 516              	.LBE101:
- 517              	.LBE115:
- 518              	.LBE117:
-  15:hearing_aid.cpp **** 
- 519              		.loc 1 15 11 discriminator 1 view .LVU119
- 520 0004 0548     		ldr	r0, .L41
- 521 0006 064A     		ldr	r2, .L41+4
- 522 0008 0649     		ldr	r1, .L41+8
- 523              	.LBE119:
- 524              	.LBE121:
- 525              		.loc 1 118 1 view .LVU120
- 526 000a 5DF8044B 		ldr	r4, [sp], #4
- 527              		.cfi_restore 4
- 528              		.cfi_def_cfa_offset 0
- 529              	.LBB122:
- 530              	.LBB120:
- 531              	.LBB118:
- 532              	.LBB116:
- 533              	.LBB102:
- 534              	.LBB100:
- 535              	.LBB99:
- 536              		.loc 7 166 20 view .LVU121
- 537 000e 0360     		str	r3, [r0]
- 538              	.LVL31:
- 539              		.loc 7 166 20 view .LVU122
- 540              	.LBE99:
- 541              	.LBE100:
- 542              	.LBE102:
- 543              	.LBB103:
- 544              	.LBI103:
+ 510              	.LBI101:
   95:../../libDaisy/src/hid/audio.h ****     ~AudioHandle() {}
- 545              		.loc 6 95 5 is_stmt 1 view .LVU123
- 546              	.LBB104:
- 547              	.LBB105:
+ 511              		.loc 6 95 5 is_stmt 1 view .LVU112
+ 512              	.LBB102:
+ 513              	.LBB103:
   95:../../libDaisy/src/hid/audio.h ****     ~AudioHandle() {}
- 548              		.loc 6 95 21 is_stmt 0 view .LVU124
- 549 0010 4361     		str	r3, [r0, #20]
- 550              	.LVL32:
+ 514              		.loc 6 95 21 is_stmt 0 view .LVU113
+ 515 0010 4361     		str	r3, [r0, #20]
+ 516              	.LVL26:
   95:../../libDaisy/src/hid/audio.h ****     ~AudioHandle() {}
-ARM GAS  /var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cc7wX6mR.s 			page 23
-
-
- 551              		.loc 6 95 21 view .LVU125
- 552              	.LBE105:
- 553              	.LBE104:
- 554              	.LBE103:
- 555              	.LBB106:
- 556              	.LBI106:
+ 517              		.loc 6 95 21 view .LVU114
+ 518              	.LBE103:
+ 519              	.LBE102:
+ 520              	.LBE101:
+ 521              	.LBB104:
+ 522              	.LBI104:
  109:../../libDaisy/src/per/adc.h ****     ~AdcHandle() {}
- 557              		.loc 5 109 5 is_stmt 1 view .LVU126
+ 523              		.loc 5 109 5 is_stmt 1 view .LVU115
  109:../../libDaisy/src/per/adc.h ****     ~AdcHandle() {}
- 558              		.loc 5 109 5 is_stmt 0 view .LVU127
- 559              	.LBE106:
- 560              	.LBB107:
- 561              	.LBI107:
- 562              		.file 8 "../../libDaisy/src/per/dac.h"
+ 524              		.loc 5 109 5 is_stmt 0 view .LVU116
+ 525              	.LBE104:
+ 526              	.LBB105:
+ 527              	.LBI105:
+ 528              		.file 8 "../../libDaisy/src/per/dac.h"
    1:../../libDaisy/src/per/dac.h **** #pragma once
    2:../../libDaisy/src/per/dac.h **** #ifndef DSY_DAC_H
    3:../../libDaisy/src/per/dac.h **** #define DSY_DAC_H
    4:../../libDaisy/src/per/dac.h **** 
    5:../../libDaisy/src/per/dac.h **** #include "daisy_core.h"
+ARM GAS  /var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cca9poyW.s 			page 23
+
+
    6:../../libDaisy/src/per/dac.h **** 
    7:../../libDaisy/src/per/dac.h **** namespace daisy
    8:../../libDaisy/src/per/dac.h **** {
@@ -1378,9 +1359,6 @@ ARM GAS  /var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cc7wX6mR.s 			page 1
   41:../../libDaisy/src/per/dac.h ****      ** Polling mode uses the blocking mode to transmit a single value at a time.
   42:../../libDaisy/src/per/dac.h ****      **
   43:../../libDaisy/src/per/dac.h ****      ** DMA mode uses a buffer, and periodically transmits it triggering a 
-ARM GAS  /var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cc7wX6mR.s 			page 24
-
-
   44:../../libDaisy/src/per/dac.h ****      ** callback to fill the buffer when it is ready for more samples.
   45:../../libDaisy/src/per/dac.h ****      ***/
   46:../../libDaisy/src/per/dac.h ****     enum class Mode
@@ -1400,6 +1378,9 @@ ARM GAS  /var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cc7wX6mR.s 			page 1
   60:../../libDaisy/src/per/dac.h ****     };
   61:../../libDaisy/src/per/dac.h **** 
   62:../../libDaisy/src/per/dac.h ****     /** Sets whether the DAC output is buffered for higher drive ability. */
+ARM GAS  /var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cca9poyW.s 			page 24
+
+
   63:../../libDaisy/src/per/dac.h ****     enum class BufferState
   64:../../libDaisy/src/per/dac.h ****     {
   65:../../libDaisy/src/per/dac.h ****         ENABLED,
@@ -1422,36 +1403,33 @@ ARM GAS  /var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cc7wX6mR.s 			page 1
   82:../../libDaisy/src/per/dac.h ****     };
   83:../../libDaisy/src/per/dac.h **** 
   84:../../libDaisy/src/per/dac.h ****     DacHandle() : pimpl_(nullptr) {}
- 563              		.loc 8 84 5 is_stmt 1 view .LVU128
- 564              	.LBB108:
- 565              	.LBB109:
- 566              		.loc 8 84 19 is_stmt 0 view .LVU129
- 567 0012 0362     		str	r3, [r0, #32]
- 568              	.LVL33:
- 569              		.loc 8 84 19 view .LVU130
- 570              	.LBE109:
- 571              	.LBE108:
- 572              	.LBE107:
- 573              	.LBB110:
- 574              	.LBI110:
+ 529              		.loc 8 84 5 is_stmt 1 view .LVU117
+ 530              	.LBB106:
+ 531              	.LBB107:
+ 532              		.loc 8 84 19 is_stmt 0 view .LVU118
+ 533 0012 0362     		str	r3, [r0, #32]
+ 534              	.LVL27:
+ 535              		.loc 8 84 19 view .LVU119
+ 536              	.LBE107:
+ 537              	.LBE106:
+ 538              	.LBE105:
+ 539              	.LBB108:
+ 540              	.LBI108:
   40:../../libDaisy/src/hid/usb.h **** 
- 575              		.loc 4 40 5 is_stmt 1 view .LVU131
+ 541              		.loc 4 40 5 is_stmt 1 view .LVU120
   40:../../libDaisy/src/hid/usb.h **** 
- 576              		.loc 4 40 5 is_stmt 0 view .LVU132
-ARM GAS  /var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cc7wX6mR.s 			page 25
-
-
- 577              	.LBE110:
- 578              	.LBB111:
- 579              	.LBI111:
+ 542              		.loc 4 40 5 is_stmt 0 view .LVU121
+ 543              	.LBE108:
+ 544              	.LBB109:
+ 545              	.LBI109:
   96:../../libDaisy/src/sys/system.h ****     ~System() {}
- 580              		.loc 3 96 5 is_stmt 1 view .LVU133
+ 546              		.loc 3 96 5 is_stmt 1 view .LVU122
   96:../../libDaisy/src/sys/system.h ****     ~System() {}
- 581              		.loc 3 96 5 is_stmt 0 view .LVU134
- 582              	.LBE111:
- 583              	.LBB112:
- 584              	.LBI112:
- 585              		.file 9 "../../libDaisy/src/per/sai.h"
+ 547              		.loc 3 96 5 is_stmt 0 view .LVU123
+ 548              	.LBE109:
+ 549              	.LBB110:
+ 550              	.LBI110:
+ 551              		.file 9 "../../libDaisy/src/per/sai.h"
    1:../../libDaisy/src/per/sai.h **** #pragma once
    2:../../libDaisy/src/per/sai.h **** #ifndef DSY_SAI_H
    3:../../libDaisy/src/per/sai.h **** #define DSY_SAI_H
@@ -1460,6 +1438,9 @@ ARM GAS  /var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cc7wX6mR.s 			page 1
    6:../../libDaisy/src/per/sai.h **** 
    7:../../libDaisy/src/per/sai.h **** namespace daisy
    8:../../libDaisy/src/per/sai.h **** {
+ARM GAS  /var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cca9poyW.s 			page 25
+
+
    9:../../libDaisy/src/per/sai.h **** /** 
   10:../../libDaisy/src/per/sai.h ****  * Support for I2S Audio Protocol with different bit-depth, samplerate options
   11:../../libDaisy/src/per/sai.h ****  * Allows for master or slave, as well as freedom of selecting direction, 
@@ -1498,9 +1479,6 @@ ARM GAS  /var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cc7wX6mR.s 			page 1
   44:../../libDaisy/src/per/sai.h ****   public:
   45:../../libDaisy/src/per/sai.h ****     /** Contains settings for initialising an SAI Interface */
   46:../../libDaisy/src/per/sai.h ****     struct Config
-ARM GAS  /var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cc7wX6mR.s 			page 26
-
-
   47:../../libDaisy/src/per/sai.h ****     {
   48:../../libDaisy/src/per/sai.h ****         /** Specifies the internal peripheral to use (mapped to different hardware pins) */
   49:../../libDaisy/src/per/sai.h ****         enum class Peripheral
@@ -1520,6 +1498,9 @@ ARM GAS  /var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cc7wX6mR.s 			page 1
   63:../../libDaisy/src/per/sai.h ****         };
   64:../../libDaisy/src/per/sai.h **** 
   65:../../libDaisy/src/per/sai.h ****         /** Bit Depth that the hardware expects to be transferred to/from the device. */
+ARM GAS  /var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cca9poyW.s 			page 26
+
+
   66:../../libDaisy/src/per/sai.h ****         enum class BitDepth
   67:../../libDaisy/src/per/sai.h ****         {
   68:../../libDaisy/src/per/sai.h ****             SAI_16BIT,
@@ -1558,993 +1539,1004 @@ ARM GAS  /var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cc7wX6mR.s 			page 1
  101:../../libDaisy/src/per/sai.h ****     /** Return values for SAI functions */
  102:../../libDaisy/src/per/sai.h ****     enum class Result
  103:../../libDaisy/src/per/sai.h ****     {
-ARM GAS  /var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cc7wX6mR.s 			page 27
-
-
  104:../../libDaisy/src/per/sai.h ****         OK,
  105:../../libDaisy/src/per/sai.h ****         ERR,
  106:../../libDaisy/src/per/sai.h ****     };
  107:../../libDaisy/src/per/sai.h **** 
  108:../../libDaisy/src/per/sai.h ****     SaiHandle() : pimpl_(nullptr) {}
- 586              		.loc 9 108 5 is_stmt 1 view .LVU135
- 587              	.LBB113:
- 588              	.LBB114:
- 589              		.loc 9 108 19 is_stmt 0 view .LVU136
- 590 0014 C363     		str	r3, [r0, #60]
- 591              	.LVL34:
- 592              		.loc 9 108 19 view .LVU137
- 593              	.LBE114:
- 594              	.LBE113:
- 595              	.LBE112:
- 596              	.LBE116:
- 597              	.LBE118:
-  15:hearing_aid.cpp **** 
- 598              		.loc 1 15 11 discriminator 1 view .LVU138
- 599 0016 FFF7FEBF 		b	__aeabi_atexit
- 600              	.LVL35:
- 601              	.L42:
- 602 001a 00BF     		.align	2
- 603              	.L41:
- 604 001c 00000000 		.word	hw
- 605 0020 00000000 		.word	__dso_handle
- 606 0024 00000000 		.word	_ZN5daisy9DaisySeedD1Ev
- 607              	.LBE120:
- 608              	.LBE122:
- 609              		.cfi_endproc
- 610              	.LFE5368:
- 612              		.section	.init_array,"aw",%init_array
- 613              		.align	2
- 614 0000 00000000 		.word	_GLOBAL__sub_I_hw(target1)
- 615              		.global	fir_coeffs
- 616              		.section	.data.fir_coeffs,"aw"
- 617              		.align	2
- 620              	fir_coeffs:
- 621 0000 33844639 		.word	960922675
- 622 0004 310E6C39 		.word	963382833
- 623 0008 1FFD8A39 		.word	965410079
- 624 000c 1BE4A239 		.word	966976539
- 625 0010 4D79BE39 		.word	968784205
- 626 0014 ED75DE39 		.word	970880493
- 627 0018 E7C4013A 		.word	973194471
- 628 001c 0D33173A 		.word	974598925
- 629 0020 F1D52F3A 		.word	976213489
- 630 0024 C3FC4B3A 		.word	978058435
- 631 0028 A9F06B3A 		.word	980152489
- 632 002c B6FA873A 		.word	981990070
- 633 0030 63249C3A 		.word	983311459
- 634 0034 3791B23A 		.word	984781111
- 635 0038 B059CB3A 		.word	986405296
- 636 003c 9C92E63A 		.word	988189340
- 637 0040 B626023B 		.word	989996726
- 638 0044 C74B123B 		.word	991054791
- 639 0048 09BD233B 		.word	992197897
-ARM GAS  /var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cc7wX6mR.s 			page 28
+ 552              		.loc 9 108 5 is_stmt 1 view .LVU124
+ 553              	.LBB111:
+ 554              	.LBB112:
+ 555              		.loc 9 108 19 is_stmt 0 view .LVU125
+ 556 0014 C363     		str	r3, [r0, #60]
+ 557              	.LVL28:
+ 558              		.loc 9 108 19 view .LVU126
+ 559              	.LBE112:
+ 560              	.LBE111:
+ 561              	.LBE110:
+ 562              	.LBE114:
+ 563              	.LBE116:
+  21:hearing_aid.cpp **** 
+ 564              		.loc 1 21 11 discriminator 1 view .LVU127
+ARM GAS  /var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cca9poyW.s 			page 27
 
 
- 640 004c 2A7D363B 		.word	993426730
- 641 0050 D78C4A3B 		.word	994741463
- 642 0054 8CEA5F3B 		.word	996141708
- 643 0058 9992763B 		.word	997626521
- 644 005c 8F3F873B 		.word	998719375
- 645 0060 33D4933B 		.word	999543859
- 646 0064 4402A13B 		.word	1000407620
- 647 0068 8DC3AE3B 		.word	1001309069
- 648 006c 2D11BD3B 		.word	1002246445
- 649 0070 18E3CB3B 		.word	1003217688
- 650 0074 6830DB3B 		.word	1004220520
- 651 0078 22EFEA3B 		.word	1005252386
- 652 007c 9E14FB3B 		.word	1006310558
- 653 0080 A5CA053C 		.word	1007012517
- 654 0084 68320E3C 		.word	1007563368
- 655 0088 23BB163C 		.word	1008122659
- 656 008c FF5D1F3C 		.word	1008688639
- 657 0090 DB13283C 		.word	1009259483
- 658 0094 6BD5303C 		.word	1009833323
- 659 0098 019B393C 		.word	1010408193
- 660 009c FD5C423C 		.word	1010982141
- 661 00a0 64134B3C 		.word	1011553124
- 662 00a4 4BB6533C 		.word	1012119115
- 663 00a8 A33D5C3C 		.word	1012678051
- 664 00ac 60A1643C 		.word	1013227872
- 665 00b0 7DD96C3C 		.word	1013766525
- 666 00b4 0EDE743C 		.word	1014291982
- 667 00b8 3BA77C3C 		.word	1014802235
- 668 00bc A116823C 		.word	1015158433
- 669 00c0 5FB4853C 		.word	1015395423
- 670 00c4 2F29893C 		.word	1015621935
- 671 00c8 8E718C3C 		.word	1015837070
- 672 00cc 2C8A8F3C 		.word	1016039980
- 673 00d0 DA6F923C 		.word	1016229850
- 674 00d4 971F953C 		.word	1016405911
- 675 00d8 A096973C 		.word	1016567456
- 676 00dc 64D2993C 		.word	1016713828
- 677 00e0 8BD09B3C 		.word	1016844427
- 678 00e4 028F9D3C 		.word	1016958722
- 679 00e8 F40B9F3C 		.word	1017056244
- 680 00ec CB45A03C 		.word	1017136587
- 681 00f0 3E3BA13C 		.word	1017199422
- 682 00f4 4DEBA13C 		.word	1017244493
- 683 00f8 3A55A23C 		.word	1017271610
- 684 00fc 9678A23C 		.word	1017280662
- 685 0100 3A55A23C 		.word	1017271610
- 686 0104 4DEBA13C 		.word	1017244493
- 687 0108 3E3BA13C 		.word	1017199422
- 688 010c CB45A03C 		.word	1017136587
- 689 0110 F40B9F3C 		.word	1017056244
- 690 0114 028F9D3C 		.word	1016958722
- 691 0118 8BD09B3C 		.word	1016844427
- 692 011c 64D2993C 		.word	1016713828
- 693 0120 A096973C 		.word	1016567456
- 694 0124 971F953C 		.word	1016405911
- 695 0128 DA6F923C 		.word	1016229850
- 696 012c 2C8A8F3C 		.word	1016039980
-ARM GAS  /var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cc7wX6mR.s 			page 29
+ 565 0016 FFF7FEBF 		b	__aeabi_atexit
+ 566              	.LVL29:
+ 567              	.L45:
+ 568 001a 00BF     		.align	2
+ 569              	.L44:
+ 570 001c 00000000 		.word	hw
+ 571 0020 00000000 		.word	__dso_handle
+ 572 0024 00000000 		.word	_ZN5daisy9DaisySeedD1Ev
+ 573              	.LBE118:
+ 574              	.LBE120:
+ 575              		.cfi_endproc
+ 576              	.LFE5368:
+ 578              		.section	.init_array,"aw",%init_array
+ 579              		.align	2
+ 580 0000 00000000 		.word	_GLOBAL__sub_I_band_gains(target1)
+ 581              		.global	fir_coeffs
+ 582              		.section	.data.fir_coeffs,"aw"
+ 583              		.align	2
+ 586              	fir_coeffs:
+ 587 0000 33844639 		.word	960922675
+ 588 0004 310E6C39 		.word	963382833
+ 589 0008 1FFD8A39 		.word	965410079
+ 590 000c 1BE4A239 		.word	966976539
+ 591 0010 4D79BE39 		.word	968784205
+ 592 0014 ED75DE39 		.word	970880493
+ 593 0018 E7C4013A 		.word	973194471
+ 594 001c 0D33173A 		.word	974598925
+ 595 0020 F1D52F3A 		.word	976213489
+ 596 0024 C3FC4B3A 		.word	978058435
+ 597 0028 A9F06B3A 		.word	980152489
+ 598 002c B6FA873A 		.word	981990070
+ 599 0030 63249C3A 		.word	983311459
+ 600 0034 3791B23A 		.word	984781111
+ 601 0038 B059CB3A 		.word	986405296
+ 602 003c 9C92E63A 		.word	988189340
+ 603 0040 B626023B 		.word	989996726
+ 604 0044 C74B123B 		.word	991054791
+ 605 0048 09BD233B 		.word	992197897
+ 606 004c 2A7D363B 		.word	993426730
+ 607 0050 D78C4A3B 		.word	994741463
+ 608 0054 8CEA5F3B 		.word	996141708
+ 609 0058 9992763B 		.word	997626521
+ 610 005c 8F3F873B 		.word	998719375
+ 611 0060 33D4933B 		.word	999543859
+ 612 0064 4402A13B 		.word	1000407620
+ 613 0068 8DC3AE3B 		.word	1001309069
+ 614 006c 2D11BD3B 		.word	1002246445
+ 615 0070 18E3CB3B 		.word	1003217688
+ 616 0074 6830DB3B 		.word	1004220520
+ 617 0078 22EFEA3B 		.word	1005252386
+ 618 007c 9E14FB3B 		.word	1006310558
+ 619 0080 A5CA053C 		.word	1007012517
+ 620 0084 68320E3C 		.word	1007563368
+ 621 0088 23BB163C 		.word	1008122659
+ 622 008c FF5D1F3C 		.word	1008688639
+ 623 0090 DB13283C 		.word	1009259483
+ 624 0094 6BD5303C 		.word	1009833323
+ARM GAS  /var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cca9poyW.s 			page 28
 
 
- 697 0130 8E718C3C 		.word	1015837070
- 698 0134 2F29893C 		.word	1015621935
- 699 0138 5FB4853C 		.word	1015395423
- 700 013c A116823C 		.word	1015158433
- 701 0140 3BA77C3C 		.word	1014802235
- 702 0144 0EDE743C 		.word	1014291982
- 703 0148 7DD96C3C 		.word	1013766525
- 704 014c 60A1643C 		.word	1013227872
- 705 0150 A33D5C3C 		.word	1012678051
- 706 0154 4BB6533C 		.word	1012119115
- 707 0158 64134B3C 		.word	1011553124
- 708 015c FD5C423C 		.word	1010982141
- 709 0160 019B393C 		.word	1010408193
- 710 0164 6BD5303C 		.word	1009833323
- 711 0168 DB13283C 		.word	1009259483
- 712 016c FF5D1F3C 		.word	1008688639
- 713 0170 23BB163C 		.word	1008122659
- 714 0174 68320E3C 		.word	1007563368
- 715 0178 A5CA053C 		.word	1007012517
- 716 017c 9E14FB3B 		.word	1006310558
- 717 0180 22EFEA3B 		.word	1005252386
- 718 0184 6830DB3B 		.word	1004220520
- 719 0188 18E3CB3B 		.word	1003217688
- 720 018c 2D11BD3B 		.word	1002246445
- 721 0190 8DC3AE3B 		.word	1001309069
- 722 0194 4402A13B 		.word	1000407620
- 723 0198 33D4933B 		.word	999543859
- 724 019c 8F3F873B 		.word	998719375
- 725 01a0 9992763B 		.word	997626521
- 726 01a4 8CEA5F3B 		.word	996141708
- 727 01a8 D78C4A3B 		.word	994741463
- 728 01ac 2A7D363B 		.word	993426730
- 729 01b0 09BD233B 		.word	992197897
- 730 01b4 C74B123B 		.word	991054791
- 731 01b8 B626023B 		.word	989996726
- 732 01bc 9C92E63A 		.word	988189340
- 733 01c0 B059CB3A 		.word	986405296
- 734 01c4 3791B23A 		.word	984781111
- 735 01c8 63249C3A 		.word	983311459
- 736 01cc B6FA873A 		.word	981990070
- 737 01d0 A9F06B3A 		.word	980152489
- 738 01d4 C3FC4B3A 		.word	978058435
- 739 01d8 F1D52F3A 		.word	976213489
- 740 01dc 0D33173A 		.word	974598925
- 741 01e0 E7C4013A 		.word	973194471
- 742 01e4 ED75DE39 		.word	970880493
- 743 01e8 4D79BE39 		.word	968784205
- 744 01ec 1BE4A239 		.word	966976539
- 745 01f0 1FFD8A39 		.word	965410079
- 746 01f4 310E6C39 		.word	963382833
- 747 01f8 33844639 		.word	960922675
- 748 01fc 500302BB 		.word	-1157495984
- 749 0200 694103BB 		.word	-1157414551
- 750 0204 EB0606BB 		.word	-1157232917
- 751 0208 484B0ABB 		.word	-1156953272
- 752 020c E4FD0FBB 		.word	-1156579868
- 753 0210 960517BB 		.word	-1156119146
-ARM GAS  /var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cc7wX6mR.s 			page 30
+ 625 0098 019B393C 		.word	1010408193
+ 626 009c FD5C423C 		.word	1010982141
+ 627 00a0 64134B3C 		.word	1011553124
+ 628 00a4 4BB6533C 		.word	1012119115
+ 629 00a8 A33D5C3C 		.word	1012678051
+ 630 00ac 60A1643C 		.word	1013227872
+ 631 00b0 7DD96C3C 		.word	1013766525
+ 632 00b4 0EDE743C 		.word	1014291982
+ 633 00b8 3BA77C3C 		.word	1014802235
+ 634 00bc A116823C 		.word	1015158433
+ 635 00c0 5FB4853C 		.word	1015395423
+ 636 00c4 2F29893C 		.word	1015621935
+ 637 00c8 8E718C3C 		.word	1015837070
+ 638 00cc 2C8A8F3C 		.word	1016039980
+ 639 00d0 DA6F923C 		.word	1016229850
+ 640 00d4 971F953C 		.word	1016405911
+ 641 00d8 A096973C 		.word	1016567456
+ 642 00dc 64D2993C 		.word	1016713828
+ 643 00e0 8BD09B3C 		.word	1016844427
+ 644 00e4 028F9D3C 		.word	1016958722
+ 645 00e8 F40B9F3C 		.word	1017056244
+ 646 00ec CB45A03C 		.word	1017136587
+ 647 00f0 3E3BA13C 		.word	1017199422
+ 648 00f4 4DEBA13C 		.word	1017244493
+ 649 00f8 3A55A23C 		.word	1017271610
+ 650 00fc 9678A23C 		.word	1017280662
+ 651 0100 3A55A23C 		.word	1017271610
+ 652 0104 4DEBA13C 		.word	1017244493
+ 653 0108 3E3BA13C 		.word	1017199422
+ 654 010c CB45A03C 		.word	1017136587
+ 655 0110 F40B9F3C 		.word	1017056244
+ 656 0114 028F9D3C 		.word	1016958722
+ 657 0118 8BD09B3C 		.word	1016844427
+ 658 011c 64D2993C 		.word	1016713828
+ 659 0120 A096973C 		.word	1016567456
+ 660 0124 971F953C 		.word	1016405911
+ 661 0128 DA6F923C 		.word	1016229850
+ 662 012c 2C8A8F3C 		.word	1016039980
+ 663 0130 8E718C3C 		.word	1015837070
+ 664 0134 2F29893C 		.word	1015621935
+ 665 0138 5FB4853C 		.word	1015395423
+ 666 013c A116823C 		.word	1015158433
+ 667 0140 3BA77C3C 		.word	1014802235
+ 668 0144 0EDE743C 		.word	1014291982
+ 669 0148 7DD96C3C 		.word	1013766525
+ 670 014c 60A1643C 		.word	1013227872
+ 671 0150 A33D5C3C 		.word	1012678051
+ 672 0154 4BB6533C 		.word	1012119115
+ 673 0158 64134B3C 		.word	1011553124
+ 674 015c FD5C423C 		.word	1010982141
+ 675 0160 019B393C 		.word	1010408193
+ 676 0164 6BD5303C 		.word	1009833323
+ 677 0168 DB13283C 		.word	1009259483
+ 678 016c FF5D1F3C 		.word	1008688639
+ 679 0170 23BB163C 		.word	1008122659
+ 680 0174 68320E3C 		.word	1007563368
+ 681 0178 A5CA053C 		.word	1007012517
+ARM GAS  /var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cca9poyW.s 			page 29
 
 
- 754 0214 A4411FBB 		.word	-1155579484
- 755 0218 CB8828BB 		.word	-1154971445
- 756 021c B8AA32BB 		.word	-1154307400
- 757 0220 E36F3DBB 		.word	-1153601565
- 758 0224 639A48BB 		.word	-1152869789
- 759 0228 72E653BB 		.word	-1152129422
- 760 022c 130B5FBB 		.word	-1151399149
- 761 0230 EFBA69BB 		.word	-1150698769
- 762 0234 54A573BB 		.word	-1150048940
- 763 0238 DF767CBB 		.word	-1149471009
- 764 023c 40ED81BB 		.word	-1149113024
- 765 0240 3FBD84BB 		.word	-1148928705
- 766 0244 F98086BB 		.word	-1148813063
- 767 0248 7D0E87BB 		.word	-1148776835
- 768 024c 1B3D86BB 		.word	-1148830437
- 769 0250 E9E583BB 		.word	-1148983831
- 770 0254 F9C87FBB 		.word	-1149253383
- 771 0258 BA2D74BB 		.word	-1150014022
- 772 025c 04BD64BB 		.word	-1151025916
- 773 0260 D04051BB 		.word	-1152302896
- 774 0264 A78B39BB 		.word	-1153856601
- 775 0268 A1781DBB 		.word	-1155696479
- 776 026c 75D9F9BA 		.word	-1158030987
- 777 0270 03AEAFBA 		.word	-1162891773
- 778 0274 03C538BA 		.word	-1170684669
- 779 0278 00000000 		.word	0
- 780 027c 96B24A3A 		.word	977973910
- 781 0280 0473D33A 		.word	986936068
- 782 0284 53FF243B 		.word	992280403
- 783 0288 1A4C643B 		.word	996428826
- 784 028c 4DB1933B 		.word	999534925
- 785 0290 42FDB63B 		.word	1001848130
- 786 0294 A6E0DB3B 		.word	1004265638
- 787 0298 AB16013C 		.word	1006704299
- 788 029c 4AD8143C 		.word	1007999050
- 789 02a0 B519293C 		.word	1009326517
- 790 02a4 A6BD3D3C 		.word	1010679206
- 791 02a8 13A5523C 		.word	1012049171
- 792 02ac BDAF673C 		.word	1013428157
- 793 02b0 13BC7C3C 		.word	1014807571
- 794 02b4 F4D3883C 		.word	1015600116
- 795 02b8 3628933C 		.word	1016277046
- 796 02bc 52499D3C 		.word	1016940882
- 797 02c0 D425A73C 		.word	1017587156
- 798 02c4 86ACB03C 		.word	1018211462
- 799 02c8 85CCB93C 		.word	1018809477
- 800 02cc 7B75C23C 		.word	1019377019
- 801 02d0 BE97CA3C 		.word	1019910078
- 802 02d4 7524D23C 		.word	1020404853
- 803 02d8 B80DD93C 		.word	1020857784
- 804 02dc B746DF3C 		.word	1021265591
- 805 02e0 DAC3E43C 		.word	1021625306
- 806 02e4 D37AE93C 		.word	1021934291
- 807 02e8 C462ED3C 		.word	1022190276
- 808 02ec 4774F03C 		.word	1022391367
- 809 02f0 90A9F23C 		.word	1022536080
- 810 02f4 6AFEF33C 		.word	1022623338
-ARM GAS  /var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cc7wX6mR.s 			page 31
+ 682 017c 9E14FB3B 		.word	1006310558
+ 683 0180 22EFEA3B 		.word	1005252386
+ 684 0184 6830DB3B 		.word	1004220520
+ 685 0188 18E3CB3B 		.word	1003217688
+ 686 018c 2D11BD3B 		.word	1002246445
+ 687 0190 8DC3AE3B 		.word	1001309069
+ 688 0194 4402A13B 		.word	1000407620
+ 689 0198 33D4933B 		.word	999543859
+ 690 019c 8F3F873B 		.word	998719375
+ 691 01a0 9992763B 		.word	997626521
+ 692 01a4 8CEA5F3B 		.word	996141708
+ 693 01a8 D78C4A3B 		.word	994741463
+ 694 01ac 2A7D363B 		.word	993426730
+ 695 01b0 09BD233B 		.word	992197897
+ 696 01b4 C74B123B 		.word	991054791
+ 697 01b8 B626023B 		.word	989996726
+ 698 01bc 9C92E63A 		.word	988189340
+ 699 01c0 B059CB3A 		.word	986405296
+ 700 01c4 3791B23A 		.word	984781111
+ 701 01c8 63249C3A 		.word	983311459
+ 702 01cc B6FA873A 		.word	981990070
+ 703 01d0 A9F06B3A 		.word	980152489
+ 704 01d4 C3FC4B3A 		.word	978058435
+ 705 01d8 F1D52F3A 		.word	976213489
+ 706 01dc 0D33173A 		.word	974598925
+ 707 01e0 E7C4013A 		.word	973194471
+ 708 01e4 ED75DE39 		.word	970880493
+ 709 01e8 4D79BE39 		.word	968784205
+ 710 01ec 1BE4A239 		.word	966976539
+ 711 01f0 1FFD8A39 		.word	965410079
+ 712 01f4 310E6C39 		.word	963382833
+ 713 01f8 33844639 		.word	960922675
+ 714 01fc 500302BB 		.word	-1157495984
+ 715 0200 694103BB 		.word	-1157414551
+ 716 0204 EB0606BB 		.word	-1157232917
+ 717 0208 484B0ABB 		.word	-1156953272
+ 718 020c E4FD0FBB 		.word	-1156579868
+ 719 0210 960517BB 		.word	-1156119146
+ 720 0214 A4411FBB 		.word	-1155579484
+ 721 0218 CB8828BB 		.word	-1154971445
+ 722 021c B8AA32BB 		.word	-1154307400
+ 723 0220 E36F3DBB 		.word	-1153601565
+ 724 0224 639A48BB 		.word	-1152869789
+ 725 0228 72E653BB 		.word	-1152129422
+ 726 022c 130B5FBB 		.word	-1151399149
+ 727 0230 EFBA69BB 		.word	-1150698769
+ 728 0234 54A573BB 		.word	-1150048940
+ 729 0238 DF767CBB 		.word	-1149471009
+ 730 023c 40ED81BB 		.word	-1149113024
+ 731 0240 3FBD84BB 		.word	-1148928705
+ 732 0244 F98086BB 		.word	-1148813063
+ 733 0248 7D0E87BB 		.word	-1148776835
+ 734 024c 1B3D86BB 		.word	-1148830437
+ 735 0250 E9E583BB 		.word	-1148983831
+ 736 0254 F9C87FBB 		.word	-1149253383
+ 737 0258 BA2D74BB 		.word	-1150014022
+ 738 025c 04BD64BB 		.word	-1151025916
+ARM GAS  /var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cca9poyW.s 			page 30
 
 
- 811 02f8 5570F43C 		.word	1022652501
- 812 02fc 6AFEF33C 		.word	1022623338
- 813 0300 90A9F23C 		.word	1022536080
- 814 0304 4774F03C 		.word	1022391367
- 815 0308 C462ED3C 		.word	1022190276
- 816 030c D37AE93C 		.word	1021934291
- 817 0310 DAC3E43C 		.word	1021625306
- 818 0314 B746DF3C 		.word	1021265591
- 819 0318 B80DD93C 		.word	1020857784
- 820 031c 7524D23C 		.word	1020404853
- 821 0320 BE97CA3C 		.word	1019910078
- 822 0324 7B75C23C 		.word	1019377019
- 823 0328 85CCB93C 		.word	1018809477
- 824 032c 86ACB03C 		.word	1018211462
- 825 0330 D425A73C 		.word	1017587156
- 826 0334 52499D3C 		.word	1016940882
- 827 0338 3628933C 		.word	1016277046
- 828 033c F4D3883C 		.word	1015600116
- 829 0340 13BC7C3C 		.word	1014807571
- 830 0344 BDAF673C 		.word	1013428157
- 831 0348 13A5523C 		.word	1012049171
- 832 034c A6BD3D3C 		.word	1010679206
- 833 0350 B519293C 		.word	1009326517
- 834 0354 4AD8143C 		.word	1007999050
- 835 0358 AB16013C 		.word	1006704299
- 836 035c A6E0DB3B 		.word	1004265638
- 837 0360 42FDB63B 		.word	1001848130
- 838 0364 4DB1933B 		.word	999534925
- 839 0368 1A4C643B 		.word	996428826
- 840 036c 53FF243B 		.word	992280403
- 841 0370 0473D33A 		.word	986936068
- 842 0374 96B24A3A 		.word	977973910
- 843 0378 00000000 		.word	0
- 844 037c 03C538BA 		.word	-1170684669
- 845 0380 03AEAFBA 		.word	-1162891773
- 846 0384 75D9F9BA 		.word	-1158030987
- 847 0388 A1781DBB 		.word	-1155696479
- 848 038c A78B39BB 		.word	-1153856601
- 849 0390 D04051BB 		.word	-1152302896
- 850 0394 04BD64BB 		.word	-1151025916
- 851 0398 BA2D74BB 		.word	-1150014022
- 852 039c F9C87FBB 		.word	-1149253383
- 853 03a0 E9E583BB 		.word	-1148983831
- 854 03a4 1B3D86BB 		.word	-1148830437
- 855 03a8 7D0E87BB 		.word	-1148776835
- 856 03ac F98086BB 		.word	-1148813063
- 857 03b0 3FBD84BB 		.word	-1148928705
- 858 03b4 40ED81BB 		.word	-1149113024
- 859 03b8 DF767CBB 		.word	-1149471009
- 860 03bc 54A573BB 		.word	-1150048940
- 861 03c0 EFBA69BB 		.word	-1150698769
- 862 03c4 130B5FBB 		.word	-1151399149
- 863 03c8 72E653BB 		.word	-1152129422
- 864 03cc 639A48BB 		.word	-1152869789
- 865 03d0 E36F3DBB 		.word	-1153601565
- 866 03d4 B8AA32BB 		.word	-1154307400
- 867 03d8 CB8828BB 		.word	-1154971445
-ARM GAS  /var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cc7wX6mR.s 			page 32
+ 739 0260 D04051BB 		.word	-1152302896
+ 740 0264 A78B39BB 		.word	-1153856601
+ 741 0268 A1781DBB 		.word	-1155696479
+ 742 026c 75D9F9BA 		.word	-1158030987
+ 743 0270 03AEAFBA 		.word	-1162891773
+ 744 0274 03C538BA 		.word	-1170684669
+ 745 0278 00000000 		.word	0
+ 746 027c 96B24A3A 		.word	977973910
+ 747 0280 0473D33A 		.word	986936068
+ 748 0284 53FF243B 		.word	992280403
+ 749 0288 1A4C643B 		.word	996428826
+ 750 028c 4DB1933B 		.word	999534925
+ 751 0290 42FDB63B 		.word	1001848130
+ 752 0294 A6E0DB3B 		.word	1004265638
+ 753 0298 AB16013C 		.word	1006704299
+ 754 029c 4AD8143C 		.word	1007999050
+ 755 02a0 B519293C 		.word	1009326517
+ 756 02a4 A6BD3D3C 		.word	1010679206
+ 757 02a8 13A5523C 		.word	1012049171
+ 758 02ac BDAF673C 		.word	1013428157
+ 759 02b0 13BC7C3C 		.word	1014807571
+ 760 02b4 F4D3883C 		.word	1015600116
+ 761 02b8 3628933C 		.word	1016277046
+ 762 02bc 52499D3C 		.word	1016940882
+ 763 02c0 D425A73C 		.word	1017587156
+ 764 02c4 86ACB03C 		.word	1018211462
+ 765 02c8 85CCB93C 		.word	1018809477
+ 766 02cc 7B75C23C 		.word	1019377019
+ 767 02d0 BE97CA3C 		.word	1019910078
+ 768 02d4 7524D23C 		.word	1020404853
+ 769 02d8 B80DD93C 		.word	1020857784
+ 770 02dc B746DF3C 		.word	1021265591
+ 771 02e0 DAC3E43C 		.word	1021625306
+ 772 02e4 D37AE93C 		.word	1021934291
+ 773 02e8 C462ED3C 		.word	1022190276
+ 774 02ec 4774F03C 		.word	1022391367
+ 775 02f0 90A9F23C 		.word	1022536080
+ 776 02f4 6AFEF33C 		.word	1022623338
+ 777 02f8 5570F43C 		.word	1022652501
+ 778 02fc 6AFEF33C 		.word	1022623338
+ 779 0300 90A9F23C 		.word	1022536080
+ 780 0304 4774F03C 		.word	1022391367
+ 781 0308 C462ED3C 		.word	1022190276
+ 782 030c D37AE93C 		.word	1021934291
+ 783 0310 DAC3E43C 		.word	1021625306
+ 784 0314 B746DF3C 		.word	1021265591
+ 785 0318 B80DD93C 		.word	1020857784
+ 786 031c 7524D23C 		.word	1020404853
+ 787 0320 BE97CA3C 		.word	1019910078
+ 788 0324 7B75C23C 		.word	1019377019
+ 789 0328 85CCB93C 		.word	1018809477
+ 790 032c 86ACB03C 		.word	1018211462
+ 791 0330 D425A73C 		.word	1017587156
+ 792 0334 52499D3C 		.word	1016940882
+ 793 0338 3628933C 		.word	1016277046
+ 794 033c F4D3883C 		.word	1015600116
+ 795 0340 13BC7C3C 		.word	1014807571
+ARM GAS  /var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cca9poyW.s 			page 31
 
 
- 868 03dc A4411FBB 		.word	-1155579484
- 869 03e0 960517BB 		.word	-1156119146
- 870 03e4 E4FD0FBB 		.word	-1156579868
- 871 03e8 484B0ABB 		.word	-1156953272
- 872 03ec EB0606BB 		.word	-1157232917
- 873 03f0 694103BB 		.word	-1157414551
- 874 03f4 500302BB 		.word	-1157495984
- 875 03f8 B271923A 		.word	982675890
- 876 03fc B534963A 		.word	982922421
- 877 0400 9E7F9A3A 		.word	983203742
- 878 0404 1F259F3A 		.word	983508255
- 879 0408 03D3A33A 		.word	983814915
- 880 040c D711A83A 		.word	984093143
- 881 0410 E844AB3A 		.word	984302824
- 882 0414 44ABAC3A 		.word	984394564
- 883 0418 7465AB3A 		.word	984311156
- 884 041c D078A63A 		.word	983988432
- 885 0420 3CD79C3A 		.word	983357244
- 886 0424 30668D3A 		.word	982345264
- 887 0428 42126E3A 		.word	980292162
- 888 042c 7A56313A 		.word	976311930
- 889 0430 3C27C539 		.word	969221948
- 890 0434 00000080 		.word	-2147483648
- 891 0438 08B7EFB9 		.word	-1175472376
- 892 043c B00683BA 		.word	-1165818192
- 893 0440 9D94D5BA 		.word	-1160407907
- 894 0444 44CC19BB 		.word	-1155937212
- 895 0448 A4624EBB 		.word	-1152490844
- 896 044c C71D84BB 		.word	-1148969529
- 897 0450 2B6CA3BB 		.word	-1146917845
- 898 0454 43C6C4BB 		.word	-1144732093
- 899 0458 17BFE7BB 		.word	-1142440169
- 900 045c A4E905BC 		.word	-1140463196
- 901 0460 963518BC 		.word	-1139264106
- 902 0464 1D6E2ABC 		.word	-1138069987
- 903 0468 E6353CBC 		.word	-1136904730
- 904 046c 49294DBC 		.word	-1135793847
- 905 0470 36E05CBC 		.word	-1134763978
- 906 0474 03F06ABC 		.word	-1133842429
- 907 0478 1EEE76BC 		.word	-1133056482
- 908 047c 163980BC 		.word	-1132447466
- 909 0480 528C83BC 		.word	-1132229550
- 910 0484 A54285BC 		.word	-1132117339
- 911 0488 E53285BC 		.word	-1132121371
- 912 048c EC3983BC 		.word	-1132250644
- 913 0490 7F777EBC 		.word	-1132562561
- 914 0494 1E4972BC 		.word	-1133360866
- 915 0498 04D361BC 		.word	-1134439676
- 916 049c B8124DBC 		.word	-1135799624
- 917 04a0 F81934BC 		.word	-1137436168
- 918 04a4 510F17BC 		.word	-1139339439
- 919 04a8 F45BECBB 		.word	-1142137868
- 920 04ac 608BA3BB 		.word	-1146909856
- 921 04b0 6AE728BB 		.word	-1154947222
- 922 04b4 00000000 		.word	0
- 923 04b8 4A86313B 		.word	993101386
- 924 04bc 70ACB43B 		.word	1001696368
-ARM GAS  /var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cc7wX6mR.s 			page 33
+ 796 0344 BDAF673C 		.word	1013428157
+ 797 0348 13A5523C 		.word	1012049171
+ 798 034c A6BD3D3C 		.word	1010679206
+ 799 0350 B519293C 		.word	1009326517
+ 800 0354 4AD8143C 		.word	1007999050
+ 801 0358 AB16013C 		.word	1006704299
+ 802 035c A6E0DB3B 		.word	1004265638
+ 803 0360 42FDB63B 		.word	1001848130
+ 804 0364 4DB1933B 		.word	999534925
+ 805 0368 1A4C643B 		.word	996428826
+ 806 036c 53FF243B 		.word	992280403
+ 807 0370 0473D33A 		.word	986936068
+ 808 0374 96B24A3A 		.word	977973910
+ 809 0378 00000000 		.word	0
+ 810 037c 03C538BA 		.word	-1170684669
+ 811 0380 03AEAFBA 		.word	-1162891773
+ 812 0384 75D9F9BA 		.word	-1158030987
+ 813 0388 A1781DBB 		.word	-1155696479
+ 814 038c A78B39BB 		.word	-1153856601
+ 815 0390 D04051BB 		.word	-1152302896
+ 816 0394 04BD64BB 		.word	-1151025916
+ 817 0398 BA2D74BB 		.word	-1150014022
+ 818 039c F9C87FBB 		.word	-1149253383
+ 819 03a0 E9E583BB 		.word	-1148983831
+ 820 03a4 1B3D86BB 		.word	-1148830437
+ 821 03a8 7D0E87BB 		.word	-1148776835
+ 822 03ac F98086BB 		.word	-1148813063
+ 823 03b0 3FBD84BB 		.word	-1148928705
+ 824 03b4 40ED81BB 		.word	-1149113024
+ 825 03b8 DF767CBB 		.word	-1149471009
+ 826 03bc 54A573BB 		.word	-1150048940
+ 827 03c0 EFBA69BB 		.word	-1150698769
+ 828 03c4 130B5FBB 		.word	-1151399149
+ 829 03c8 72E653BB 		.word	-1152129422
+ 830 03cc 639A48BB 		.word	-1152869789
+ 831 03d0 E36F3DBB 		.word	-1153601565
+ 832 03d4 B8AA32BB 		.word	-1154307400
+ 833 03d8 CB8828BB 		.word	-1154971445
+ 834 03dc A4411FBB 		.word	-1155579484
+ 835 03e0 960517BB 		.word	-1156119146
+ 836 03e4 E4FD0FBB 		.word	-1156579868
+ 837 03e8 484B0ABB 		.word	-1156953272
+ 838 03ec EB0606BB 		.word	-1157232917
+ 839 03f0 694103BB 		.word	-1157414551
+ 840 03f4 500302BB 		.word	-1157495984
+ 841 03f8 B271923A 		.word	982675890
+ 842 03fc B534963A 		.word	982922421
+ 843 0400 9E7F9A3A 		.word	983203742
+ 844 0404 1F259F3A 		.word	983508255
+ 845 0408 03D3A33A 		.word	983814915
+ 846 040c D711A83A 		.word	984093143
+ 847 0410 E844AB3A 		.word	984302824
+ 848 0414 44ABAC3A 		.word	984394564
+ 849 0418 7465AB3A 		.word	984311156
+ 850 041c D078A63A 		.word	983988432
+ 851 0420 3CD79C3A 		.word	983357244
+ 852 0424 30668D3A 		.word	982345264
+ARM GAS  /var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cca9poyW.s 			page 32
 
 
- 925 04c0 363D093C 		.word	1007238454
- 926 04c4 C36C383C 		.word	1010330819
- 927 04c8 F834673C 		.word	1013396728
- 928 04cc 89718A3C 		.word	1015705993
- 929 04d0 6662A03C 		.word	1017143910
- 930 04d4 FC15B53C 		.word	1018500604
- 931 04d8 CE38C83C 		.word	1019754702
- 932 04dc C97CD93C 		.word	1020886217
- 933 04e0 AE9AE83C 		.word	1021876910
- 934 04e4 9A53F53C 		.word	1022710682
- 935 04e8 3172FF3C 		.word	1023373873
- 936 04ec EE65033D 		.word	1023632878
- 937 04f0 BEA0053D 		.word	1023779006
- 938 04f4 1160063D 		.word	1023827985
- 939 04f8 BEA0053D 		.word	1023779006
- 940 04fc EE65033D 		.word	1023632878
- 941 0500 3172FF3C 		.word	1023373873
- 942 0504 9A53F53C 		.word	1022710682
- 943 0508 AE9AE83C 		.word	1021876910
- 944 050c C97CD93C 		.word	1020886217
- 945 0510 CE38C83C 		.word	1019754702
- 946 0514 FC15B53C 		.word	1018500604
- 947 0518 6662A03C 		.word	1017143910
- 948 051c 89718A3C 		.word	1015705993
- 949 0520 F834673C 		.word	1013396728
- 950 0524 C36C383C 		.word	1010330819
- 951 0528 363D093C 		.word	1007238454
- 952 052c 70ACB43B 		.word	1001696368
- 953 0530 4A86313B 		.word	993101386
- 954 0534 00000000 		.word	0
- 955 0538 6AE728BB 		.word	-1154947222
- 956 053c 608BA3BB 		.word	-1146909856
- 957 0540 F45BECBB 		.word	-1142137868
- 958 0544 510F17BC 		.word	-1139339439
- 959 0548 F81934BC 		.word	-1137436168
- 960 054c B8124DBC 		.word	-1135799624
- 961 0550 04D361BC 		.word	-1134439676
- 962 0554 1E4972BC 		.word	-1133360866
- 963 0558 7F777EBC 		.word	-1132562561
- 964 055c EC3983BC 		.word	-1132250644
- 965 0560 E53285BC 		.word	-1132121371
- 966 0564 A54285BC 		.word	-1132117339
- 967 0568 528C83BC 		.word	-1132229550
- 968 056c 163980BC 		.word	-1132447466
- 969 0570 1EEE76BC 		.word	-1133056482
- 970 0574 03F06ABC 		.word	-1133842429
- 971 0578 36E05CBC 		.word	-1134763978
- 972 057c 49294DBC 		.word	-1135793847
- 973 0580 E6353CBC 		.word	-1136904730
- 974 0584 1D6E2ABC 		.word	-1138069987
- 975 0588 963518BC 		.word	-1139264106
- 976 058c A4E905BC 		.word	-1140463196
- 977 0590 17BFE7BB 		.word	-1142440169
- 978 0594 43C6C4BB 		.word	-1144732093
- 979 0598 2B6CA3BB 		.word	-1146917845
- 980 059c C71D84BB 		.word	-1148969529
- 981 05a0 A4624EBB 		.word	-1152490844
-ARM GAS  /var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cc7wX6mR.s 			page 34
+ 853 0428 42126E3A 		.word	980292162
+ 854 042c 7A56313A 		.word	976311930
+ 855 0430 3C27C539 		.word	969221948
+ 856 0434 00000080 		.word	-2147483648
+ 857 0438 08B7EFB9 		.word	-1175472376
+ 858 043c B00683BA 		.word	-1165818192
+ 859 0440 9D94D5BA 		.word	-1160407907
+ 860 0444 44CC19BB 		.word	-1155937212
+ 861 0448 A4624EBB 		.word	-1152490844
+ 862 044c C71D84BB 		.word	-1148969529
+ 863 0450 2B6CA3BB 		.word	-1146917845
+ 864 0454 43C6C4BB 		.word	-1144732093
+ 865 0458 17BFE7BB 		.word	-1142440169
+ 866 045c A4E905BC 		.word	-1140463196
+ 867 0460 963518BC 		.word	-1139264106
+ 868 0464 1D6E2ABC 		.word	-1138069987
+ 869 0468 E6353CBC 		.word	-1136904730
+ 870 046c 49294DBC 		.word	-1135793847
+ 871 0470 36E05CBC 		.word	-1134763978
+ 872 0474 03F06ABC 		.word	-1133842429
+ 873 0478 1EEE76BC 		.word	-1133056482
+ 874 047c 163980BC 		.word	-1132447466
+ 875 0480 528C83BC 		.word	-1132229550
+ 876 0484 A54285BC 		.word	-1132117339
+ 877 0488 E53285BC 		.word	-1132121371
+ 878 048c EC3983BC 		.word	-1132250644
+ 879 0490 7F777EBC 		.word	-1132562561
+ 880 0494 1E4972BC 		.word	-1133360866
+ 881 0498 04D361BC 		.word	-1134439676
+ 882 049c B8124DBC 		.word	-1135799624
+ 883 04a0 F81934BC 		.word	-1137436168
+ 884 04a4 510F17BC 		.word	-1139339439
+ 885 04a8 F45BECBB 		.word	-1142137868
+ 886 04ac 608BA3BB 		.word	-1146909856
+ 887 04b0 6AE728BB 		.word	-1154947222
+ 888 04b4 00000000 		.word	0
+ 889 04b8 4A86313B 		.word	993101386
+ 890 04bc 70ACB43B 		.word	1001696368
+ 891 04c0 363D093C 		.word	1007238454
+ 892 04c4 C36C383C 		.word	1010330819
+ 893 04c8 F834673C 		.word	1013396728
+ 894 04cc 89718A3C 		.word	1015705993
+ 895 04d0 6662A03C 		.word	1017143910
+ 896 04d4 FC15B53C 		.word	1018500604
+ 897 04d8 CE38C83C 		.word	1019754702
+ 898 04dc C97CD93C 		.word	1020886217
+ 899 04e0 AE9AE83C 		.word	1021876910
+ 900 04e4 9A53F53C 		.word	1022710682
+ 901 04e8 3172FF3C 		.word	1023373873
+ 902 04ec EE65033D 		.word	1023632878
+ 903 04f0 BEA0053D 		.word	1023779006
+ 904 04f4 1160063D 		.word	1023827985
+ 905 04f8 BEA0053D 		.word	1023779006
+ 906 04fc EE65033D 		.word	1023632878
+ 907 0500 3172FF3C 		.word	1023373873
+ 908 0504 9A53F53C 		.word	1022710682
+ 909 0508 AE9AE83C 		.word	1021876910
+ARM GAS  /var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cca9poyW.s 			page 33
 
 
- 982 05a4 44CC19BB 		.word	-1155937212
- 983 05a8 9D94D5BA 		.word	-1160407907
- 984 05ac B00683BA 		.word	-1165818192
- 985 05b0 08B7EFB9 		.word	-1175472376
- 986 05b4 00000080 		.word	-2147483648
- 987 05b8 3C27C539 		.word	969221948
- 988 05bc 7A56313A 		.word	976311930
- 989 05c0 42126E3A 		.word	980292162
- 990 05c4 30668D3A 		.word	982345264
- 991 05c8 3CD79C3A 		.word	983357244
- 992 05cc D078A63A 		.word	983988432
- 993 05d0 7465AB3A 		.word	984311156
- 994 05d4 44ABAC3A 		.word	984394564
- 995 05d8 E844AB3A 		.word	984302824
- 996 05dc D711A83A 		.word	984093143
- 997 05e0 03D3A33A 		.word	983814915
- 998 05e4 1F259F3A 		.word	983508255
- 999 05e8 9E7F9A3A 		.word	983203742
- 1000 05ec B534963A 		.word	982922421
- 1001 05f0 B271923A 		.word	982675890
- 1002 05f4 C00B36BA 		.word	-1170863168
- 1003 05f8 217327BA 		.word	-1171819743
- 1004 05fc 103E14BA 		.word	-1173078512
- 1005 0600 1C72F9B9 		.word	-1174834660
- 1006 0604 D58AC2B9 		.word	-1178432811
- 1007 0608 761085B9 		.word	-1182461834
- 1008 060c 874A06B9 		.word	-1190770041
- 1009 0610 00000000 		.word	0
- 1010 0614 C21A0039 		.word	956308162
- 1011 0618 8D6E6F39 		.word	963604109
- 1012 061c D223A139 		.word	966861778
- 1013 0620 3181B639 		.word	968261937
- 1014 0624 5AD8B239 		.word	968022106
- 1015 0628 EAF79239 		.word	965933034
- 1016 062c 01B62C39 		.word	959231489
- 1017 0630 00000080 		.word	-2147483648
- 1018 0634 92FF51B9 		.word	-1185808494
- 1019 0638 022DD9B9 		.word	-1176949502
- 1020 063c A77220BA 		.word	-1172278617
- 1021 0640 848146BA 		.word	-1169784444
- 1022 0644 590A54BA 		.word	-1168897447
- 1023 0648 34053EBA 		.word	-1170340556
- 1024 064c 6849F4B9 		.word	-1175172760
- 1025 0650 00000000 		.word	0
- 1026 0654 DDB7353A 		.word	976599005
- 1027 0658 AF0AD43A 		.word	986974895
- 1028 065c 3CC0343B 		.word	993312828
- 1029 0660 7A91853B 		.word	998609274
- 1030 0664 3697B43B 		.word	1001690934
- 1031 0668 8EB6E43B 		.word	1004844686
- 1032 066c F448093C 		.word	1007241460
- 1033 0670 DB281D3C 		.word	1008543963
- 1034 0674 25EE2B3C 		.word	1009511973
- 1035 0678 C18D333C 		.word	1010011585
- 1036 067c 2125323C 		.word	1009919265
- 1037 0680 0A23263C 		.word	1009132298
- 1038 0684 4F6F0E3C 		.word	1007578959
-ARM GAS  /var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cc7wX6mR.s 			page 35
+ 910 050c C97CD93C 		.word	1020886217
+ 911 0510 CE38C83C 		.word	1019754702
+ 912 0514 FC15B53C 		.word	1018500604
+ 913 0518 6662A03C 		.word	1017143910
+ 914 051c 89718A3C 		.word	1015705993
+ 915 0520 F834673C 		.word	1013396728
+ 916 0524 C36C383C 		.word	1010330819
+ 917 0528 363D093C 		.word	1007238454
+ 918 052c 70ACB43B 		.word	1001696368
+ 919 0530 4A86313B 		.word	993101386
+ 920 0534 00000000 		.word	0
+ 921 0538 6AE728BB 		.word	-1154947222
+ 922 053c 608BA3BB 		.word	-1146909856
+ 923 0540 F45BECBB 		.word	-1142137868
+ 924 0544 510F17BC 		.word	-1139339439
+ 925 0548 F81934BC 		.word	-1137436168
+ 926 054c B8124DBC 		.word	-1135799624
+ 927 0550 04D361BC 		.word	-1134439676
+ 928 0554 1E4972BC 		.word	-1133360866
+ 929 0558 7F777EBC 		.word	-1132562561
+ 930 055c EC3983BC 		.word	-1132250644
+ 931 0560 E53285BC 		.word	-1132121371
+ 932 0564 A54285BC 		.word	-1132117339
+ 933 0568 528C83BC 		.word	-1132229550
+ 934 056c 163980BC 		.word	-1132447466
+ 935 0570 1EEE76BC 		.word	-1133056482
+ 936 0574 03F06ABC 		.word	-1133842429
+ 937 0578 36E05CBC 		.word	-1134763978
+ 938 057c 49294DBC 		.word	-1135793847
+ 939 0580 E6353CBC 		.word	-1136904730
+ 940 0584 1D6E2ABC 		.word	-1138069987
+ 941 0588 963518BC 		.word	-1139264106
+ 942 058c A4E905BC 		.word	-1140463196
+ 943 0590 17BFE7BB 		.word	-1142440169
+ 944 0594 43C6C4BB 		.word	-1144732093
+ 945 0598 2B6CA3BB 		.word	-1146917845
+ 946 059c C71D84BB 		.word	-1148969529
+ 947 05a0 A4624EBB 		.word	-1152490844
+ 948 05a4 44CC19BB 		.word	-1155937212
+ 949 05a8 9D94D5BA 		.word	-1160407907
+ 950 05ac B00683BA 		.word	-1165818192
+ 951 05b0 08B7EFB9 		.word	-1175472376
+ 952 05b4 00000080 		.word	-2147483648
+ 953 05b8 3C27C539 		.word	969221948
+ 954 05bc 7A56313A 		.word	976311930
+ 955 05c0 42126E3A 		.word	980292162
+ 956 05c4 30668D3A 		.word	982345264
+ 957 05c8 3CD79C3A 		.word	983357244
+ 958 05cc D078A63A 		.word	983988432
+ 959 05d0 7465AB3A 		.word	984311156
+ 960 05d4 44ABAC3A 		.word	984394564
+ 961 05d8 E844AB3A 		.word	984302824
+ 962 05dc D711A83A 		.word	984093143
+ 963 05e0 03D3A33A 		.word	983814915
+ 964 05e4 1F259F3A 		.word	983508255
+ 965 05e8 9E7F9A3A 		.word	983203742
+ 966 05ec B534963A 		.word	982922421
+ARM GAS  /var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cca9poyW.s 			page 34
 
 
- 1039 0688 521CD53B 		.word	1003822162
- 1040 068c A4F06A3B 		.word	996864164
- 1041 0690 00000080 		.word	-2147483648
- 1042 0694 DC9F87BB 		.word	-1148739620
- 1043 0698 23160EBC 		.word	-1139927517
- 1044 069c 01855BBC 		.word	-1134852863
- 1045 06a0 CB2194BC 		.word	-1131142709
- 1046 06a4 960FB8BC 		.word	-1128788074
- 1047 06a8 2E63D7BC 		.word	-1126735058
- 1048 06ac 8705F0BC 		.word	-1125120633
- 1049 06b0 A80900BD 		.word	-1124071000
- 1050 06b4 03FF02BD 		.word	-1123877117
- 1051 06b8 D45400BD 		.word	-1124051756
- 1052 06bc 1E85EFBC 		.word	-1125153506
- 1053 06c0 D89AD2BC 		.word	-1127048488
- 1054 06c4 1199AABC 		.word	-1129670383
- 1055 06c8 A09F71BC 		.word	-1133404256
- 1056 06cc FC94FCBB 		.word	-1141074692
- 1057 06d0 00000000 		.word	0
- 1058 06d4 9FAD033C 		.word	1006874015
- 1059 06d8 CB58833C 		.word	1015240907
- 1060 06dc F16BC13C 		.word	1019309041
- 1061 06e0 E50EF93C 		.word	1022955237
- 1062 06e4 32C2133D 		.word	1024705074
- 1063 06e8 B73D253D 		.word	1025850807
- 1064 06ec EF18303D 		.word	1026562287
- 1065 06f0 45C7333D 		.word	1026803525
- 1066 06f4 EF18303D 		.word	1026562287
- 1067 06f8 B73D253D 		.word	1025850807
- 1068 06fc 32C2133D 		.word	1024705074
- 1069 0700 E50EF93C 		.word	1022955237
- 1070 0704 F16BC13C 		.word	1019309041
- 1071 0708 CB58833C 		.word	1015240907
- 1072 070c 9FAD033C 		.word	1006874015
- 1073 0710 00000000 		.word	0
- 1074 0714 FC94FCBB 		.word	-1141074692
- 1075 0718 A09F71BC 		.word	-1133404256
- 1076 071c 1199AABC 		.word	-1129670383
- 1077 0720 D89AD2BC 		.word	-1127048488
- 1078 0724 1E85EFBC 		.word	-1125153506
- 1079 0728 D45400BD 		.word	-1124051756
- 1080 072c 03FF02BD 		.word	-1123877117
- 1081 0730 A80900BD 		.word	-1124071000
- 1082 0734 8705F0BC 		.word	-1125120633
- 1083 0738 2E63D7BC 		.word	-1126735058
- 1084 073c 960FB8BC 		.word	-1128788074
- 1085 0740 CB2194BC 		.word	-1131142709
- 1086 0744 01855BBC 		.word	-1134852863
- 1087 0748 23160EBC 		.word	-1139927517
- 1088 074c DC9F87BB 		.word	-1148739620
- 1089 0750 00000080 		.word	-2147483648
- 1090 0754 A4F06A3B 		.word	996864164
- 1091 0758 521CD53B 		.word	1003822162
- 1092 075c 4F6F0E3C 		.word	1007578959
- 1093 0760 0A23263C 		.word	1009132298
- 1094 0764 2125323C 		.word	1009919265
- 1095 0768 C18D333C 		.word	1010011585
-ARM GAS  /var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cc7wX6mR.s 			page 36
+ 967 05f0 B271923A 		.word	982675890
+ 968 05f4 C00B36BA 		.word	-1170863168
+ 969 05f8 217327BA 		.word	-1171819743
+ 970 05fc 103E14BA 		.word	-1173078512
+ 971 0600 1C72F9B9 		.word	-1174834660
+ 972 0604 D58AC2B9 		.word	-1178432811
+ 973 0608 761085B9 		.word	-1182461834
+ 974 060c 874A06B9 		.word	-1190770041
+ 975 0610 00000000 		.word	0
+ 976 0614 C21A0039 		.word	956308162
+ 977 0618 8D6E6F39 		.word	963604109
+ 978 061c D223A139 		.word	966861778
+ 979 0620 3181B639 		.word	968261937
+ 980 0624 5AD8B239 		.word	968022106
+ 981 0628 EAF79239 		.word	965933034
+ 982 062c 01B62C39 		.word	959231489
+ 983 0630 00000080 		.word	-2147483648
+ 984 0634 92FF51B9 		.word	-1185808494
+ 985 0638 022DD9B9 		.word	-1176949502
+ 986 063c A77220BA 		.word	-1172278617
+ 987 0640 848146BA 		.word	-1169784444
+ 988 0644 590A54BA 		.word	-1168897447
+ 989 0648 34053EBA 		.word	-1170340556
+ 990 064c 6849F4B9 		.word	-1175172760
+ 991 0650 00000000 		.word	0
+ 992 0654 DDB7353A 		.word	976599005
+ 993 0658 AF0AD43A 		.word	986974895
+ 994 065c 3CC0343B 		.word	993312828
+ 995 0660 7A91853B 		.word	998609274
+ 996 0664 3697B43B 		.word	1001690934
+ 997 0668 8EB6E43B 		.word	1004844686
+ 998 066c F448093C 		.word	1007241460
+ 999 0670 DB281D3C 		.word	1008543963
+ 1000 0674 25EE2B3C 		.word	1009511973
+ 1001 0678 C18D333C 		.word	1010011585
+ 1002 067c 2125323C 		.word	1009919265
+ 1003 0680 0A23263C 		.word	1009132298
+ 1004 0684 4F6F0E3C 		.word	1007578959
+ 1005 0688 521CD53B 		.word	1003822162
+ 1006 068c A4F06A3B 		.word	996864164
+ 1007 0690 00000080 		.word	-2147483648
+ 1008 0694 DC9F87BB 		.word	-1148739620
+ 1009 0698 23160EBC 		.word	-1139927517
+ 1010 069c 01855BBC 		.word	-1134852863
+ 1011 06a0 CB2194BC 		.word	-1131142709
+ 1012 06a4 960FB8BC 		.word	-1128788074
+ 1013 06a8 2E63D7BC 		.word	-1126735058
+ 1014 06ac 8705F0BC 		.word	-1125120633
+ 1015 06b0 A80900BD 		.word	-1124071000
+ 1016 06b4 03FF02BD 		.word	-1123877117
+ 1017 06b8 D45400BD 		.word	-1124051756
+ 1018 06bc 1E85EFBC 		.word	-1125153506
+ 1019 06c0 D89AD2BC 		.word	-1127048488
+ 1020 06c4 1199AABC 		.word	-1129670383
+ 1021 06c8 A09F71BC 		.word	-1133404256
+ 1022 06cc FC94FCBB 		.word	-1141074692
+ 1023 06d0 00000000 		.word	0
+ARM GAS  /var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cca9poyW.s 			page 35
 
 
- 1096 076c 25EE2B3C 		.word	1009511973
- 1097 0770 DB281D3C 		.word	1008543963
- 1098 0774 F448093C 		.word	1007241460
- 1099 0778 8EB6E43B 		.word	1004844686
- 1100 077c 3697B43B 		.word	1001690934
- 1101 0780 7A91853B 		.word	998609274
- 1102 0784 3CC0343B 		.word	993312828
- 1103 0788 AF0AD43A 		.word	986974895
- 1104 078c DDB7353A 		.word	976599005
- 1105 0790 00000000 		.word	0
- 1106 0794 6849F4B9 		.word	-1175172760
- 1107 0798 34053EBA 		.word	-1170340556
- 1108 079c 590A54BA 		.word	-1168897447
- 1109 07a0 848146BA 		.word	-1169784444
- 1110 07a4 A77220BA 		.word	-1172278617
- 1111 07a8 022DD9B9 		.word	-1176949502
- 1112 07ac 92FF51B9 		.word	-1185808494
- 1113 07b0 00000080 		.word	-2147483648
- 1114 07b4 01B62C39 		.word	959231489
- 1115 07b8 EAF79239 		.word	965933034
- 1116 07bc 5AD8B239 		.word	968022106
- 1117 07c0 3181B639 		.word	968261937
- 1118 07c4 D223A139 		.word	966861778
- 1119 07c8 8D6E6F39 		.word	963604109
- 1120 07cc C21A0039 		.word	956308162
- 1121 07d0 00000000 		.word	0
- 1122 07d4 874A06B9 		.word	-1190770041
- 1123 07d8 761085B9 		.word	-1182461834
- 1124 07dc D58AC2B9 		.word	-1178432811
- 1125 07e0 1C72F9B9 		.word	-1174834660
- 1126 07e4 103E14BA 		.word	-1173078512
- 1127 07e8 217327BA 		.word	-1171819743
- 1128 07ec C00B36BA 		.word	-1170863168
- 1129 07f0 60A3343A 		.word	976528224
- 1130 07f4 88ED133A 		.word	974384520
- 1131 07f8 C497AA39 		.word	967481284
- 1132 07fc 00000080 		.word	-2147483648
- 1133 0800 3B06BFB9 		.word	-1178663365
- 1134 0804 9BEC38BA 		.word	-1170674533
- 1135 0808 7CA77ABA 		.word	-1166366852
- 1136 080c 8AD78ABA 		.word	-1165305974
- 1137 0810 85F380BA 		.word	-1165954171
- 1138 0814 7EBF41BA 		.word	-1170096258
- 1139 0818 2948C7B9 		.word	-1178122199
- 1140 081c 00000000 		.word	0
- 1141 0820 35129939 		.word	966332981
- 1142 0824 5A73D339 		.word	970158938
- 1143 0828 9DE79939 		.word	966387613
- 1144 082c 00000080 		.word	-2147483648
- 1145 0830 FE20BBB9 		.word	-1178918658
- 1146 0834 8A3B1CBA 		.word	-1172554870
- 1147 0838 FA5209BA 		.word	-1173794054
- 1148 083c 00000000 		.word	0
- 1149 0840 811D833A 		.word	981671297
- 1150 0844 0AC3193B 		.word	991544074
- 1151 0848 A3E7753B 		.word	997582755
- 1152 084c BC399E3B 		.word	1000225212
-ARM GAS  /var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cc7wX6mR.s 			page 37
+ 1024 06d4 9FAD033C 		.word	1006874015
+ 1025 06d8 CB58833C 		.word	1015240907
+ 1026 06dc F16BC13C 		.word	1019309041
+ 1027 06e0 E50EF93C 		.word	1022955237
+ 1028 06e4 32C2133D 		.word	1024705074
+ 1029 06e8 B73D253D 		.word	1025850807
+ 1030 06ec EF18303D 		.word	1026562287
+ 1031 06f0 45C7333D 		.word	1026803525
+ 1032 06f4 EF18303D 		.word	1026562287
+ 1033 06f8 B73D253D 		.word	1025850807
+ 1034 06fc 32C2133D 		.word	1024705074
+ 1035 0700 E50EF93C 		.word	1022955237
+ 1036 0704 F16BC13C 		.word	1019309041
+ 1037 0708 CB58833C 		.word	1015240907
+ 1038 070c 9FAD033C 		.word	1006874015
+ 1039 0710 00000000 		.word	0
+ 1040 0714 FC94FCBB 		.word	-1141074692
+ 1041 0718 A09F71BC 		.word	-1133404256
+ 1042 071c 1199AABC 		.word	-1129670383
+ 1043 0720 D89AD2BC 		.word	-1127048488
+ 1044 0724 1E85EFBC 		.word	-1125153506
+ 1045 0728 D45400BD 		.word	-1124051756
+ 1046 072c 03FF02BD 		.word	-1123877117
+ 1047 0730 A80900BD 		.word	-1124071000
+ 1048 0734 8705F0BC 		.word	-1125120633
+ 1049 0738 2E63D7BC 		.word	-1126735058
+ 1050 073c 960FB8BC 		.word	-1128788074
+ 1051 0740 CB2194BC 		.word	-1131142709
+ 1052 0744 01855BBC 		.word	-1134852863
+ 1053 0748 23160EBC 		.word	-1139927517
+ 1054 074c DC9F87BB 		.word	-1148739620
+ 1055 0750 00000080 		.word	-2147483648
+ 1056 0754 A4F06A3B 		.word	996864164
+ 1057 0758 521CD53B 		.word	1003822162
+ 1058 075c 4F6F0E3C 		.word	1007578959
+ 1059 0760 0A23263C 		.word	1009132298
+ 1060 0764 2125323C 		.word	1009919265
+ 1061 0768 C18D333C 		.word	1010011585
+ 1062 076c 25EE2B3C 		.word	1009511973
+ 1063 0770 DB281D3C 		.word	1008543963
+ 1064 0774 F448093C 		.word	1007241460
+ 1065 0778 8EB6E43B 		.word	1004844686
+ 1066 077c 3697B43B 		.word	1001690934
+ 1067 0780 7A91853B 		.word	998609274
+ 1068 0784 3CC0343B 		.word	993312828
+ 1069 0788 AF0AD43A 		.word	986974895
+ 1070 078c DDB7353A 		.word	976599005
+ 1071 0790 00000000 		.word	0
+ 1072 0794 6849F4B9 		.word	-1175172760
+ 1073 0798 34053EBA 		.word	-1170340556
+ 1074 079c 590A54BA 		.word	-1168897447
+ 1075 07a0 848146BA 		.word	-1169784444
+ 1076 07a4 A77220BA 		.word	-1172278617
+ 1077 07a8 022DD9B9 		.word	-1176949502
+ 1078 07ac 92FF51B9 		.word	-1185808494
+ 1079 07b0 00000080 		.word	-2147483648
+ 1080 07b4 01B62C39 		.word	959231489
+ARM GAS  /var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cca9poyW.s 			page 36
 
 
- 1153 0850 FA94A93B 		.word	1000969466
- 1154 0854 3557933B 		.word	999511861
- 1155 0858 637B313B 		.word	993098595
- 1156 085c 00000080 		.word	-2147483648
- 1157 0860 0ED14FBB 		.word	-1152397042
- 1158 0864 690CCABB 		.word	-1144386455
- 1159 0868 2A3908BC 		.word	-1140311766
- 1160 086c 93FD14BC 		.word	-1139475053
- 1161 0870 99D007BC 		.word	-1140338535
- 1162 0874 116DC7BB 		.word	-1144558319
- 1163 0878 D6E147BB 		.word	-1152917034
- 1164 087c 00000000 		.word	0
- 1165 0880 092A113B 		.word	990980617
- 1166 0884 1DE8423B 		.word	994240541
- 1167 0888 3CF8093B 		.word	990509116
- 1168 088c 00000080 		.word	-2147483648
- 1169 0890 B44A1FBB 		.word	-1155577164
- 1170 0894 0AF381BB 		.word	-1149111542
- 1171 0898 0FBA5FBB 		.word	-1151354353
- 1172 089c 00000000 		.word	0
- 1173 08a0 1E85CE3B 		.word	1003390238
- 1174 08a4 BF396F3C 		.word	1013922239
- 1175 08a8 659ABD3C 		.word	1019058789
- 1176 08ac CDC3F23C 		.word	1022542797
- 1177 08b0 A8FB013D 		.word	1023540136
- 1178 08b4 5ABDE23C 		.word	1021492570
- 1179 08b8 99D0893C 		.word	1015664793
- 1180 08bc 00000080 		.word	-2147483648
- 1181 08c0 3C83A7BC 		.word	-1129872580
- 1182 08c4 42E527BD 		.word	-1121458878
- 1183 08c8 E3B66BBD 		.word	-1117014301
- 1184 08cc 39DB87BD 		.word	-1115169991
- 1185 08d0 048D84BD 		.word	-1115386620
- 1186 08d4 6D9154BD 		.word	-1118531219
- 1187 08d8 AC34EFBC 		.word	-1125174100
- 1188 08dc 00000000 		.word	0
- 1189 08e0 B2EDFC3C 		.word	1023208882
- 1190 08e4 B3BD6D3D 		.word	1030602163
- 1191 08e8 CDEB9C3D 		.word	1033694157
- 1192 08ec 046FAA3D 		.word	1034579716
- 1193 08f0 CDEB9C3D 		.word	1033694157
- 1194 08f4 B3BD6D3D 		.word	1030602163
- 1195 08f8 B2EDFC3C 		.word	1023208882
- 1196 08fc 00000000 		.word	0
- 1197 0900 AC34EFBC 		.word	-1125174100
- 1198 0904 6D9154BD 		.word	-1118531219
- 1199 0908 048D84BD 		.word	-1115386620
- 1200 090c 39DB87BD 		.word	-1115169991
- 1201 0910 E3B66BBD 		.word	-1117014301
- 1202 0914 42E527BD 		.word	-1121458878
- 1203 0918 3C83A7BC 		.word	-1129872580
- 1204 091c 00000080 		.word	-2147483648
- 1205 0920 99D0893C 		.word	1015664793
- 1206 0924 5ABDE23C 		.word	1021492570
- 1207 0928 A8FB013D 		.word	1023540136
- 1208 092c CDC3F23C 		.word	1022542797
- 1209 0930 659ABD3C 		.word	1019058789
-ARM GAS  /var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cc7wX6mR.s 			page 38
+ 1081 07b8 EAF79239 		.word	965933034
+ 1082 07bc 5AD8B239 		.word	968022106
+ 1083 07c0 3181B639 		.word	968261937
+ 1084 07c4 D223A139 		.word	966861778
+ 1085 07c8 8D6E6F39 		.word	963604109
+ 1086 07cc C21A0039 		.word	956308162
+ 1087 07d0 00000000 		.word	0
+ 1088 07d4 874A06B9 		.word	-1190770041
+ 1089 07d8 761085B9 		.word	-1182461834
+ 1090 07dc D58AC2B9 		.word	-1178432811
+ 1091 07e0 1C72F9B9 		.word	-1174834660
+ 1092 07e4 103E14BA 		.word	-1173078512
+ 1093 07e8 217327BA 		.word	-1171819743
+ 1094 07ec C00B36BA 		.word	-1170863168
+ 1095 07f0 60A3343A 		.word	976528224
+ 1096 07f4 88ED133A 		.word	974384520
+ 1097 07f8 C497AA39 		.word	967481284
+ 1098 07fc 00000080 		.word	-2147483648
+ 1099 0800 3B06BFB9 		.word	-1178663365
+ 1100 0804 9BEC38BA 		.word	-1170674533
+ 1101 0808 7CA77ABA 		.word	-1166366852
+ 1102 080c 8AD78ABA 		.word	-1165305974
+ 1103 0810 85F380BA 		.word	-1165954171
+ 1104 0814 7EBF41BA 		.word	-1170096258
+ 1105 0818 2948C7B9 		.word	-1178122199
+ 1106 081c 00000000 		.word	0
+ 1107 0820 35129939 		.word	966332981
+ 1108 0824 5A73D339 		.word	970158938
+ 1109 0828 9DE79939 		.word	966387613
+ 1110 082c 00000080 		.word	-2147483648
+ 1111 0830 FE20BBB9 		.word	-1178918658
+ 1112 0834 8A3B1CBA 		.word	-1172554870
+ 1113 0838 FA5209BA 		.word	-1173794054
+ 1114 083c 00000000 		.word	0
+ 1115 0840 811D833A 		.word	981671297
+ 1116 0844 0AC3193B 		.word	991544074
+ 1117 0848 A3E7753B 		.word	997582755
+ 1118 084c BC399E3B 		.word	1000225212
+ 1119 0850 FA94A93B 		.word	1000969466
+ 1120 0854 3557933B 		.word	999511861
+ 1121 0858 637B313B 		.word	993098595
+ 1122 085c 00000080 		.word	-2147483648
+ 1123 0860 0ED14FBB 		.word	-1152397042
+ 1124 0864 690CCABB 		.word	-1144386455
+ 1125 0868 2A3908BC 		.word	-1140311766
+ 1126 086c 93FD14BC 		.word	-1139475053
+ 1127 0870 99D007BC 		.word	-1140338535
+ 1128 0874 116DC7BB 		.word	-1144558319
+ 1129 0878 D6E147BB 		.word	-1152917034
+ 1130 087c 00000000 		.word	0
+ 1131 0880 092A113B 		.word	990980617
+ 1132 0884 1DE8423B 		.word	994240541
+ 1133 0888 3CF8093B 		.word	990509116
+ 1134 088c 00000080 		.word	-2147483648
+ 1135 0890 B44A1FBB 		.word	-1155577164
+ 1136 0894 0AF381BB 		.word	-1149111542
+ 1137 0898 0FBA5FBB 		.word	-1151354353
+ARM GAS  /var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cca9poyW.s 			page 37
 
 
- 1210 0934 BF396F3C 		.word	1013922239
- 1211 0938 1E85CE3B 		.word	1003390238
- 1212 093c 00000000 		.word	0
- 1213 0940 0FBA5FBB 		.word	-1151354353
- 1214 0944 0AF381BB 		.word	-1149111542
- 1215 0948 B44A1FBB 		.word	-1155577164
- 1216 094c 00000080 		.word	-2147483648
- 1217 0950 3CF8093B 		.word	990509116
- 1218 0954 1DE8423B 		.word	994240541
- 1219 0958 092A113B 		.word	990980617
- 1220 095c 00000000 		.word	0
- 1221 0960 D6E147BB 		.word	-1152917034
- 1222 0964 116DC7BB 		.word	-1144558319
- 1223 0968 99D007BC 		.word	-1140338535
- 1224 096c 93FD14BC 		.word	-1139475053
- 1225 0970 2A3908BC 		.word	-1140311766
- 1226 0974 690CCABB 		.word	-1144386455
- 1227 0978 0ED14FBB 		.word	-1152397042
- 1228 097c 00000080 		.word	-2147483648
- 1229 0980 637B313B 		.word	993098595
- 1230 0984 3557933B 		.word	999511861
- 1231 0988 FA94A93B 		.word	1000969466
- 1232 098c BC399E3B 		.word	1000225212
- 1233 0990 A3E7753B 		.word	997582755
- 1234 0994 0AC3193B 		.word	991544074
- 1235 0998 811D833A 		.word	981671297
- 1236 099c 00000000 		.word	0
- 1237 09a0 FA5209BA 		.word	-1173794054
- 1238 09a4 8A3B1CBA 		.word	-1172554870
- 1239 09a8 FE20BBB9 		.word	-1178918658
- 1240 09ac 00000080 		.word	-2147483648
- 1241 09b0 9DE79939 		.word	966387613
- 1242 09b4 5A73D339 		.word	970158938
- 1243 09b8 35129939 		.word	966332981
- 1244 09bc 00000000 		.word	0
- 1245 09c0 2948C7B9 		.word	-1178122199
- 1246 09c4 7EBF41BA 		.word	-1170096258
- 1247 09c8 85F380BA 		.word	-1165954171
- 1248 09cc 8AD78ABA 		.word	-1165305974
- 1249 09d0 7CA77ABA 		.word	-1166366852
- 1250 09d4 9BEC38BA 		.word	-1170674533
- 1251 09d8 3B06BFB9 		.word	-1178663365
- 1252 09dc 00000080 		.word	-2147483648
- 1253 09e0 C497AA39 		.word	967481284
- 1254 09e4 88ED133A 		.word	974384520
- 1255 09e8 60A3343A 		.word	976528224
- 1256 09ec 838BD3B9 		.word	-1177318525
- 1257 09f0 00000000 		.word	0
- 1258 09f4 D7822439 		.word	958694103
- 1259 09f8 00000080 		.word	-2147483648
- 1260 09fc BE3638B9 		.word	-1187498306
- 1261 0a00 00000000 		.word	0
- 1262 0a04 95C5123A 		.word	974308757
- 1263 0a08 C8C98A3A 		.word	982174152
- 1264 0a0c E83B703A 		.word	980433896
- 1265 0a10 00000080 		.word	-2147483648
- 1266 0a14 F60192BA 		.word	-1164836362
-ARM GAS  /var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cc7wX6mR.s 			page 39
+ 1138 089c 00000000 		.word	0
+ 1139 08a0 1E85CE3B 		.word	1003390238
+ 1140 08a4 BF396F3C 		.word	1013922239
+ 1141 08a8 659ABD3C 		.word	1019058789
+ 1142 08ac CDC3F23C 		.word	1022542797
+ 1143 08b0 A8FB013D 		.word	1023540136
+ 1144 08b4 5ABDE23C 		.word	1021492570
+ 1145 08b8 99D0893C 		.word	1015664793
+ 1146 08bc 00000080 		.word	-2147483648
+ 1147 08c0 3C83A7BC 		.word	-1129872580
+ 1148 08c4 42E527BD 		.word	-1121458878
+ 1149 08c8 E3B66BBD 		.word	-1117014301
+ 1150 08cc 39DB87BD 		.word	-1115169991
+ 1151 08d0 048D84BD 		.word	-1115386620
+ 1152 08d4 6D9154BD 		.word	-1118531219
+ 1153 08d8 AC34EFBC 		.word	-1125174100
+ 1154 08dc 00000000 		.word	0
+ 1155 08e0 B2EDFC3C 		.word	1023208882
+ 1156 08e4 B3BD6D3D 		.word	1030602163
+ 1157 08e8 CDEB9C3D 		.word	1033694157
+ 1158 08ec 046FAA3D 		.word	1034579716
+ 1159 08f0 CDEB9C3D 		.word	1033694157
+ 1160 08f4 B3BD6D3D 		.word	1030602163
+ 1161 08f8 B2EDFC3C 		.word	1023208882
+ 1162 08fc 00000000 		.word	0
+ 1163 0900 AC34EFBC 		.word	-1125174100
+ 1164 0904 6D9154BD 		.word	-1118531219
+ 1165 0908 048D84BD 		.word	-1115386620
+ 1166 090c 39DB87BD 		.word	-1115169991
+ 1167 0910 E3B66BBD 		.word	-1117014301
+ 1168 0914 42E527BD 		.word	-1121458878
+ 1169 0918 3C83A7BC 		.word	-1129872580
+ 1170 091c 00000080 		.word	-2147483648
+ 1171 0920 99D0893C 		.word	1015664793
+ 1172 0924 5ABDE23C 		.word	1021492570
+ 1173 0928 A8FB013D 		.word	1023540136
+ 1174 092c CDC3F23C 		.word	1022542797
+ 1175 0930 659ABD3C 		.word	1019058789
+ 1176 0934 BF396F3C 		.word	1013922239
+ 1177 0938 1E85CE3B 		.word	1003390238
+ 1178 093c 00000000 		.word	0
+ 1179 0940 0FBA5FBB 		.word	-1151354353
+ 1180 0944 0AF381BB 		.word	-1149111542
+ 1181 0948 B44A1FBB 		.word	-1155577164
+ 1182 094c 00000080 		.word	-2147483648
+ 1183 0950 3CF8093B 		.word	990509116
+ 1184 0954 1DE8423B 		.word	994240541
+ 1185 0958 092A113B 		.word	990980617
+ 1186 095c 00000000 		.word	0
+ 1187 0960 D6E147BB 		.word	-1152917034
+ 1188 0964 116DC7BB 		.word	-1144558319
+ 1189 0968 99D007BC 		.word	-1140338535
+ 1190 096c 93FD14BC 		.word	-1139475053
+ 1191 0970 2A3908BC 		.word	-1140311766
+ 1192 0974 690CCABB 		.word	-1144386455
+ 1193 0978 0ED14FBB 		.word	-1152397042
+ 1194 097c 00000080 		.word	-2147483648
+ARM GAS  /var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cca9poyW.s 			page 38
 
 
- 1267 0a18 7699CCBA 		.word	-1160996490
- 1268 0a1c A59A82BA 		.word	-1165845851
- 1269 0a20 00000000 		.word	0
- 1270 0a24 2E7BE939 		.word	971602734
- 1271 0a28 00000080 		.word	-2147483648
- 1272 0a2c C4F00DBA 		.word	-1173491516
- 1273 0a30 00000000 		.word	0
- 1274 0a34 F555EA3A 		.word	988435957
- 1275 0a38 648A5E3B 		.word	996051556
- 1276 0a3c 6E21403B 		.word	994058606
- 1277 0a40 00000080 		.word	-2147483648
- 1278 0a44 8D0E65BB 		.word	-1151005043
- 1279 0a48 E2299EBB 		.word	-1147262494
- 1280 0a4c 829946BB 		.word	-1153001086
- 1281 0a50 00000000 		.word	0
- 1282 0a54 6127AB3A 		.word	984295265
- 1283 0a58 00000080 		.word	-2147483648
- 1284 0a5c 0E68C8BA 		.word	-1161271282
- 1285 0a60 00000000 		.word	0
- 1286 0a64 71889F3B 		.word	1000310897
- 1287 0a68 9AEE143C 		.word	1008004762
- 1288 0a6c F904FD3B 		.word	1006437625
- 1289 0a70 00000080 		.word	-2147483648
- 1290 0a74 DF7212BC 		.word	-1139641633
- 1291 0a78 12A047BC 		.word	-1136156654
- 1292 0a7c DBB6F7BB 		.word	-1141393701
- 1293 0a80 00000000 		.word	0
- 1294 0a84 3C4E513B 		.word	995184188
- 1295 0a88 00000080 		.word	-2147483648
- 1296 0a8c 22A771BB 		.word	-1150179550
- 1297 0a90 00000000 		.word	0
- 1298 0a94 40E33E3C 		.word	1010754368
- 1299 0a98 BFFDB13C 		.word	1018297791
- 1300 0a9c E34F973C 		.word	1016549347
- 1301 0aa0 00000080 		.word	-2147483648
- 1302 0aa4 DB9CB0BC 		.word	-1129276197
- 1303 0aa8 6EABF2BC 		.word	-1124947090
- 1304 0aac 923998BC 		.word	-1130874478
- 1305 0ab0 00000000 		.word	0
- 1306 0ab4 AFE6043C 		.word	1006954159
- 1307 0ab8 00000080 		.word	-2147483648
- 1308 0abc 3E8A21BC 		.word	-1138652610
- 1309 0ac0 00000000 		.word	0
- 1310 0ac4 31060A3D 		.word	1024067121
- 1311 0ac8 97CD873D 		.word	1032310167
- 1312 0acc 47F0763D 		.word	1031204935
- 1313 0ad0 00000080 		.word	-2147483648
- 1314 0ad4 9B42AFBD 		.word	-1112587621
- 1315 0ad8 729B0BBE 		.word	-1106535566
- 1316 0adc A6CDD7BD 		.word	-1109930586
- 1317 0ae0 00000000 		.word	0
- 1318 0ae4 5B0EEE3D 		.word	1039011419
- 1319 0ae8 E95D2A3E 		.word	1042963945
- 1320 0aec 5B0EEE3D 		.word	1039011419
- 1321 0af0 00000000 		.word	0
- 1322 0af4 A6CDD7BD 		.word	-1109930586
- 1323 0af8 729B0BBE 		.word	-1106535566
-ARM GAS  /var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cc7wX6mR.s 			page 40
+ 1195 0980 637B313B 		.word	993098595
+ 1196 0984 3557933B 		.word	999511861
+ 1197 0988 FA94A93B 		.word	1000969466
+ 1198 098c BC399E3B 		.word	1000225212
+ 1199 0990 A3E7753B 		.word	997582755
+ 1200 0994 0AC3193B 		.word	991544074
+ 1201 0998 811D833A 		.word	981671297
+ 1202 099c 00000000 		.word	0
+ 1203 09a0 FA5209BA 		.word	-1173794054
+ 1204 09a4 8A3B1CBA 		.word	-1172554870
+ 1205 09a8 FE20BBB9 		.word	-1178918658
+ 1206 09ac 00000080 		.word	-2147483648
+ 1207 09b0 9DE79939 		.word	966387613
+ 1208 09b4 5A73D339 		.word	970158938
+ 1209 09b8 35129939 		.word	966332981
+ 1210 09bc 00000000 		.word	0
+ 1211 09c0 2948C7B9 		.word	-1178122199
+ 1212 09c4 7EBF41BA 		.word	-1170096258
+ 1213 09c8 85F380BA 		.word	-1165954171
+ 1214 09cc 8AD78ABA 		.word	-1165305974
+ 1215 09d0 7CA77ABA 		.word	-1166366852
+ 1216 09d4 9BEC38BA 		.word	-1170674533
+ 1217 09d8 3B06BFB9 		.word	-1178663365
+ 1218 09dc 00000080 		.word	-2147483648
+ 1219 09e0 C497AA39 		.word	967481284
+ 1220 09e4 88ED133A 		.word	974384520
+ 1221 09e8 60A3343A 		.word	976528224
+ 1222 09ec 838BD3B9 		.word	-1177318525
+ 1223 09f0 00000000 		.word	0
+ 1224 09f4 D7822439 		.word	958694103
+ 1225 09f8 00000080 		.word	-2147483648
+ 1226 09fc BE3638B9 		.word	-1187498306
+ 1227 0a00 00000000 		.word	0
+ 1228 0a04 95C5123A 		.word	974308757
+ 1229 0a08 C8C98A3A 		.word	982174152
+ 1230 0a0c E83B703A 		.word	980433896
+ 1231 0a10 00000080 		.word	-2147483648
+ 1232 0a14 F60192BA 		.word	-1164836362
+ 1233 0a18 7699CCBA 		.word	-1160996490
+ 1234 0a1c A59A82BA 		.word	-1165845851
+ 1235 0a20 00000000 		.word	0
+ 1236 0a24 2E7BE939 		.word	971602734
+ 1237 0a28 00000080 		.word	-2147483648
+ 1238 0a2c C4F00DBA 		.word	-1173491516
+ 1239 0a30 00000000 		.word	0
+ 1240 0a34 F555EA3A 		.word	988435957
+ 1241 0a38 648A5E3B 		.word	996051556
+ 1242 0a3c 6E21403B 		.word	994058606
+ 1243 0a40 00000080 		.word	-2147483648
+ 1244 0a44 8D0E65BB 		.word	-1151005043
+ 1245 0a48 E2299EBB 		.word	-1147262494
+ 1246 0a4c 829946BB 		.word	-1153001086
+ 1247 0a50 00000000 		.word	0
+ 1248 0a54 6127AB3A 		.word	984295265
+ 1249 0a58 00000080 		.word	-2147483648
+ 1250 0a5c 0E68C8BA 		.word	-1161271282
+ 1251 0a60 00000000 		.word	0
+ARM GAS  /var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cca9poyW.s 			page 39
 
 
- 1324 0afc 9B42AFBD 		.word	-1112587621
- 1325 0b00 00000080 		.word	-2147483648
- 1326 0b04 47F0763D 		.word	1031204935
- 1327 0b08 97CD873D 		.word	1032310167
- 1328 0b0c 31060A3D 		.word	1024067121
- 1329 0b10 00000000 		.word	0
- 1330 0b14 3E8A21BC 		.word	-1138652610
- 1331 0b18 00000080 		.word	-2147483648
- 1332 0b1c AFE6043C 		.word	1006954159
- 1333 0b20 00000000 		.word	0
- 1334 0b24 923998BC 		.word	-1130874478
- 1335 0b28 6EABF2BC 		.word	-1124947090
- 1336 0b2c DB9CB0BC 		.word	-1129276197
- 1337 0b30 00000080 		.word	-2147483648
- 1338 0b34 E34F973C 		.word	1016549347
- 1339 0b38 BFFDB13C 		.word	1018297791
- 1340 0b3c 40E33E3C 		.word	1010754368
- 1341 0b40 00000000 		.word	0
- 1342 0b44 22A771BB 		.word	-1150179550
- 1343 0b48 00000080 		.word	-2147483648
- 1344 0b4c 3C4E513B 		.word	995184188
- 1345 0b50 00000000 		.word	0
- 1346 0b54 DBB6F7BB 		.word	-1141393701
- 1347 0b58 12A047BC 		.word	-1136156654
- 1348 0b5c DF7212BC 		.word	-1139641633
- 1349 0b60 00000080 		.word	-2147483648
- 1350 0b64 F904FD3B 		.word	1006437625
- 1351 0b68 9AEE143C 		.word	1008004762
- 1352 0b6c 71889F3B 		.word	1000310897
- 1353 0b70 00000000 		.word	0
- 1354 0b74 0E68C8BA 		.word	-1161271282
- 1355 0b78 00000080 		.word	-2147483648
- 1356 0b7c 6127AB3A 		.word	984295265
- 1357 0b80 00000000 		.word	0
- 1358 0b84 829946BB 		.word	-1153001086
- 1359 0b88 E2299EBB 		.word	-1147262494
- 1360 0b8c 8D0E65BB 		.word	-1151005043
- 1361 0b90 00000080 		.word	-2147483648
- 1362 0b94 6E21403B 		.word	994058606
- 1363 0b98 648A5E3B 		.word	996051556
- 1364 0b9c F555EA3A 		.word	988435957
- 1365 0ba0 00000000 		.word	0
- 1366 0ba4 C4F00DBA 		.word	-1173491516
- 1367 0ba8 00000080 		.word	-2147483648
- 1368 0bac 2E7BE939 		.word	971602734
- 1369 0bb0 00000000 		.word	0
- 1370 0bb4 A59A82BA 		.word	-1165845851
- 1371 0bb8 7699CCBA 		.word	-1160996490
- 1372 0bbc F60192BA 		.word	-1164836362
- 1373 0bc0 00000080 		.word	-2147483648
- 1374 0bc4 E83B703A 		.word	980433896
- 1375 0bc8 C8C98A3A 		.word	982174152
- 1376 0bcc 95C5123A 		.word	974308757
- 1377 0bd0 00000000 		.word	0
- 1378 0bd4 BE3638B9 		.word	-1187498306
- 1379 0bd8 00000080 		.word	-2147483648
- 1380 0bdc D7822439 		.word	958694103
-ARM GAS  /var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cc7wX6mR.s 			page 41
+ 1252 0a64 71889F3B 		.word	1000310897
+ 1253 0a68 9AEE143C 		.word	1008004762
+ 1254 0a6c F904FD3B 		.word	1006437625
+ 1255 0a70 00000080 		.word	-2147483648
+ 1256 0a74 DF7212BC 		.word	-1139641633
+ 1257 0a78 12A047BC 		.word	-1136156654
+ 1258 0a7c DBB6F7BB 		.word	-1141393701
+ 1259 0a80 00000000 		.word	0
+ 1260 0a84 3C4E513B 		.word	995184188
+ 1261 0a88 00000080 		.word	-2147483648
+ 1262 0a8c 22A771BB 		.word	-1150179550
+ 1263 0a90 00000000 		.word	0
+ 1264 0a94 40E33E3C 		.word	1010754368
+ 1265 0a98 BFFDB13C 		.word	1018297791
+ 1266 0a9c E34F973C 		.word	1016549347
+ 1267 0aa0 00000080 		.word	-2147483648
+ 1268 0aa4 DB9CB0BC 		.word	-1129276197
+ 1269 0aa8 6EABF2BC 		.word	-1124947090
+ 1270 0aac 923998BC 		.word	-1130874478
+ 1271 0ab0 00000000 		.word	0
+ 1272 0ab4 AFE6043C 		.word	1006954159
+ 1273 0ab8 00000080 		.word	-2147483648
+ 1274 0abc 3E8A21BC 		.word	-1138652610
+ 1275 0ac0 00000000 		.word	0
+ 1276 0ac4 31060A3D 		.word	1024067121
+ 1277 0ac8 97CD873D 		.word	1032310167
+ 1278 0acc 47F0763D 		.word	1031204935
+ 1279 0ad0 00000080 		.word	-2147483648
+ 1280 0ad4 9B42AFBD 		.word	-1112587621
+ 1281 0ad8 729B0BBE 		.word	-1106535566
+ 1282 0adc A6CDD7BD 		.word	-1109930586
+ 1283 0ae0 00000000 		.word	0
+ 1284 0ae4 5B0EEE3D 		.word	1039011419
+ 1285 0ae8 E95D2A3E 		.word	1042963945
+ 1286 0aec 5B0EEE3D 		.word	1039011419
+ 1287 0af0 00000000 		.word	0
+ 1288 0af4 A6CDD7BD 		.word	-1109930586
+ 1289 0af8 729B0BBE 		.word	-1106535566
+ 1290 0afc 9B42AFBD 		.word	-1112587621
+ 1291 0b00 00000080 		.word	-2147483648
+ 1292 0b04 47F0763D 		.word	1031204935
+ 1293 0b08 97CD873D 		.word	1032310167
+ 1294 0b0c 31060A3D 		.word	1024067121
+ 1295 0b10 00000000 		.word	0
+ 1296 0b14 3E8A21BC 		.word	-1138652610
+ 1297 0b18 00000080 		.word	-2147483648
+ 1298 0b1c AFE6043C 		.word	1006954159
+ 1299 0b20 00000000 		.word	0
+ 1300 0b24 923998BC 		.word	-1130874478
+ 1301 0b28 6EABF2BC 		.word	-1124947090
+ 1302 0b2c DB9CB0BC 		.word	-1129276197
+ 1303 0b30 00000080 		.word	-2147483648
+ 1304 0b34 E34F973C 		.word	1016549347
+ 1305 0b38 BFFDB13C 		.word	1018297791
+ 1306 0b3c 40E33E3C 		.word	1010754368
+ 1307 0b40 00000000 		.word	0
+ 1308 0b44 22A771BB 		.word	-1150179550
+ARM GAS  /var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cca9poyW.s 			page 40
 
 
- 1381 0be0 00000000 		.word	0
- 1382 0be4 838BD3B9 		.word	-1177318525
- 1383              		.global	band_outputs
- 1384              		.section	.bss.band_outputs,"aw",%nobits
- 1385              		.align	2
- 1388              	band_outputs:
- 1389 0000 00000000 		.space	6144
- 1389      00000000 
- 1389      00000000 
- 1389      00000000 
- 1389      00000000 
- 1390              		.global	fir_states
- 1391              		.section	.bss.fir_states,"aw",%nobits
- 1392              		.align	2
- 1395              	fir_states:
- 1396 0000 00000000 		.space	9168
- 1396      00000000 
- 1396      00000000 
- 1396      00000000 
- 1396      00000000 
- 1397              		.global	fir_filters
- 1398              		.section	.bss.fir_filters,"aw",%nobits
- 1399              		.align	2
- 1402              	fir_filters:
- 1403 0000 00000000 		.space	72
- 1403      00000000 
- 1403      00000000 
- 1403      00000000 
- 1403      00000000 
- 1404              		.global	windowed_data
- 1405              		.section	.bss.windowed_data,"aw",%nobits
- 1406              		.align	2
- 1409              	windowed_data:
- 1410 0000 00000000 		.space	1024
- 1410      00000000 
- 1410      00000000 
- 1410      00000000 
- 1410      00000000 
- 1411              		.global	window
- 1412              		.section	.bss.window,"aw",%nobits
- 1413              		.align	2
- 1416              	window:
- 1417 0000 00000000 		.space	1024
- 1417      00000000 
- 1417      00000000 
- 1417      00000000 
- 1417      00000000 
- 1418              		.global	hw
- 1419              		.section	.bss.hw,"aw",%nobits
- 1420              		.align	2
- 1423              	hw:
- 1424 0000 00000000 		.space	64
- 1424      00000000 
- 1424      00000000 
- 1424      00000000 
- 1424      00000000 
- 1425              		.text
-ARM GAS  /var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cc7wX6mR.s 			page 42
+ 1309 0b48 00000080 		.word	-2147483648
+ 1310 0b4c 3C4E513B 		.word	995184188
+ 1311 0b50 00000000 		.word	0
+ 1312 0b54 DBB6F7BB 		.word	-1141393701
+ 1313 0b58 12A047BC 		.word	-1136156654
+ 1314 0b5c DF7212BC 		.word	-1139641633
+ 1315 0b60 00000080 		.word	-2147483648
+ 1316 0b64 F904FD3B 		.word	1006437625
+ 1317 0b68 9AEE143C 		.word	1008004762
+ 1318 0b6c 71889F3B 		.word	1000310897
+ 1319 0b70 00000000 		.word	0
+ 1320 0b74 0E68C8BA 		.word	-1161271282
+ 1321 0b78 00000080 		.word	-2147483648
+ 1322 0b7c 6127AB3A 		.word	984295265
+ 1323 0b80 00000000 		.word	0
+ 1324 0b84 829946BB 		.word	-1153001086
+ 1325 0b88 E2299EBB 		.word	-1147262494
+ 1326 0b8c 8D0E65BB 		.word	-1151005043
+ 1327 0b90 00000080 		.word	-2147483648
+ 1328 0b94 6E21403B 		.word	994058606
+ 1329 0b98 648A5E3B 		.word	996051556
+ 1330 0b9c F555EA3A 		.word	988435957
+ 1331 0ba0 00000000 		.word	0
+ 1332 0ba4 C4F00DBA 		.word	-1173491516
+ 1333 0ba8 00000080 		.word	-2147483648
+ 1334 0bac 2E7BE939 		.word	971602734
+ 1335 0bb0 00000000 		.word	0
+ 1336 0bb4 A59A82BA 		.word	-1165845851
+ 1337 0bb8 7699CCBA 		.word	-1160996490
+ 1338 0bbc F60192BA 		.word	-1164836362
+ 1339 0bc0 00000080 		.word	-2147483648
+ 1340 0bc4 E83B703A 		.word	980433896
+ 1341 0bc8 C8C98A3A 		.word	982174152
+ 1342 0bcc 95C5123A 		.word	974308757
+ 1343 0bd0 00000000 		.word	0
+ 1344 0bd4 BE3638B9 		.word	-1187498306
+ 1345 0bd8 00000080 		.word	-2147483648
+ 1346 0bdc D7822439 		.word	958694103
+ 1347 0be0 00000000 		.word	0
+ 1348 0be4 838BD3B9 		.word	-1177318525
+ 1349              		.global	band_outputs
+ 1350              		.section	.bss.band_outputs,"aw",%nobits
+ 1351              		.align	2
+ 1354              	band_outputs:
+ 1355 0000 00000000 		.space	6144
+ 1355      00000000 
+ 1355      00000000 
+ 1355      00000000 
+ 1355      00000000 
+ 1356              		.global	fir_states
+ 1357              		.section	.bss.fir_states,"aw",%nobits
+ 1358              		.align	2
+ 1361              	fir_states:
+ 1362 0000 00000000 		.space	9168
+ 1362      00000000 
+ 1362      00000000 
+ 1362      00000000 
+ARM GAS  /var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cca9poyW.s 			page 41
 
 
- 1426              	.Letext0:
- 1427              		.file 10 "/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/machine/_def
- 1428              		.file 11 "/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/_stdint.
- 1429              		.file 12 "/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/stdint.h"
- 1430              		.file 13 "/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/inclu
- 1431              		.file 14 "/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/c++/14.2.1/c
- 1432              		.file 15 "/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/c++/14.2.1/b
- 1433              		.file 16 "/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/c++/14.2.1/c
- 1434              		.file 17 "/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/c++/14.2.1/c
- 1435              		.file 18 "/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/c++/14.2.1/t
- 1436              		.file 19 "/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/c++/14.2.1/d
- 1437              		.file 20 "/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/c++/14.2.1/c
- 1438              		.file 21 "/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/c++/14.2.1/c
- 1439              		.file 22 "/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/c++/14.2.1/c
- 1440              		.file 23 "/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/c++/14.2.1/c
- 1441              		.file 24 "/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/c++/14.2.1/c
- 1442              		.file 25 "/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/c++/14.2.1/b
- 1443              		.file 26 "/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/c++/14.2.1/b
- 1444              		.file 27 "/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/c++/14.2.1/b
- 1445              		.file 28 "/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/_types.h
- 1446              		.file 29 "/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/reent.h"
- 1447              		.file 30 "/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/lock.h"
- 1448              		.file 31 "/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/math.h"
- 1449              		.file 32 "/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/stdlib.h"
- 1450              		.file 33 "/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/c++/14.2.1/m
- 1451              		.file 34 "/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/c++/14.2.1/s
- 1452              		.file 35 "../../libDaisy/src/daisy_core.h"
- 1453              		.file 36 "/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/c++/14.2.1/a
- 1454              		.file 37 "../../libDaisy/src/util/wav_format.h"
- 1455              		.file 38 "../../libDaisy/src/dev/max11300.h"
- 1456              		.file 39 "../../libDaisy/src/per/gpio.h"
- 1457              		.file 40 "../../libDaisy/src/dev/sdram.h"
- 1458              		.file 41 "/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/inclu
- 1459              		.file 42 "/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/stdio.h"
- 1460              		.file 43 "/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/string.h"
- 1461              		.file 44 "../../DaisySP//Source/Control/adenv.h"
- 1462              		.file 45 "../../DaisySP//Source/Utility/dsp.h"
- 1463              		.file 46 "/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/wchar.h"
- 1464              		.file 47 "/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/locale.h"
- 1465              		.file 48 "../../libDaisy/Drivers/CMSIS/DSP/Include/arm_math.h"
- 1466              		.file 49 "<built-in>"
- 1467              		.file 50 "../../libDaisy/src/dev/sr_595.h"
-ARM GAS  /var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cc7wX6mR.s 			page 43
+ 1362      00000000 
+ 1363              		.global	fir_filters
+ 1364              		.section	.bss.fir_filters,"aw",%nobits
+ 1365              		.align	2
+ 1368              	fir_filters:
+ 1369 0000 00000000 		.space	72
+ 1369      00000000 
+ 1369      00000000 
+ 1369      00000000 
+ 1369      00000000 
+ 1370              		.global	windowed_data
+ 1371              		.section	.bss.windowed_data,"aw",%nobits
+ 1372              		.align	2
+ 1375              	windowed_data:
+ 1376 0000 00000000 		.space	1024
+ 1376      00000000 
+ 1376      00000000 
+ 1376      00000000 
+ 1376      00000000 
+ 1377              		.global	window
+ 1378              		.section	.bss.window,"aw",%nobits
+ 1379              		.align	2
+ 1382              	window:
+ 1383 0000 00000000 		.space	1024
+ 1383      00000000 
+ 1383      00000000 
+ 1383      00000000 
+ 1383      00000000 
+ 1384              		.global	hw
+ 1385              		.section	.bss.hw,"aw",%nobits
+ 1386              		.align	2
+ 1389              	hw:
+ 1390 0000 00000000 		.space	64
+ 1390      00000000 
+ 1390      00000000 
+ 1390      00000000 
+ 1390      00000000 
+ 1391              		.global	band_gains
+ 1392              		.section	.data.band_gains,"aw"
+ 1393              		.align	2
+ 1396              	band_gains:
+ 1397 0000 CDCC4C3F 		.word	1061997773
+ 1398 0004 6666663F 		.word	1063675494
+ 1399 0008 0000803F 		.word	1065353216
+ 1400 000c 0000803F 		.word	1065353216
+ 1401 0010 6666663F 		.word	1063675494
+ 1402 0014 CDCC4C3F 		.word	1061997773
+ 1403              		.text
+ 1404              	.Letext0:
+ 1405              		.file 10 "/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/machine/_def
+ 1406              		.file 11 "/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/_stdint.
+ 1407              		.file 12 "/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/stdint.h"
+ 1408              		.file 13 "/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/inclu
+ 1409              		.file 14 "/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/c++/14.2.1/c
+ 1410              		.file 15 "/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/c++/14.2.1/b
+ 1411              		.file 16 "/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/c++/14.2.1/c
+ 1412              		.file 17 "/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/c++/14.2.1/c
+ARM GAS  /var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cca9poyW.s 			page 42
+
+
+ 1413              		.file 18 "/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/c++/14.2.1/t
+ 1414              		.file 19 "/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/c++/14.2.1/d
+ 1415              		.file 20 "/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/c++/14.2.1/c
+ 1416              		.file 21 "/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/c++/14.2.1/c
+ 1417              		.file 22 "/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/c++/14.2.1/c
+ 1418              		.file 23 "/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/c++/14.2.1/c
+ 1419              		.file 24 "/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/c++/14.2.1/c
+ 1420              		.file 25 "/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/c++/14.2.1/b
+ 1421              		.file 26 "/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/c++/14.2.1/b
+ 1422              		.file 27 "/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/c++/14.2.1/b
+ 1423              		.file 28 "/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/_types.h
+ 1424              		.file 29 "/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/reent.h"
+ 1425              		.file 30 "/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/lock.h"
+ 1426              		.file 31 "/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/math.h"
+ 1427              		.file 32 "/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/stdlib.h"
+ 1428              		.file 33 "/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/c++/14.2.1/m
+ 1429              		.file 34 "/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/c++/14.2.1/s
+ 1430              		.file 35 "../../libDaisy/src/daisy_core.h"
+ 1431              		.file 36 "/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/c++/14.2.1/a
+ 1432              		.file 37 "../../libDaisy/src/util/wav_format.h"
+ 1433              		.file 38 "../../libDaisy/src/dev/max11300.h"
+ 1434              		.file 39 "../../libDaisy/src/per/gpio.h"
+ 1435              		.file 40 "../../libDaisy/src/dev/sdram.h"
+ 1436              		.file 41 "/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/inclu
+ 1437              		.file 42 "/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/stdio.h"
+ 1438              		.file 43 "/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/string.h"
+ 1439              		.file 44 "../../DaisySP/Source/Control/adenv.h"
+ 1440              		.file 45 "../../DaisySP/Source/Utility/dsp.h"
+ 1441              		.file 46 "/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/wchar.h"
+ 1442              		.file 47 "/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/locale.h"
+ 1443              		.file 48 "../../libDaisy/Drivers/CMSIS/DSP/Include/arm_math.h"
+ 1444              		.file 49 "<built-in>"
+ 1445              		.file 50 "../../libDaisy/src/dev/sr_595.h"
+ARM GAS  /var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cca9poyW.s 			page 43
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 hearing_aid.cpp
-/var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cc7wX6mR.s:20     .text._ZN5daisy9DaisySeedD2Ev:00000000 $t
-/var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cc7wX6mR.s:27     .text._ZN5daisy9DaisySeedD2Ev:00000000 _ZN5daisy9DaisySeedD2Ev
-/var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cc7wX6mR.s:27     .text._ZN5daisy9DaisySeedD2Ev:00000000 _ZN5daisy9DaisySeedD1Ev
-/var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cc7wX6mR.s:70     .text._Z13AudioCallbackPKPKfPPfj:00000000 $t
-/var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cc7wX6mR.s:77     .text._Z13AudioCallbackPKPKfPPfj:00000000 _Z13AudioCallbackPKPKfPPfj
-/var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cc7wX6mR.s:219    .text._Z13AudioCallbackPKPKfPPfj:00000080 $d
-/var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cc7wX6mR.s:1416   .bss.window:00000000 window
-/var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cc7wX6mR.s:1409   .bss.windowed_data:00000000 windowed_data
-/var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cc7wX6mR.s:1402   .bss.fir_filters:00000000 fir_filters
-/var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cc7wX6mR.s:1388   .bss.band_outputs:00000000 band_outputs
-/var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cc7wX6mR.s:229    .text._Z16InitCMSISFiltersv:00000000 $t
-/var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cc7wX6mR.s:236    .text._Z16InitCMSISFiltersv:00000000 _Z16InitCMSISFiltersv
-/var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cc7wX6mR.s:295    .text._Z16InitCMSISFiltersv:00000038 $d
-/var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cc7wX6mR.s:620    .data.fir_coeffs:00000000 fir_coeffs
-/var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cc7wX6mR.s:1395   .bss.fir_states:00000000 fir_states
-/var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cc7wX6mR.s:302    .text._Z21create_hamming_windowPfi:00000000 $t
-/var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cc7wX6mR.s:309    .text._Z21create_hamming_windowPfi:00000000 _Z21create_hamming_windowPfi
-/var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cc7wX6mR.s:393    .text._Z21create_hamming_windowPfi:00000050 $d
-/var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cc7wX6mR.s:401    .text.startup.main:00000000 $t
-/var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cc7wX6mR.s:408    .text.startup.main:00000000 main
-/var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cc7wX6mR.s:463    .text.startup.main:00000034 $d
-/var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cc7wX6mR.s:1423   .bss.hw:00000000 hw
-/var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cc7wX6mR.s:470    .text.startup._GLOBAL__sub_I_hw:00000000 $t
-/var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cc7wX6mR.s:476    .text.startup._GLOBAL__sub_I_hw:00000000 _GLOBAL__sub_I_hw
-/var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cc7wX6mR.s:604    .text.startup._GLOBAL__sub_I_hw:0000001c $d
-/var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cc7wX6mR.s:613    .init_array:00000000 $d
-/var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cc7wX6mR.s:617    .data.fir_coeffs:00000000 $d
-/var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cc7wX6mR.s:1385   .bss.band_outputs:00000000 $d
-/var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cc7wX6mR.s:1392   .bss.fir_states:00000000 $d
-/var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cc7wX6mR.s:1399   .bss.fir_filters:00000000 $d
-/var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cc7wX6mR.s:1406   .bss.windowed_data:00000000 $d
-/var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cc7wX6mR.s:1413   .bss.window:00000000 $d
-/var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cc7wX6mR.s:1420   .bss.hw:00000000 $d
+/var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cca9poyW.s:20     .text._ZN5daisy9DaisySeedD2Ev:00000000 $t
+/var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cca9poyW.s:27     .text._ZN5daisy9DaisySeedD2Ev:00000000 _ZN5daisy9DaisySeedD2Ev
+/var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cca9poyW.s:27     .text._ZN5daisy9DaisySeedD2Ev:00000000 _ZN5daisy9DaisySeedD1Ev
+/var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cca9poyW.s:70     .text._Z13AudioCallbackPKPKfPPfj:00000000 $t
+/var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cca9poyW.s:77     .text._Z13AudioCallbackPKPKfPPfj:00000000 _Z13AudioCallbackPKPKfPPfj
+/var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cca9poyW.s:192    .text._Z13AudioCallbackPKPKfPPfj:0000006c $d
+/var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cca9poyW.s:1375   .bss.windowed_data:00000000 windowed_data
+/var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cca9poyW.s:1382   .bss.window:00000000 window
+/var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cca9poyW.s:199    .text._Z16InitCMSISFiltersv:00000000 $t
+/var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cca9poyW.s:206    .text._Z16InitCMSISFiltersv:00000000 _Z16InitCMSISFiltersv
+/var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cca9poyW.s:265    .text._Z16InitCMSISFiltersv:00000038 $d
+/var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cca9poyW.s:1368   .bss.fir_filters:00000000 fir_filters
+/var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cca9poyW.s:586    .data.fir_coeffs:00000000 fir_coeffs
+/var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cca9poyW.s:1361   .bss.fir_states:00000000 fir_states
+/var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cca9poyW.s:272    .text._Z21create_hamming_windowPfi:00000000 $t
+/var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cca9poyW.s:279    .text._Z21create_hamming_windowPfi:00000000 _Z21create_hamming_windowPfi
+/var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cca9poyW.s:363    .text._Z21create_hamming_windowPfi:00000050 $d
+/var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cca9poyW.s:371    .text.startup.main:00000000 $t
+/var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cca9poyW.s:378    .text.startup.main:00000000 main
+/var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cca9poyW.s:429    .text.startup.main:00000030 $d
+/var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cca9poyW.s:1389   .bss.hw:00000000 hw
+/var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cca9poyW.s:436    .text.startup._GLOBAL__sub_I_band_gains:00000000 $t
+/var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cca9poyW.s:442    .text.startup._GLOBAL__sub_I_band_gains:00000000 _GLOBAL__sub_I_band_gains
+/var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cca9poyW.s:570    .text.startup._GLOBAL__sub_I_band_gains:0000001c $d
+/var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cca9poyW.s:579    .init_array:00000000 $d
+/var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cca9poyW.s:583    .data.fir_coeffs:00000000 $d
+/var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cca9poyW.s:1354   .bss.band_outputs:00000000 band_outputs
+/var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cca9poyW.s:1351   .bss.band_outputs:00000000 $d
+/var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cca9poyW.s:1358   .bss.fir_states:00000000 $d
+/var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cca9poyW.s:1365   .bss.fir_filters:00000000 $d
+/var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cca9poyW.s:1372   .bss.windowed_data:00000000 $d
+/var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cca9poyW.s:1379   .bss.window:00000000 $d
+/var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cca9poyW.s:1386   .bss.hw:00000000 $d
+/var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cca9poyW.s:1396   .data.band_gains:00000000 band_gains
+/var/folders/11/xdtqf_dx1yx09tgy7pcbkdzh0000gp/T//cca9poyW.s:1393   .data.band_gains:00000000 $d
                            .group:00000000 _ZN5daisy9DaisySeedD5Ev
 
 UNDEFINED SYMBOLS
-arm_fir_f32
 arm_fir_init_f32
 cosf
 _ZN5daisy9DaisySeed4InitEb
